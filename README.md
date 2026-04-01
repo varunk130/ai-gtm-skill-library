@@ -2,13 +2,13 @@
 
 # 🚀 AI GTM Skill Library
 
-### The 18-Skill AI-Powered Go-To-Market Engine for Claude Code
+### The 18-Skill AI-Powered Go-To-Market Engine for Claude Code & GitHub Copilot
 
 [![Skills](https://img.shields.io/badge/Skills-18-blue?style=for-the-badge)]()
 [![Frameworks](https://img.shields.io/badge/Frameworks-18-green?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)]()
 
-**A curated library of Claude Code skills that gives AI-first GTM teams a structured, repeatable engine for every phase of go-to-market — from early market signal detection through post-launch retrospectives.** Each skill encodes a proprietary framework that transforms Claude into a domain-specific GTM strategist, eliminating the gap between insight and execution.
+**A curated library of skills for Claude Code and GitHub Copilot that gives AI-first GTM teams a structured, repeatable engine for every phase of go-to-market — from early market signal detection through post-launch retrospectives.** Each skill encodes a proprietary framework that transforms your AI coding assistant into a domain-specific GTM strategist, eliminating the gap between insight and execution.
 
 </div>
 
@@ -204,7 +204,9 @@ market-analyzer → partner-blueprint → community-catalyst → demand-engine �
 
 ## 🛠️ Installation
 
-Each skill is a standalone Claude Code skill file (`SKILL.md`) that can be installed into your Claude Code environment:
+Each skill is a standalone `SKILL.md` file that can be installed into your Claude Code or GitHub Copilot environment.
+
+### Claude Code
 
 ```bash
 # Clone this repo
@@ -216,6 +218,21 @@ cp -r ai-gtm-skill-library/skills/* ~/.claude/skills/
 # Or install a single skill
 cp -r ai-gtm-skill-library/skills/signal-radar ~/.claude/skills/
 ```
+
+### GitHub Copilot
+
+```bash
+# Clone this repo
+git clone https://github.com/varunk130/ai-gtm-skill-library.git
+
+# Copy all skills to your GitHub Copilot instructions directory
+cp -r ai-gtm-skill-library/skills/* .github/skills/
+
+# Or install a single skill
+cp -r ai-gtm-skill-library/skills/signal-radar .github/skills/
+```
+
+> **Tip:** For GitHub Copilot, you can also reference skills directly from your `.github/copilot-instructions.md` file or include them as custom instructions in your Copilot Chat settings.
 
 ### Directory Structure
 ```
@@ -291,6 +308,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 **Built by Varun Kulkarni**
 
-*Powered by Claude Code Skills*
+*Powered by Claude Code & GitHub Copilot*
 
 </div>
