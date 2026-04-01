@@ -1,6 +1,8 @@
 # M365 Copilot Extensibility Platform
 ## Go-To-Market Strategy
 
+> **NOTE:** This is a hypothetical example created for demonstration purposes. All numbers, dates, targets, and organizational details are illustrative only.
+
 **Prepared by:** GTM Strategy Team | **Date:** April 2026 | **Status:** Executive Review
 
 ---
