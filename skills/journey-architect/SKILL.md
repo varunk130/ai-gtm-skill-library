@@ -50,7 +50,7 @@ For EACH gate, document:
 - Example G3: "Feature comparison matrix, pricing transparency, peer reviews"
 
 **Touchpoints**: Where do they interact?
-- Example G2: "Google search, peer Slack communities, G2 reviews, analyst reports"
+- Example G2: "Web search, peer communities, review sites, analyst reports"
 
 **Friction Points**: What slows them down or causes abandonment?
 - Example G4: "Procurement requires security review, no SOC2 documentation available"

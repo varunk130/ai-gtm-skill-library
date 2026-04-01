@@ -32,10 +32,10 @@ Classify every market signal into 5 vectors:
 
 | Vector | What It Tracks | Examples |
 |--------|---------------|----------|
-| **T-Signals** (Technology) | New protocols, platforms, standards, AI capabilities | "GPT-5 released", "New API standard adopted" |
+| **T-Signals** (Technology) | New protocols, platforms, standards, AI capabilities | "New foundation model released", "New API standard adopted" |
 | **R-Signals** (Regulatory) | Compliance mandates, policy changes, industry standards | "GDPR enforcement update", "AI regulation passed" |
 | **B-Signals** (Buyer behavior) | Purchasing patterns, channel preferences, budget shifts | "Buyers demanding self-serve trials", "CFO approval now required" |
-| **E-Signals** (Ecosystem) | Partner moves, supply chain changes, platform updates | "Salesforce acquires competitor", "AWS launches competing service" |
+| **E-Signals** (Ecosystem) | Partner moves, supply chain changes, platform updates | "Company A acquires competitor", "Company B launches competing service" |
 | **C-Signals** (Cultural) | Workforce trends, social attitudes, macro-economic shifts | "Remote work permanent", "AI trust concerns rising" |
 
 For each signal found, document:

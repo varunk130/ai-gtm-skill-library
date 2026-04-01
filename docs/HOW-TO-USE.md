@@ -89,7 +89,7 @@ In Copilot Chat (VS Code, GitHub.com, or CLI), reference skills the same way. If
 @workspace Use the gtm-exec-plan skill to create a GTM strategy for 
 our new M365 Copilot extension targeting enterprise IT teams
 
-@workspace Run battle-scanner against Competitor A, Competitor B, and Competitor C
+@workspace Run battle-scanner against Company A, Company B, and Company C
 ```
 
 ---
