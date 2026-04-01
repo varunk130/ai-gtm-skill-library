@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 AI GTM Skills Library
+# 🚀 AI GTM Skill Library
 
 ### The 18-Skill AI-Powered Go-To-Market Engine for Claude Code
 
@@ -54,7 +54,7 @@ The skills are organized into **5 strategic phases** that map to the full GTM li
 │   └──────────────┘    └──────────────┘    └──────────────┘                 │
 │                                                                             │
 │          ┌──────────────────────────────────────────┐                       │
-│          │  🔄 META: flywheel-sync (ORBIT System)   │                       │
+│          │  🔄 flywheel-sync (ORBIT System)         │                       │
 │          │  Audits health of the entire 18-skill    │                       │
 │          │  system with bottleneck analysis          │                       │
 │          └──────────────────────────────────────────┘                       │
@@ -67,89 +67,61 @@ The skills are organized into **5 strategic phases** that map to the full GTM li
 
 | # | Skill | Framework | Phase | Description |
 |---|-------|-----------|-------|-------------|
-| 1 | **`signal-radar`** | `PULSE` | 🔍 Discover | Macro-market signal detection: tech shifts, regulatory changes, buyer behavior, ecosystem dynamics |
-| 2 | **`whitespace-finder`** | `DEPTH` | 🔍 Discover | Maps gaps between market demand and existing solutions with opportunity scoring |
-| 3 | **`market-analyzer`** | `SCOPE` | 📐 Design | Investment-grade market analysis beyond TAM/SAM/SOM with segment deep dives |
-| 4 | **`journey-architect`** | `7-GATE` | 📐 Design | End-to-end customer journey with gated progression and friction scoring |
-| 5 | **`battle-scanner`** | `ARMOR` | 🎯 Position | Competitive intelligence with response prediction and battle cards |
-| 6 | **`competitive-exec-brief`** | `SHARP` | 🎯 Position | Executive-ready competitive brief with 1-slide PPTX output |
-| 7 | **`position-lock`** | `PRISM` | 🎯 Position | Brand positioning architecture with L0–L5 message cascade |
-| 8 | **`demand-engine`** | `WAVE` | 📢 Amplify | Multi-channel demand gen strategy with channel scoring and budget allocation |
-| 9 | **`enablement-forge`** | `CRAFT` | 📢 Amplify | Sales/marketing asset creation from pitch decks to objection handlers |
-| 10 | **`partner-blueprint`** | `BRIDGE` | 📢 Amplify | Partner strategy: identify, score, and structure partnerships with co-GTM plans |
-| 11 | **`community-catalyst`** | `LOOP` | 📢 Amplify | PLG and community strategy with viral loops and K-factor modeling |
-| 12 | **`product-announcement`** | `BLAST` | 🚀 Launch | Coordinated multi-channel launch comms from press release to social to internal |
-| 13 | **`launch-command`** | `IGNITE` | 🚀 Launch | Launch orchestration with 8 workstreams, 4 gates, and go/no-go scoring |
-| 14 | **`budget-allocator`** | `APEX` | 📊 Optimize | Budget optimization with portfolio theory, scenario analysis, experiment reserves |
-| 15 | **`launch-pulse`** | `VITAL` | 📊 Optimize | GTM analytics architecture: metrics pyramid, dashboards, alerts, attribution |
-| 16 | **`growth-loop`** | `ANCHOR` | 📊 Optimize | Retention and expansion strategy with health scoring and advocacy programs |
-| 17 | **`launch-debrief`** | `MIRROR` | 🚀 Launch | Post-launch retrospective with 5-Whys root cause and improvement scoring |
-| 18 | **`flywheel-sync`** | `ORBIT` | 🔄 Meta | Meta-skill auditing health of the entire 18-skill system with bottleneck analysis |
+| 1 | Signal Radar | `PULSE` | Discover | Macro-market signal detection: tech shifts, regulatory changes, buyer behavior, ecosystem dynamics |
+| 2 | Whitespace Finder | `DEPTH` | Discover | Maps gaps between market demand and existing solutions with opportunity scoring |
+| 3 | Market Analyzer | `SCOPE` | Design | Investment-grade market analysis beyond TAM/SAM/SOM with segment deep dives |
+| 4 | Journey Architect | `7-GATE` | Design | End-to-end customer journey with gated progression and friction scoring |
+| 5 | Battle Scanner | `ARMOR` | Position | Competitive intelligence with response prediction and battle cards |
+| 6 | Competitive Exec Brief | `SHARP` | Position | Executive-ready competitive brief with 1-slide PPTX output |
+| 7 | Position Lock | `PRISM` | Position | Brand positioning architecture with L0–L5 message cascade |
+| 8 | Demand Engine | `WAVE` | Amplify | Multi-channel demand gen strategy with channel scoring and budget allocation |
+| 9 | Enablement Forge | `CRAFT` | Amplify | Sales/marketing asset creation from pitch decks to objection handlers |
+| 10 | Partner Blueprint | `BRIDGE` | Amplify | Partner strategy: identify, score, and structure partnerships with co-GTM plans |
+| 11 | Community Catalyst | `LOOP` | Amplify | PLG and community strategy with viral loops and K-factor modeling |
+| 12 | Product Announcement | `BLAST` | Launch | Coordinated multi-channel launch comms from press release to social to internal |
+| 13 | Launch Command | `IGNITE` | Launch | Launch orchestration with 8 workstreams, 4 gates, and go/no-go scoring |
+| 14 | Budget Allocator | `APEX` | Optimize | Budget optimization with portfolio theory, scenario analysis, experiment reserves |
+| 15 | Launch Pulse | `VITAL` | Optimize | GTM analytics architecture: metrics pyramid, dashboards, alerts, attribution |
+| 16 | Growth Loop | `ANCHOR` | Optimize | Retention and expansion strategy with health scoring and advocacy programs |
+| 17 | Launch Debrief | `MIRROR` | Launch | Post-launch retrospective with 5-Whys root cause and improvement scoring |
+| 18 | Flywheel Sync | `ORBIT` | System | Audits health of the entire 18-skill system with bottleneck analysis |
 
 ---
 
 ## 🔄 Workflow: Full GTM Lifecycle
 
-The following diagram shows how the skills chain together in a typical product launch cycle:
+From first market signal to post-launch optimization — here's how the six phases connect:
 
 ```mermaid
-flowchart LR
-    subgraph DISCOVER["🔍 Phase 1: Discover"]
-        SR[signal-radar<br/>PULSE] --> WF[whitespace-finder<br/>DEPTH]
-    end
+flowchart TD
+    DISCOVER["🔍 DISCOVER\nSignal Radar · Whitespace Finder\n─────────────────────────\nDetect market signals and\nmap opportunity gaps"]
 
-    subgraph DESIGN["📐 Phase 2: Design"]
-        MA[market-analyzer<br/>SCOPE] --> JA[journey-architect<br/>7-GATE]
-    end
+    DESIGN["📐 DESIGN\nMarket Analyzer · Journey Architect\n─────────────────────────\nSize the market and\nmap the buyer journey"]
 
-    subgraph POSITION["🎯 Phase 3: Position"]
-        BS[battle-scanner<br/>ARMOR] --> CEB[competitive-exec-brief<br/>SHARP]
-        BS --> PL[position-lock<br/>PRISM]
-    end
+    POSITION["🎯 POSITION\nBattle Scanner · Competitive Exec Brief · Position Lock\n─────────────────────────\nBuild competitive intel and\nlock messaging at every level"]
 
-    subgraph AMPLIFY["📢 Phase 4: Amplify"]
-        DE[demand-engine<br/>WAVE] --> EF[enablement-forge<br/>CRAFT]
-        PB[partner-blueprint<br/>BRIDGE] --> CC[community-catalyst<br/>LOOP]
-    end
+    AMPLIFY["📢 AMPLIFY\nDemand Engine · Enablement Forge · Partner Blueprint · Community Catalyst\n─────────────────────────\nActivate channels, arm sellers,\nand mobilize partners"]
 
-    subgraph LAUNCH["🚀 Phase 5: Launch"]
-        PA[product-announcement<br/>BLAST] --> LC[launch-command<br/>IGNITE]
-        LC --> LD[launch-debrief<br/>MIRROR]
-    end
+    LAUNCH["🚀 LAUNCH\nProduct Announcement · Launch Command · Launch Debrief\n─────────────────────────\nOrchestrate launch execution\nand run retrospectives"]
 
-    subgraph OPTIMIZE["📊 Phase 6: Optimize"]
-        BA[budget-allocator<br/>APEX] --> LP[launch-pulse<br/>VITAL]
-        LP --> GL[growth-loop<br/>ANCHOR]
-    end
+    OPTIMIZE["📊 OPTIMIZE\nBudget Allocator · Launch Pulse · Growth Loop\n─────────────────────────\nOptimize spend, measure impact,\nand drive retention"]
 
-    WF --> MA
-    JA --> BS
-    PL --> DE
-    CEB --> EF
-    CC --> PA
-    EF --> LC
-    GL --> SR
-    LD --> SR
+    DISCOVER ==>|"Opportunity signals"| DESIGN
+    DESIGN ==>|"Market & journey insights"| POSITION
+    POSITION ==>|"Messaging & competitive edge"| AMPLIFY
+    AMPLIFY ==>|"Enabled channels & assets"| LAUNCH
+    LAUNCH ==>|"Performance data & learnings"| OPTIMIZE
+    OPTIMIZE -.->|"Growth insights feed next cycle"| DISCOVER
 
-    subgraph META["🔄 Meta"]
-        FS[flywheel-sync<br/>ORBIT]
-    end
-
-    FS -.->|audits| DISCOVER
-    FS -.->|audits| DESIGN
-    FS -.->|audits| POSITION
-    FS -.->|audits| AMPLIFY
-    FS -.->|audits| LAUNCH
-    FS -.->|audits| OPTIMIZE
-
-    style DISCOVER fill:#1a1a2e,stroke:#00d4ff,color:#fff
-    style DESIGN fill:#1a1a2e,stroke:#00ff88,color:#fff
-    style POSITION fill:#1a1a2e,stroke:#ff6b6b,color:#fff
-    style AMPLIFY fill:#1a1a2e,stroke:#ffa500,color:#fff
-    style LAUNCH fill:#1a1a2e,stroke:#ff00ff,color:#fff
-    style OPTIMIZE fill:#1a1a2e,stroke:#00ff00,color:#fff
-    style META fill:#2a1a3e,stroke:#aa88ff,color:#fff
+    style DISCOVER fill:#0ea5e9,stroke:#0284c7,color:#fff,rx:12,ry:12
+    style DESIGN fill:#10b981,stroke:#059669,color:#fff,rx:12,ry:12
+    style POSITION fill:#f43f5e,stroke:#e11d48,color:#fff,rx:12,ry:12
+    style AMPLIFY fill:#f97316,stroke:#ea580c,color:#fff,rx:12,ry:12
+    style LAUNCH fill:#a855f7,stroke:#9333ea,color:#fff,rx:12,ry:12
+    style OPTIMIZE fill:#22c55e,stroke:#16a34a,color:#fff,rx:12,ry:12
 ```
+
+> **Flywheel Sync** (`ORBIT`) operates as a system-wide health layer — it audits connections between all six phases, identifies bottlenecks, and generates improvement roadmaps to keep the entire engine running smoothly.
 
 ---
 
@@ -236,18 +208,18 @@ Each skill is a standalone Claude Code skill file (`SKILL.md`) that can be insta
 
 ```bash
 # Clone this repo
-git clone https://github.com/varunk130/ai-gtm-skills-library.git
+git clone https://github.com/varunk130/ai-gtm-skill-library.git
 
 # Copy all skills to your Claude Code skills directory
-cp -r ai-gtm-skills-library/skills/* ~/.claude/skills/
+cp -r ai-gtm-skill-library/skills/* ~/.claude/skills/
 
 # Or install a single skill
-cp -r ai-gtm-skills-library/skills/signal-radar ~/.claude/skills/
+cp -r ai-gtm-skill-library/skills/signal-radar ~/.claude/skills/
 ```
 
 ### Directory Structure
 ```
-ai-gtm-skills-library/
+ai-gtm-skill-library/
 ├── README.md
 ├── skills/
 │   ├── signal-radar/SKILL.md        # PULSE Framework
