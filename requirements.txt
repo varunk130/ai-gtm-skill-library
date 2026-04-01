@@ -1,0 +1,5 @@
+# No external dependencies required for the base installer.
+# The install.py script uses only Python standard library modules.
+#
+# Optional dependencies for extended functionality:
+# python-pptx>=0.6.21    # PowerPoint generation for deck-producing skills
