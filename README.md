@@ -78,7 +78,7 @@ The skills are organized into **5 strategic phases** that map to the full GTM li
 | 9 | Enablement Forge | `CRAFT` | Amplify | Sales/marketing asset creation from pitch decks to objection handlers |
 | 10 | Partner Blueprint | `BRIDGE` | Amplify | Partner strategy: identify, score, and structure partnerships with co-GTM plans |
 | 11 | Community Catalyst | `LOOP` | Amplify | PLG and community strategy with viral loops and K-factor modeling |
-| 12 | Product Announcement | `BLAST` | Launch | Coordinated multi-channel launch comms from press release to social to internal |
+| 12 | Product Announcement | `HERALD` | Launch | Coordinated multi-channel launch comms from press release to social to internal |
 | 13 | Launch Command | `IGNITE` | Launch | Launch orchestration with 8 workstreams, 4 gates, and go/no-go scoring |
 | 14 | Budget Allocator | `APEX` | Optimize | Budget optimization with portfolio theory, scenario analysis, experiment reserves |
 | 15 | Launch Pulse | `VITAL` | Optimize | GTM analytics architecture: metrics pyramid, dashboards, alerts, attribution |
@@ -102,7 +102,7 @@ flowchart TD
 
     AMPLIFY["📢 AMPLIFY\nDemand Engine · Enablement Forge · Partner Blueprint · Community Catalyst\n─────────────────────────\nActivate channels, arm sellers,\nand mobilize partners"]
 
-    LAUNCH["🚀 LAUNCH\nProduct Announcement · Launch Command · Launch Debrief\n─────────────────────────\nOrchestrate launch execution\nand run retrospectives"]
+    LAUNCH["🚀 LAUNCH\nProduct Announcement · Launch Command  · Launch Debrief\n─────────────────────────\nOrchestrate launch execution\nand run retrospectives"]
 
     OPTIMIZE["📊 OPTIMIZE\nBudget Allocator · Launch Pulse · Growth Loop\n─────────────────────────\nOptimize spend, measure impact,\nand drive retention"]
 
@@ -233,7 +233,7 @@ ai-gtm-skill-library/
 │   ├── enablement-forge/SKILL.md    # CRAFT Framework
 │   ├── partner-blueprint/SKILL.md   # BRIDGE Framework
 │   ├── community-catalyst/SKILL.md  # LOOP Framework
-│   ├── product-announcement/SKILL.md # BLAST Framework
+│   ├── product-announcement/SKILL.md # HERALD Framework
 │   ├── launch-command/SKILL.md      # IGNITE Protocol
 │   ├── budget-allocator/SKILL.md    # APEX Framework
 │   ├── launch-pulse/SKILL.md        # VITAL Framework
@@ -260,7 +260,7 @@ ai-gtm-skill-library/
 | **CRAFT** | _C_ontext, _R_ole, _A_sset, _F_ormat, _T_one | Forge assets that enable sellers |
 | **BRIDGE** | _B_uild, _R_each, _I_ntegrate, _D_rive, _G_row, _E_valuate | Bridge to partner ecosystems |
 | **LOOP** | _L_aunch, _O_nboard, _O_rchestrate, _P_ropagate | Create community viral loops |
-| **BLAST** | _B_rief, _L_aunch, _A_mplify, _S_ync, _T_rack | Blast coordinated launch comms |
+| **HERALD** | _H_eadline, _E_cho, _R_each, _A_lign, _L_aunch, _D_istribute | Herald launches across every channel |
 | **IGNITE** | 8 workstreams × 4 gates | Orchestrate launches with precision |
 | **APEX** | _A_llocate, _P_rioritize, _E_xperiment, _X_-optimize | Optimize budget like a portfolio |
 | **VITAL** | _V_isibility, _I_nsight, _T_racking, _A_lert, _L_earn | Build GTM analytics that matter |
@@ -272,7 +272,7 @@ ai-gtm-skill-library/
 
 ## 🤝 Contributing
 
-We welcome contributions from the Copilot Ecosystems team! To add or improve a skill:
+We welcome contributions! To add or improve a skill:
 
 1. Fork this repository
 2. Create a feature branch (`git checkout -b improve-skill-name`)
@@ -289,7 +289,7 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 
 <div align="center">
 
-**Built with ❤️ by the Copilot Ecosystems Team**
+**Built by Varun Kulkarni**
 
 *Powered by Claude Code Skills*
 

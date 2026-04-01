@@ -3,7 +3,7 @@ name: product-announcement
 description: 'Product announcement and launch communications generator that creates coordinated multi-channel launch messaging from press releases to social posts to internal comms. Use when: product announcement, launch announcement, product launch comms, press release, launch communications, announce new feature, announce new product.'
 ---
 
-# Product Announcement (BLAST Protocol)
+# Product Announcement (HERALD Protocol)
 
 Generate coordinated, multi-channel product launch communications that tell a consistent story across every audience and platform.
 
@@ -27,16 +27,17 @@ Generate coordinated, multi-channel product launch communications that tell a co
 
 ## Process
 
-### Step 1: BLAST Framework
-Structure the announcement across 5 layers:
+### Step 1: HERALD Framework
+Structure the announcement across 6 layers:
 
 | Layer | What It Covers | Key Output |
 |-------|---------------|-----------|
-| **B**ig Idea | The headline story -- why this matters to the world | 1 sentence that would make someone stop scrolling |
-| **L**ayered Messaging | Persona-specific angles on the same announcement | 3-5 message variants by audience |
-| **A**sset Creation | All announcement materials across channels | Full asset list below |
-| **S**equencing | Timed release across channels for maximum impact | Hour-by-hour launch day plan |
-| **T**racking | Success metrics per channel and overall | KPI dashboard |
+| **H**eadline | The headline story -- why this matters to the world | 1 sentence that would make someone stop scrolling |
+| **E**cho | Persona-specific angles on the same announcement | 3-5 message variants by audience |
+| **R**each | All announcement materials across channels | Full asset list below |
+| **A**lign | Internal alignment and stakeholder coordination | Stakeholder sign-off checklist |
+| **L**aunch | Timed release across channels for maximum impact | Hour-by-hour launch day plan |
+| **D**istribute | Success metrics per channel and overall | KPI dashboard |
 
 ### Step 2: Big Idea Distillation
 Create the announcement hierarchy:
@@ -91,7 +92,7 @@ Track per channel:
 Save to `outputs/announcement-[product]-[YYYY-MM-DD].md`
 
 ### Deliverables:
-1. **BLAST Brief**: Complete announcement strategy with big idea and layered messaging
+1. **HERALD Brief**: Complete announcement strategy with headline story and layered messaging
 2. **Content Package**: All 9 channel-specific assets ready for review
 3. **Sequencing Timeline**: Hour-by-hour launch day execution plan
 4. **Success Metrics Dashboard**: KPIs per channel with targets
