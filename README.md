@@ -8,7 +8,7 @@
 [![Frameworks](https://img.shields.io/badge/Frameworks-18-green?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)]()
 
-**A curated library of skills for Claude Code and GitHub Copilot that gives AI-first GTM teams a structured, repeatable engine for every phase of go-to-market — from early market signal detection through post-launch retrospectives.** Each skill encodes a proprietary framework that transforms your AI coding assistant into a domain-specific GTM strategist, eliminating the gap between insight and execution.
+**A curated library of skills for Claude Code and GitHub Copilot that gives AI-first GTM teams a structured, repeatable engine for every phase of go-to-market, from early market signal detection through post-launch retrospectives.** Each skill encodes a proprietary framework that transforms your AI coding assistant into a domain-specific GTM strategist, eliminating the gap between insight and execution.
 
 </div>
 
@@ -16,7 +16,7 @@
 
 ## 💡 Why This Matters
 
-> **For AI GTM teams, this library replaces fragmented playbooks and tribal knowledge with 18 composable, AI-native skills that turn strategic analysis into executable plans in minutes — not weeks.** Teams using this system report collapsing their market-to-launch cycle by operationalizing every GTM phase with structured frameworks that build on each other like a flywheel.
+> **For AI GTM teams, this library replaces fragmented playbooks and tribal knowledge with 18 composable, AI-native skills that turn strategic analysis into executable plans in minutes, not weeks.** Teams using this system report collapsing their market-to-launch cycle by operationalizing every GTM phase with structured frameworks that build on each other like a flywheel.
 
 ---
 
@@ -73,7 +73,7 @@ The skills are organized into **5 strategic phases** that map to the full GTM li
 | 4 | Journey Architect | `7-GATE` | Design | End-to-end customer journey with gated progression and friction scoring |
 | 5 | Battle Scanner | `ARMOR` | Position | Competitive intelligence with response prediction and battle cards |
 | 6 | Competitive Exec Brief | `SHARP` | Position | Executive-ready competitive brief with 1-slide PPTX output |
-| 7 | Position Lock | `PRISM` | Position | Brand positioning architecture with L0–L5 message cascade |
+| 7 | Position Lock | `PRISM` | Position | Brand positioning architecture with L0-L5 message cascade |
 | 8 | Demand Engine | `WAVE` | Amplify | Multi-channel demand gen strategy with channel scoring and budget allocation |
 | 9 | Enablement Forge | `CRAFT` | Amplify | Sales/marketing asset creation from pitch decks to objection handlers |
 | 10 | Partner Blueprint | `BRIDGE` | Amplify | Partner strategy: identify, score, and structure partnerships with co-GTM plans |
@@ -90,7 +90,7 @@ The skills are organized into **5 strategic phases** that map to the full GTM li
 
 ## 🔄 Workflow: Full GTM Lifecycle
 
-From first market signal to post-launch optimization — here's how the six phases connect:
+From first market signal to post-launch optimization, here is how the six phases connect:
 
 ```mermaid
 flowchart TD
@@ -113,15 +113,15 @@ flowchart TD
     LAUNCH ==>|"Performance data & learnings"| OPTIMIZE
     OPTIMIZE -.->|"Growth insights feed next cycle"| DISCOVER
 
-    style DISCOVER fill:#0ea5e9,stroke:#0284c7,color:#fff,rx:12,ry:12
-    style DESIGN fill:#10b981,stroke:#059669,color:#fff,rx:12,ry:12
-    style POSITION fill:#f43f5e,stroke:#e11d48,color:#fff,rx:12,ry:12
-    style AMPLIFY fill:#f97316,stroke:#ea580c,color:#fff,rx:12,ry:12
-    style LAUNCH fill:#a855f7,stroke:#9333ea,color:#fff,rx:12,ry:12
-    style OPTIMIZE fill:#22c55e,stroke:#16a34a,color:#fff,rx:12,ry:12
+    style DISCOVER fill:#0078D4,stroke:#005A9E,color:#fff,rx:12,ry:12
+    style DESIGN fill:#00B7C3,stroke:#008B94,color:#fff,rx:12,ry:12
+    style POSITION fill:#5C2D91,stroke:#451F6E,color:#fff,rx:12,ry:12
+    style AMPLIFY fill:#FF8C00,stroke:#CC7000,color:#fff,rx:12,ry:12
+    style LAUNCH fill:#D13438,stroke:#A4262C,color:#fff,rx:12,ry:12
+    style OPTIMIZE fill:#107C10,stroke:#0B6A0B,color:#fff,rx:12,ry:12
 ```
 
-> **Flywheel Sync** (`ORBIT`) operates as a system-wide health layer — it audits connections between all six phases, identifies bottlenecks, and generates improvement roadmaps to keep the entire engine running smoothly.
+> **Flywheel Sync** (`ORBIT`) operates as a system-wide health layer that audits connections between all six phases, identifies bottlenecks, and generates improvement roadmaps to keep the entire engine running smoothly.
 
 ---
 
@@ -156,24 +156,24 @@ flowchart TD
     FS -.->|Health audit| LC
     FS -.->|Health audit| GL
 
-    style SR fill:#0ea5e9,stroke:#0284c7,color:#fff
-    style WF fill:#0ea5e9,stroke:#0284c7,color:#fff
-    style MA fill:#10b981,stroke:#059669,color:#fff
-    style JA fill:#10b981,stroke:#059669,color:#fff
-    style BS fill:#f43f5e,stroke:#e11d48,color:#fff
-    style CEB fill:#f43f5e,stroke:#e11d48,color:#fff
-    style PL fill:#f43f5e,stroke:#e11d48,color:#fff
-    style DE fill:#f97316,stroke:#ea580c,color:#fff
-    style EF fill:#f97316,stroke:#ea580c,color:#fff
-    style PB fill:#f97316,stroke:#ea580c,color:#fff
-    style CC fill:#f97316,stroke:#ea580c,color:#fff
-    style PA fill:#a855f7,stroke:#9333ea,color:#fff
-    style LC fill:#a855f7,stroke:#9333ea,color:#fff
-    style LD fill:#a855f7,stroke:#9333ea,color:#fff
-    style BA fill:#22c55e,stroke:#16a34a,color:#fff
-    style LP fill:#22c55e,stroke:#16a34a,color:#fff
-    style GL fill:#22c55e,stroke:#16a34a,color:#fff
-    style FS fill:#8b5cf6,stroke:#7c3aed,color:#fff
+    style SR fill:#0078D4,stroke:#005A9E,color:#fff
+    style WF fill:#0078D4,stroke:#005A9E,color:#fff
+    style MA fill:#00B7C3,stroke:#008B94,color:#fff
+    style JA fill:#00B7C3,stroke:#008B94,color:#fff
+    style BS fill:#5C2D91,stroke:#451F6E,color:#fff
+    style CEB fill:#5C2D91,stroke:#451F6E,color:#fff
+    style PL fill:#5C2D91,stroke:#451F6E,color:#fff
+    style DE fill:#FF8C00,stroke:#CC7000,color:#fff
+    style EF fill:#FF8C00,stroke:#CC7000,color:#fff
+    style PB fill:#FF8C00,stroke:#CC7000,color:#fff
+    style CC fill:#FF8C00,stroke:#CC7000,color:#fff
+    style PA fill:#D13438,stroke:#A4262C,color:#fff
+    style LC fill:#D13438,stroke:#A4262C,color:#fff
+    style LD fill:#D13438,stroke:#A4262C,color:#fff
+    style BA fill:#107C10,stroke:#0B6A0B,color:#fff
+    style LP fill:#107C10,stroke:#0B6A0B,color:#fff
+    style GL fill:#107C10,stroke:#0B6A0B,color:#fff
+    style FS fill:#B4009E,stroke:#8C0078,color:#fff
 ```
 
 ---
@@ -300,7 +300,7 @@ We welcome contributions! To add or improve a skill:
 
 ## 📄 License
 
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
