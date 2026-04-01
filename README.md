@@ -8,7 +8,9 @@
 [![Frameworks](https://img.shields.io/badge/Frameworks-18-green?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)]()
 
-**A curated library of skills for Claude Code and GitHub Copilot that gives AI-first GTM teams a structured, repeatable engine for every phase of go-to-market, from early market signal detection through post-launch retrospectives.** Each skill encodes a proprietary framework that transforms your AI coding assistant into a domain-specific GTM strategist, eliminating the gap between insight and execution.
+**Created and maintained by [Varun Kulkarni](https://github.com/varunk130)**
+
+**A curated library of skills for Claude Code and GitHub Copilotthat gives AI-first GTM teams a structured, repeatable engine for every phase of go-to-market, from early market signal detection through post-launch retrospectives.** Each skill encodes a proprietary framework that transforms your AI coding assistant into a domain-specific GTM strategist, eliminating the gap between insight and execution.
 
 </div>
 
