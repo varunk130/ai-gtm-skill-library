@@ -192,7 +192,6 @@ Yes. If the skills are committed to your repository under `.github/skills/`, Cop
 | Run a post-launch retrospective | Launch Debrief | MIRROR |
 | Audit the full skill system health | Flywheel Sync | ORBIT |
 | **Create a full GTM plan and deck** | **GTM Exec Plan** | **PRIME** |
-| **Research a company's customers and positioning** | **Company Intel** | **SCOUT** |
 
 ---
 

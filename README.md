@@ -2,10 +2,10 @@
 
 # 🚀 AI GTM Skill Library
 
-### The 20-Skill AI-Powered Go-To-Market Engine for Claude Code & GitHub Copilot
+### The 19-Skill AI-Powered Go-To-Market Engine for Claude Code & GitHub Copilot
 
-[![Skills](https://img.shields.io/badge/Skills-20-blue?style=for-the-badge)]()
-[![Frameworks](https://img.shields.io/badge/Frameworks-20-green?style=for-the-badge)]()
+[![Skills](https://img.shields.io/badge/Skills-19-blue?style=for-the-badge)]()
+[![Frameworks](https://img.shields.io/badge/Frameworks-19-green?style=for-the-badge)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)]()
 [![How To Use](https://img.shields.io/badge/How_To_Use-Guide-purple?style=for-the-badge)](docs/HOW-TO-USE.md)
 
@@ -89,7 +89,6 @@ The skills are organized into **5 strategic phases** that map to the full GTM li
 | 17 | Launch Debrief | `MIRROR` | Launch | Post-launch retrospective with 5-Whys root cause and improvement scoring |
 | 18 | Flywheel Sync | `ORBIT` | System | Audits health of the entire skill system with bottleneck analysis |
 | 19 | **GTM Exec Plan** | **`PRIME`** | **Orchestrator** | **Creates a polished 3-4 page GTM exec brief and a 4-slide PowerPoint deck** |
-| 20 | **Company Intel** | **`SCOUT`** | **Research** | **Deep research on any company: extracts customers, metrics, positioning into a 1-slide PPTX** |
 
 ---
 
@@ -271,7 +270,6 @@ ai-gtm-skill-library/
 │   ├── launch-debrief/SKILL.md      # MIRROR Framework
 │   ├── flywheel-sync/SKILL.md       # ORBIT System
 │   ├── gtm-exec-plan/SKILL.md      # PRIME Framework
-│   └── company-intel/SKILL.md      # SCOUT Framework
 ├── docs/
 │   └── HOW-TO-USE.md
 └── LICENSE
@@ -302,7 +300,6 @@ ai-gtm-skill-library/
 | **MIRROR** | _M_easure, _I_dentify, _R_oot-cause, _R_ecommend, _O_wn, _R_eview | Reflect honestly post-launch |
 | **ORBIT** | _O_bserve, _R_ate, _B_ottleneck, _I_mprove, _T_rack | Keep the flywheel spinning |
 | **PRIME** | _P_ositioning, _R_eadiness, _I_mpact, _M_otion, _E_xecution | Full GTM plan and deck in one skill |
-| **SCOUT** | _S_can, _C_apture, _O_utline, _U_ncover, _T_abulate | Research any company from a URL or name |
 
 ---
 
