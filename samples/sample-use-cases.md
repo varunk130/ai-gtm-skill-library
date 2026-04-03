@@ -1,5 +1,5 @@
 # Sample Use Cases: AI GTM Skill Library
-## Top 5 Highest-Priority Use Cases for Enterprise AI Organizations
+## Top 6 Highest-Priority Use Cases for Enterprise AI Organizations
 
 > **NOTE:** This document contains entirely hypothetical scenarios with mock data for demonstration purposes. All company names, person names, metrics, and organizational details are fictional. No real companies, products, or individuals are referenced.
 
@@ -9,7 +9,7 @@
 
 ## Overview
 
-These five use cases represent the highest-priority GTM scenarios that enterprise AI organizations encounter most frequently. Each use case demonstrates how the AI GTM Skill Library's 19-skill flywheel can be applied end-to-end, from initial market signal through launch execution and optimization.
+These six use cases represent the highest-priority GTM scenarios that enterprise AI organizations encounter most frequently. Each use case demonstrates how the AI GTM Skill Library's 19-skill flywheel can be applied end-to-end, from initial market signal through launch execution and optimization.
 
 | # | Use Case | Primary Challenge | Skills Used | Estimated Time Savings |
 |---|----------|-------------------|-------------|----------------------|
@@ -18,6 +18,7 @@ These five use cases represent the highest-priority GTM scenarios that enterpris
 | 3 | Partner Ecosystem Expansion for AI Platform | Channel activation & co-sell | 10 skills | 8-10 weeks compressed to 6 days |
 | 4 | Enterprise Upsell & Expansion Motion | Land-and-expand revenue growth | 8 skills | 3-4 weeks compressed to 2 days |
 | 5 | Market Entry into New Geographic Region | Localization & regulatory navigation | 11 skills | 10-12 weeks compressed to 7 days |
+| 6 | AI Product Sunset & Customer Migration | Graceful EOL with retention & migration | 10 skills | 8-10 weeks compressed to 5 days |
 
 ---
 
@@ -262,32 +263,85 @@ demand-engine → enablement-forge → launch-command
 
 ---
 
+## Use Case 6: AI Product Sunset and Customer Migration
+
+### Scenario
+
+**Company M**, an enterprise AI platform company ($410M ARR, 3,100 employees), is sunsetting its legacy "PredictOne" ML model management product to consolidate customers onto its next-generation "PredictStudio" platform. PredictOne still has 840 active enterprise customers generating $62M ARR. Person L (GM of Platform) and Person M (VP of Customer Marketing) must execute a sunset GTM plan that retains at least 85% of PredictOne ARR by migrating customers to PredictStudio within 9 months, while preventing competitive poaching during the transition window.
+
+### Challenge
+
+Product sunsets are high-risk GTM events. Customers feel abandoned, competitors aggressively target the install base with migration offers, and internal sales teams deprioritize sunset accounts in favor of new business. Company M's previous product sunset (2 years ago) lost 34% of the affected ARR — leadership has mandated a structured approach to prevent a repeat.
+
+### Skill Workflow
+
+```
+signal-radar → growth-loop → battle-scanner → position-lock →
+journey-architect → enablement-forge → demand-engine →
+product-announcement → launch-command → launch-pulse
+```
+
+### Execution Detail
+
+| Phase | Skill Used | Key Output |
+|-------|-----------|------------|
+| **Threat Assessment** | `signal-radar` | Detected 4 competitive signals: Company N launched a "PredictOne migration accelerator" (direct threat), Company P is offering 18-month free tier to PredictOne customers (pricing threat), 3 industry analysts published "alternatives to PredictOne" reports (influence threat), community forums showing rising churn sentiment (retention threat) |
+| **Customer Segmentation** | `growth-loop` | ANCHOR analysis of 840 accounts: 310 "healthy" (high usage, multi-product, low risk), 290 "at-risk" (single-product, declining usage or open support escalations), 240 "critical" (actively evaluating competitors or contract renewal in < 6 months); custom retention playbook per segment |
+| **Competitive Defense** | `battle-scanner` | Battle cards for 3 competitors actively targeting PredictOne base; identified Company N's migration tool limitations (no support for custom model pipelines — affects 60% of PredictOne customers); created "why stay" competitive ammunition |
+| **Migration Messaging** | `position-lock` | Sunset messaging cascade: L0 — "Your models, now with superpowers." L1 — "Everything you built on PredictOne, running faster on PredictStudio with zero retraining." L2 — Proof points: 3x inference speed, native GPU orchestration, backward-compatible API, free migration tooling. Separate messaging tracks for healthy vs. at-risk vs. critical segments |
+| **Migration Journey** | `journey-architect` | 6-gate migration journey: Notification → Education → Sandbox Trial → Migration Planning → Execution → Validation; each gate has segment-specific SLAs (critical accounts get white-glove support at every gate); mapped average migration timeline: 21 days for standard, 45 days for complex |
+| **Sales & CS Arming** | `enablement-forge` | Migration kit: account-level migration readiness scorecard, CS talk track for sunset notification calls, migration ROI calculator (showing PredictStudio cost savings), competitive defense one-pager ("Why Company N is not the answer"), FAQ document (47 questions), executive escalation playbook for at-risk accounts |
+| **Retention Campaigns** | `demand-engine` | 3-track campaign: (1) "Early mover" incentive — 20% discount for accounts migrating in first 90 days, (2) webinar series "PredictStudio for PredictOne power users" — 6 sessions covering migration paths, (3) executive outreach program — Person L personally calls top 50 accounts; total budget: $1.4M |
+| **Communications** | `product-announcement` | Phased comms plan: private notification to top 100 accounts (Week 1) → broad customer email + blog post (Week 2) → public announcement + analyst briefing (Week 3) → community AMA session (Week 4); each phase has holding statements for competitive FUD |
+| **Execution** | `launch-command` | 9-month migration program: Phase 1 — healthy accounts self-serve migration (Month 1-3); Phase 2 — at-risk accounts with guided migration (Month 3-6); Phase 3 — critical accounts with white-glove migration + executive engagement (Month 4-9); Go/No-Go gate after each phase |
+| **Measurement** | `launch-pulse` | Migration dashboard: accounts migrated (by segment), ARR retained vs. churned, migration completion rate, average migration duration, competitive loss tracking, NPS before/after migration, support ticket volume |
+
+### Hypothetical Results (9-Month)
+
+| Metric | Target | Actual (Mock) | Status |
+|--------|--------|---------------|--------|
+| ARR Retained | 85% ($52.7M) | 89% ($55.2M) | Exceeded |
+| Accounts Migrated | 714 of 840 | 748 of 840 | Exceeded |
+| Accounts Lost to Competitors | < 80 | 52 | Exceeded |
+| Average Migration Duration | 30 days | 26 days | Exceeded |
+| Migration NPS | > 30 | 38 | Exceeded |
+| PredictStudio Upsell (Post-Migration) | 15% of migrated accounts | 19% | Exceeded |
+| Support Ticket Volume (Migration) | < 2,000 | 1,640 | Exceeded |
+
+| Segment | Accounts | Migrated (Mock) | Retained ARR | Lost to Competitor |
+|---------|----------|----------------|-------------|-------------------|
+| Healthy (310) | 310 | 298 (96%) | $24.1M | 6 |
+| At-Risk (290) | 290 | 251 (87%) | $18.9M | 24 |
+| Critical (240) | 240 | 199 (83%) | $12.2M | 22 |
+
+---
+
 ## Summary: Skill Coverage Across Use Cases
 
 The following matrix shows which skills are leveraged in each use case, demonstrating the library's composability:
 
-| Skill | UC1: New Launch | UC2: Displacement | UC3: Partner | UC4: Expansion | UC5: Geo Entry |
-|-------|:-:|:-:|:-:|:-:|:-:|
-| Signal Radar | X | X | | | X |
-| Whitespace Finder | X | | X | X | X |
-| Market Analyzer | X | | X | | X |
-| Journey Architect | | | X | X | X |
-| Battle Scanner | X | X | | | X |
-| Competitive Exec Brief | X | X | | | X |
-| Position Lock | X | X | X | X | X |
-| Demand Engine | X | X | X | X | X |
-| Enablement Forge | X | X | X | X | X |
-| Partner Blueprint | X | | X | | X |
-| Community Catalyst | | | X | | |
-| Product Announcement | X | | | | |
-| Launch Command | X | | X | | X |
-| Budget Allocator | | X | | X | |
-| Launch Pulse | X | X | X | X | |
-| Growth Loop | | X | | X | |
-| Launch Debrief | | | | | |
-| Flywheel Sync | | | | | |
+| Skill | UC1: New Launch | UC2: Displacement | UC3: Partner | UC4: Expansion | UC5: Geo Entry | UC6: Sunset |
+|-------|:-:|:-:|:-:|:-:|:-:|:-:|
+| Signal Radar | X | X | | | X | X |
+| Whitespace Finder | X | | X | X | X | |
+| Market Analyzer | X | | X | | X | |
+| Journey Architect | | | X | X | X | X |
+| Battle Scanner | X | X | | | X | X |
+| Competitive Exec Brief | X | X | | | X | |
+| Position Lock | X | X | X | X | X | X |
+| Demand Engine | X | X | X | X | X | X |
+| Enablement Forge | X | X | X | X | X | X |
+| Partner Blueprint | X | | X | | X | |
+| Community Catalyst | | | X | | | |
+| Product Announcement | X | | | | | X |
+| Launch Command | X | | X | | X | X |
+| Budget Allocator | | X | | X | | |
+| Launch Pulse | X | X | X | X | | X |
+| Growth Loop | | X | | X | | X |
+| Launch Debrief | | | | | | |
+| Flywheel Sync | | | | | | |
 
-> **Key Insight:** `position-lock`, `demand-engine`, and `enablement-forge` appear in all 5 use cases, confirming they are the foundational skills every GTM motion requires. Discovery skills (`signal-radar`, `whitespace-finder`) and competitive skills (`battle-scanner`) are critical for any motion involving market uncertainty.
+> **Key Insight:** `position-lock`, `demand-engine`, and `enablement-forge` appear in all 6 use cases, confirming they are the foundational skills every GTM motion requires. Discovery skills (`signal-radar`, `whitespace-finder`) and competitive skills (`battle-scanner`) are critical for any motion involving market uncertainty. Notably, the product sunset use case (UC6) uses 10 skills — demonstrating that even "end-of-life" motions require the same GTM rigor as new launches.
 
 ---
 
