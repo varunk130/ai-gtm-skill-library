@@ -19,7 +19,7 @@
 
 ## 💡 Why This Matters
 
-> **For AI GTM teams, this library replaces fragmented playbooks and tribal knowledge with 18 composable, AI-native skills that turn strategic analysis into executable plans in minutes, not weeks.** Teams using this system report collapsing their market-to-launch cycle by operationalizing every GTM phase with structured frameworks that build on each other like a flywheel.
+> **For AI GTM teams, this library replaces fragmented playbooks and tribal knowledge with 19 composable, AI-native skills that turn strategic analysis into executable plans in minutes, not weeks.** Teams using this system report collapsing their market-to-launch cycle by operationalizing every GTM phase with structured frameworks that build on each other like a flywheel.
 
 ---
 
