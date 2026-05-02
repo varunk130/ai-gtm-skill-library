@@ -2,7 +2,7 @@
 
 # 🚀 AI GTM Skill Library
 
-### The 20-Skill AI-Powered Go-To-Market Engine for Claude Code, GitHub Copilot & Cursor
+### The 20-Skill AI-Powered Go-To-Market Engine — including the new ABM playbook for Claude Code, GitHub Copilot & Cursor
 
 [![Skills](https://img.shields.io/badge/Skills-19-blue?style=for-the-badge)]()
 [![Frameworks](https://img.shields.io/badge/Frameworks-19-green?style=for-the-badge)]()
