@@ -2,7 +2,7 @@
 
 # 🚀 AI GTM Skill Library
 
-### The 19-Skill AI-Powered Go-To-Market Engine for Claude Code, GitHub Copilot & Cursor
+### The 20-Skill AI-Powered Go-To-Market Engine for Claude Code, GitHub Copilot & Cursor
 
 [![Skills](https://img.shields.io/badge/Skills-19-blue?style=for-the-badge)]()
 [![Frameworks](https://img.shields.io/badge/Frameworks-19-green?style=for-the-badge)]()
@@ -91,6 +91,7 @@ The skills are organized into **5 strategic phases** that map to the full GTM li
 | 17 | Launch Debrief | `MIRROR` | Launch | Post-launch retrospective with 5-Whys root cause and improvement scoring |
 | 18 | Flywheel Sync | `ORBIT` | System | Audits health of the entire skill system with bottleneck analysis |
 | 19 | **GTM Exec Plan** | **`PRIME`** | **Orchestrator** | **Creates a polished 3-4 page GTM exec brief and a 4-slide PowerPoint deck** |
+| 20 | Competitive Battlecard | `BATTLE` | Position | On-demand sales battlecards for live deals: positioning matrix, top objections + responses, trap questions, "do not say" list |
 
 ---
 
@@ -272,6 +273,7 @@ ai-gtm-skill-library/
 │   ├── launch-debrief/SKILL.md      # MIRROR Framework
 │   ├── flywheel-sync/SKILL.md       # ORBIT System
 │   ├── gtm-exec-plan/SKILL.md      # PRIME Framework
+│   ├── competitive-battlecard/SKILL.md # BATTLE Framework
 ├── docs/
 │   └── HOW-TO-USE.md
 └── LICENSE
