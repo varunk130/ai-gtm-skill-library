@@ -4,18 +4,39 @@
 
 ### The 20-Skill AI-Powered Go-To-Market Engine — including the new ABM playbook for Claude Code, GitHub Copilot & Cursor
 
-[![Skills](https://img.shields.io/badge/Skills-19-blue?style=for-the-badge)]()
-[![Frameworks](https://img.shields.io/badge/Frameworks-19-green?style=for-the-badge)]()
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)]()
+[![Skills](https://img.shields.io/badge/Skills-19-blue?style=for-the-badge)](#-skills-catalog)
+[![Frameworks](https://img.shields.io/badge/Frameworks-19-green?style=for-the-badge)](#-skills-catalog)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![How To Use](https://img.shields.io/badge/How_To_Use-Guide-purple?style=for-the-badge)](docs/HOW-TO-USE.md)
-[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white)](https://claude.ai/code)
-[![GitHub Copilot](https://img.shields.io/badge/GitHub-Copilot-24292e?logo=github&logoColor=white)](https://github.com/features/copilot)
+[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white&style=for-the-badge)](https://claude.ai/code)
+[![GitHub Copilot](https://img.shields.io/badge/GitHub-Copilot-24292e?logo=github&logoColor=white&style=for-the-badge)](https://github.com/features/copilot)
 
-**Created and maintained by [Varun Kulkarni](https://github.com/varunk130)**
+**Created and maintained by [Varun Kulkarni](https://github.com/varunk130)** · [⚡ Quickstart ↓](#-quickstart) · [Skills Catalog ↓](#-skills-catalog) · [How To Use](docs/HOW-TO-USE.md)
 
 **A curated library of skills for Claude Code and GitHub Copilot that gives AI-first GTM teams a structured, repeatable engine for every phase of go-to-market, from early market signal detection through post-launch retrospectives.** Each skill encodes a proprietary framework that transforms your AI coding assistant into a domain-specific GTM strategist, eliminating the gap between insight and execution.
 
 </div>
+
+---
+
+## ⚡ Quickstart
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/varunk130/ai-gtm-skill-library.git
+
+# 2. Install all 19 skills globally for Claude Code
+mkdir -p ~/.claude/skills
+cp -r ai-gtm-skill-library/skills/* ~/.claude/skills/
+
+# 3. Restart Claude Code, then run a phase-specific workflow:
+#      /signal-radar          — macro-market signal detection
+#      /position-lock         — competitive positioning
+#      /launch-command        — full launch orchestration
+#      /flywheel-sync         — audit health of the entire 18-skill system
+```
+
+> 💡 First-time setup, GitHub Copilot integration, and FAQs are in the [How to Use Guide](docs/HOW-TO-USE.md) and the [full Installation](#%EF%B8%8F-installation) section below.
 
 ---
 
@@ -29,41 +50,40 @@
 
 The skills are organized into **5 strategic phases** that map to the full GTM lifecycle:
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                        AI GTM SKILLS FLYWHEEL                               │
-│                                                                             │
-│   ┌──────────────┐    ┌──────────────┐    ┌──────────────┐                 │
-│   │  🔍 DISCOVER │───▶│  📐 DESIGN   │───▶│  🎯 POSITION │                 │
-│   │              │    │              │    │              │                 │
-│   │ signal-radar │    │ market-      │    │ position-    │                 │
-│   │ whitespace-  │    │  analyzer    │    │  lock        │                 │
-│   │  finder      │    │ journey-     │    │ battle-      │                 │
-│   │              │    │  architect   │    │  scanner     │                 │
-│   │              │    │              │    │ competitive- │                 │
-│   │              │    │              │    │  exec-brief  │                 │
-│   └──────┬───────┘    └──────┬───────┘    └──────┬───────┘                 │
-│          │                   │                   │                         │
-│          ▼                   ▼                   ▼                         │
-│   ┌──────────────┐    ┌──────────────┐    ┌──────────────┐                 │
-│   │  🚀 LAUNCH   │◀───│  📢 AMPLIFY  │◀───│  📊 OPTIMIZE │                │
-│   │              │    │              │    │              │                 │
-│   │ launch-      │    │ demand-      │    │ budget-      │                 │
-│   │  command     │    │  engine      │    │  allocator   │                 │
-│   │ product-     │    │ enablement-  │    │ launch-pulse │                 │
-│   │  announcement│    │  forge       │    │ growth-loop  │                 │
-│   │ launch-      │    │ partner-     │    │ launch-      │                 │
-│   │  debrief     │    │  blueprint   │    │  debrief     │                 │
-│   │              │    │ community-   │    │              │                 │
-│   │              │    │  catalyst    │    │              │                 │
-│   └──────────────┘    └──────────────┘    └──────────────┘                 │
-│                                                                             │
-│          ┌──────────────────────────────────────────┐                       │
-│          │  🔄 flywheel-sync (ORBIT System)         │                       │
-│          │  Audits health of the entire 18-skill    │                       │
-│          │  system with bottleneck analysis          │                       │
-│          └──────────────────────────────────────────┘                       │
-└─────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart LR
+    D["🔍 DISCOVER<br/>signal-radar<br/>whitespace-finder"]
+    DE["📐 DESIGN<br/>market-analyzer<br/>journey-architect"]
+    P["🎯 POSITION<br/>position-lock · battle-scanner<br/>competitive-exec-brief"]
+    L["🚀 LAUNCH<br/>launch-command<br/>product-announcement<br/>launch-debrief"]
+    A["📢 AMPLIFY<br/>demand-engine · enablement-forge<br/>partner-blueprint · community-catalyst"]
+    O["📊 OPTIMIZE<br/>budget-allocator<br/>launch-pulse · growth-loop"]
+    FS["🔄 flywheel-sync<br/>ORBIT system audit<br/>(bottleneck analysis across all 18)"]
+
+    D --> DE --> P --> L
+    L --> A --> O
+    O -.-> D
+    FS -.-> D
+    FS -.-> DE
+    FS -.-> P
+    FS -.-> L
+    FS -.-> A
+    FS -.-> O
+
+    classDef discover fill:#0078D4,color:#fff,stroke:#005A9E,stroke-width:2px,rx:8,ry:8
+    classDef design fill:#5C2D91,color:#fff,stroke:#412066,stroke-width:2px,rx:8,ry:8
+    classDef position fill:#E81123,color:#fff,stroke:#A80000,stroke-width:2px,rx:8,ry:8
+    classDef launch fill:#EE7100,color:#fff,stroke:#B85800,stroke-width:2px,rx:8,ry:8
+    classDef amplify fill:#107C10,color:#fff,stroke:#0B6A0B,stroke-width:2px,rx:8,ry:8
+    classDef optimize fill:#107C10,color:#fff,stroke:#0B6A0B,stroke-width:2px,rx:8,ry:8
+    classDef sync fill:#B4009E,color:#fff,stroke:#8C0078,stroke-width:2px,rx:8,ry:8
+    class D discover
+    class DE design
+    class P position
+    class L launch
+    class A amplify
+    class O optimize
+    class FS sync
 ```
 
 ---
