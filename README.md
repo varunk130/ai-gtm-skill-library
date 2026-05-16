@@ -34,9 +34,30 @@ cp -r ai-gtm-skill-library/skills/* ~/.claude/skills/
 
 ---
 
-## What you get
+## What this solves
 
-Each skill produces a structured, evidence-based artifact in minutes — a positioning framework, a launch plan, a renewal playbook, an ARR waterfall, a battle card. Skills are composable: outputs from one feed naturally into the next. The library has no runtime dependencies for the skills themselves (just Markdown files); a small Python utility is included for installation and PowerPoint generation.
+GTM teams produce the same artifacts over and over — positioning frameworks, launch plans, battle cards, renewal playbooks, forecast models, EBR decks. The work is often repeated from scratch because the playbook lives in someone's head, in a slide somewhere, or in last quarter's deck.
+
+This library replaces that with **31 named skills**, each one a self-contained Markdown file that teaches an AI coding assistant how to produce a specific GTM artifact. A skill encodes:
+
+- An opinionated framework (a named mnemonic, e.g. `PULSE`, `THRIVE`, `FORECAST`)
+- The structured process to apply it
+- The exact output spec (sections, tables, file names)
+- The other skills it pairs with upstream and downstream
+
+The result: the assistant produces the same caliber of artifact each time, in minutes instead of days, and the output is consistent across people and across projects.
+
+**Who it's for**
+
+| Audience | What they get |
+|---|---|
+| **Founders & GTM leads** | A repeatable engine from market signal through renewal — no "let me build the deck again" |
+| **Product marketing** | Positioning, launch comms, competitive briefs, and battle cards with consistent structure |
+| **Sales & RevOps** | Pipeline forecasts, renewal playbooks, ARR analytics, and battle cards on demand |
+| **Customer success** | Health-score design, risk playbooks, EBR templates, and VoC operating cadence |
+| **Solo operators** | A senior GTM bench you can call by name through Claude Code or GitHub Copilot |
+
+---
 
 ---
 
