@@ -46,7 +46,8 @@ git clone https://github.com/varunk130/ai-gtm-skill-library.git
 
 # 2. Install all 31 skills for Claude Code
 mkdir -p ~/.claude/skills
-cp -r ai-gtm-skill-library/skills/* ~/.claude/skills/
+cp -r ai-gtm-skill-library/gtm-skills/*    ~/.claude/skills/
+cp -r ai-gtm-skill-library/revops-skills/* ~/.claude/skills/
 
 # 3. Restart Claude Code, then invoke a skill by name:
 #      signal-radar          — macro-market signal detection
@@ -89,65 +90,65 @@ Seven phases, 29 domain skills, plus 2 system skills (`flywheel-sync` audits the
 ### Discover (2)
 | Skill | Framework | Description |
 |---|---|---|
-| [signal-radar](./skills/signal-radar/SKILL.md) | `PULSE` | Macro-market signal detection across tech, regulatory, buyer, ecosystem, cultural vectors |
-| [whitespace-finder](./skills/whitespace-finder/SKILL.md) | `DEPTH` | Maps gaps between market demand and existing solutions with opportunity scoring |
+| [signal-radar](./gtm-skills/signal-radar/SKILL.md) | `PULSE` | Macro-market signal detection across tech, regulatory, buyer, ecosystem, cultural vectors |
+| [whitespace-finder](./gtm-skills/whitespace-finder/SKILL.md) | `DEPTH` | Maps gaps between market demand and existing solutions with opportunity scoring |
 
 ### Design (2)
 | Skill | Framework | Description |
 |---|---|---|
-| [market-analyzer](./skills/market-analyzer/SKILL.md) | `SCOPE` | Investment-grade market analysis beyond TAM/SAM/SOM with segment deep dives |
-| [journey-architect](./skills/journey-architect/SKILL.md) | `7-GATE` | End-to-end customer journey with gated progression and friction scoring |
+| [market-analyzer](./gtm-skills/market-analyzer/SKILL.md) | `SCOPE` | Investment-grade market analysis beyond TAM/SAM/SOM with segment deep dives |
+| [journey-architect](./gtm-skills/journey-architect/SKILL.md) | `7-GATE` | End-to-end customer journey with gated progression and friction scoring |
 
 ### Position (4)
 | Skill | Framework | Description |
 |---|---|---|
-| [position-lock](./skills/position-lock/SKILL.md) | `PRISM` | Brand positioning architecture with L0–L5 message cascade |
-| [battle-scanner](./skills/battle-scanner/SKILL.md) | `ARMOR` | Competitive intelligence with response prediction and battle cards |
-| [competitive-exec-brief](./skills/competitive-exec-brief/SKILL.md) | `SHARP` | Executive-ready competitive brief with 1-slide PPTX output |
-| [competitive-battlecard](./skills/competitive-battlecard/SKILL.md) | `BATTLE` | On-demand sales battlecards: objections, trap questions, "do not say" list |
+| [position-lock](./gtm-skills/position-lock/SKILL.md) | `PRISM` | Brand positioning architecture with L0–L5 message cascade |
+| [battle-scanner](./gtm-skills/battle-scanner/SKILL.md) | `ARMOR` | Competitive intelligence with response prediction and battle cards |
+| [competitive-exec-brief](./gtm-skills/competitive-exec-brief/SKILL.md) | `SHARP` | Executive-ready competitive brief with 1-slide PPTX output |
+| [competitive-battlecard](./gtm-skills/competitive-battlecard/SKILL.md) | `BATTLE` | On-demand sales battlecards: objections, trap questions, "do not say" list |
 
 ### Amplify (5)
 | Skill | Framework | Description |
 |---|---|---|
-| [demand-engine](./skills/demand-engine/SKILL.md) | `WAVE` | Multi-channel demand-gen strategy with channel scoring and budget allocation |
-| [enablement-forge](./skills/enablement-forge/SKILL.md) | `CRAFT` | Sales / marketing asset creation from pitch decks to objection handlers |
-| [partner-blueprint](./skills/partner-blueprint/SKILL.md) | `BRIDGE` | Partner strategy: identify, score, and structure partnerships with co-GTM plans |
-| [community-catalyst](./skills/community-catalyst/SKILL.md) | `LOOP` | PLG and community strategy with viral loops and K-factor modeling |
-| [abm-playbook](./skills/abm-playbook/SKILL.md) | `TIER` | ABM playbook: tiered account list, buying-group maps, coordinated plays |
+| [demand-engine](./gtm-skills/demand-engine/SKILL.md) | `WAVE` | Multi-channel demand-gen strategy with channel scoring and budget allocation |
+| [enablement-forge](./gtm-skills/enablement-forge/SKILL.md) | `CRAFT` | Sales / marketing asset creation from pitch decks to objection handlers |
+| [partner-blueprint](./gtm-skills/partner-blueprint/SKILL.md) | `BRIDGE` | Partner strategy: identify, score, and structure partnerships with co-GTM plans |
+| [community-catalyst](./gtm-skills/community-catalyst/SKILL.md) | `LOOP` | PLG and community strategy with viral loops and K-factor modeling |
+| [abm-playbook](./gtm-skills/abm-playbook/SKILL.md) | `TIER` | ABM playbook: tiered account list, buying-group maps, coordinated plays |
 
 ### Launch (3)
 | Skill | Framework | Description |
 |---|---|---|
-| [launch-command](./skills/launch-command/SKILL.md) | `IGNITE` | Launch orchestration with 8 workstreams, 4 gates, and go/no-go scoring |
-| [product-announcement](./skills/product-announcement/SKILL.md) | `HERALD` | Coordinated multi-channel launch comms — press, social, internal |
-| [launch-debrief](./skills/launch-debrief/SKILL.md) | `MIRROR` | Post-launch retrospective with 5-Whys root cause and improvement scoring |
+| [launch-command](./gtm-skills/launch-command/SKILL.md) | `IGNITE` | Launch orchestration with 8 workstreams, 4 gates, and go/no-go scoring |
+| [product-announcement](./gtm-skills/product-announcement/SKILL.md) | `HERALD` | Coordinated multi-channel launch comms — press, social, internal |
+| [launch-debrief](./gtm-skills/launch-debrief/SKILL.md) | `MIRROR` | Post-launch retrospective with 5-Whys root cause and improvement scoring |
 
 ### Optimize (3)
 | Skill | Framework | Description |
 |---|---|---|
-| [budget-allocator](./skills/budget-allocator/SKILL.md) | `APEX` | Budget optimization with portfolio theory, scenarios, experiment reserves |
-| [launch-pulse](./skills/launch-pulse/SKILL.md) | `VITAL` | GTM analytics architecture: metrics pyramid, dashboards, alerts, attribution |
-| [growth-loop](./skills/growth-loop/SKILL.md) | `ANCHOR` | Retention and expansion strategy with health scoring and advocacy programs |
+| [budget-allocator](./gtm-skills/budget-allocator/SKILL.md) | `APEX` | Budget optimization with portfolio theory, scenarios, experiment reserves |
+| [launch-pulse](./gtm-skills/launch-pulse/SKILL.md) | `VITAL` | GTM analytics architecture: metrics pyramid, dashboards, alerts, attribution |
+| [growth-loop](./gtm-skills/growth-loop/SKILL.md) | `ANCHOR` | Retention and expansion strategy with health scoring and advocacy programs |
 
 ### RevOps (10)
 | Skill | Framework | Description |
 |---|---|---|
-| [customer-success](./skills/revops/customer-success/SKILL.md) | `THRIVE` | Coverage tiering, health scoring, risk playbooks, expansion motion |
-| [customer-analytics](./skills/revops/customer-analytics/SKILL.md) | `LENS` | Lifecycle, engagement scoring, NRR decomposition, segment behavior |
-| [customer-advocacy](./skills/revops/customer-advocacy/SKILL.md) | `AMPLIFY` | Reference / case study / review pipeline + influence-to-revenue attribution |
-| [lead-nurture](./skills/revops/lead-nurture/SKILL.md) | `NURTURE` | Multi-track nurture, scoring, MQL→SQL handoff, cold-lead revival |
-| [loyalty-lifecycle](./skills/revops/loyalty-lifecycle/SKILL.md) | `BOND` | Tiered loyalty, lifecycle journeys, retention economics |
-| [referral-program](./skills/revops/referral-program/SKILL.md) | `RIPPLE` | Viral-loop design, K-factor, fraud / cannibalization controls |
-| [renewal-orchestration](./skills/revops/renewal-orchestration/SKILL.md) | `RENEW` | T-180 risk scoring, multi-thread engagement, expansion-at-renewal |
-| [revenue-analytics](./skills/revops/revenue-analytics/SKILL.md) | `LADDER` | ARR waterfall, leading indicators, drivers, CAC payback |
-| [revenue-forecasting](./skills/revops/revenue-forecasting/SKILL.md) | `FORECAST` | Bottoms-up + tops-down ensemble + calibration loop |
-| [voice-of-customer](./skills/revops/voice-of-customer/SKILL.md) | `ECHO` | Multi-source signal, theming, prioritization, loop closure |
+| [customer-success](./revops-skills/customer-success/SKILL.md) | `THRIVE` | Coverage tiering, health scoring, risk playbooks, expansion motion |
+| [customer-analytics](./revops-skills/customer-analytics/SKILL.md) | `LENS` | Lifecycle, engagement scoring, NRR decomposition, segment behavior |
+| [customer-advocacy](./revops-skills/customer-advocacy/SKILL.md) | `AMPLIFY` | Reference / case study / review pipeline + influence-to-revenue attribution |
+| [lead-nurture](./revops-skills/lead-nurture/SKILL.md) | `NURTURE` | Multi-track nurture, scoring, MQL→SQL handoff, cold-lead revival |
+| [loyalty-lifecycle](./revops-skills/loyalty-lifecycle/SKILL.md) | `BOND` | Tiered loyalty, lifecycle journeys, retention economics |
+| [referral-program](./revops-skills/referral-program/SKILL.md) | `RIPPLE` | Viral-loop design, K-factor, fraud / cannibalization controls |
+| [renewal-orchestration](./revops-skills/renewal-orchestration/SKILL.md) | `RENEW` | T-180 risk scoring, multi-thread engagement, expansion-at-renewal |
+| [revenue-analytics](./revops-skills/revenue-analytics/SKILL.md) | `LADDER` | ARR waterfall, leading indicators, drivers, CAC payback |
+| [revenue-forecasting](./revops-skills/revenue-forecasting/SKILL.md) | `FORECAST` | Bottoms-up + tops-down ensemble + calibration loop |
+| [voice-of-customer](./revops-skills/voice-of-customer/SKILL.md) | `ECHO` | Multi-source signal, theming, prioritization, loop closure |
 
 ### System & orchestration (2)
 | Skill | Framework | Description |
 |---|---|---|
-| [flywheel-sync](./skills/flywheel-sync/SKILL.md) | `ORBIT` | Audits the full skill system, identifies bottlenecks, produces a fix roadmap |
-| [gtm-exec-plan](./skills/gtm-exec-plan/SKILL.md) | `PRIME` | Produces a 3–4 page executive GTM brief and a 4-slide PowerPoint deck |
+| [flywheel-sync](./gtm-skills/flywheel-sync/SKILL.md) | `ORBIT` | Audits the full skill system, identifies bottlenecks, produces a fix roadmap |
+| [gtm-exec-plan](./gtm-skills/gtm-exec-plan/SKILL.md) | `PRIME` | Produces a 3–4 page executive GTM brief and a 4-slide PowerPoint deck |
 
 ---
 
@@ -173,13 +174,15 @@ Each skill is a standalone `SKILL.md` file. Install them once into your assistan
 git clone https://github.com/varunk130/ai-gtm-skill-library.git
 cd ai-gtm-skill-library
 
-# Claude Code (all skills)
-cp -r skills/* ~/.claude/skills/
+# Claude Code — install both clusters
+cp -r gtm-skills/*    ~/.claude/skills/
+cp -r revops-skills/* ~/.claude/skills/
 
-# GitHub Copilot (per-repo)
-cp -r skills/* /path/to/your-repo/.github/skills/
+# GitHub Copilot — install into a target repo's .github/skills
+cp -r gtm-skills/*    /path/to/your-repo/.github/skills/
+cp -r revops-skills/* /path/to/your-repo/.github/skills/
 
-# Or use the installer
+# Or use the installer (handles both clusters automatically)
 python scripts/install.py install --platform claude
 python scripts/install.py install --platform copilot
 python scripts/install.py install --skill signal-radar --platform claude
@@ -193,33 +196,43 @@ python scripts/install.py install --skill signal-radar --platform claude
 ai-gtm-skill-library/
 ├── README.md
 ├── docs/HOW-TO-USE.md
-├── scripts/install.py          # CLI installer (Python 3.9+)
-├── skills/
-│   ├── abm-playbook/           # TIER
-│   ├── battle-scanner/         # ARMOR
-│   ├── budget-allocator/       # APEX
-│   ├── community-catalyst/     # LOOP
-│   ├── competitive-battlecard/ # BATTLE
-│   ├── competitive-exec-brief/ # SHARP
-│   ├── demand-engine/          # WAVE
-│   ├── enablement-forge/       # CRAFT
-│   ├── flywheel-sync/          # ORBIT
-│   ├── growth-loop/            # ANCHOR
-│   ├── gtm-exec-plan/          # PRIME
-│   ├── journey-architect/      # 7-GATE
-│   ├── launch-command/         # IGNITE
-│   ├── launch-debrief/         # MIRROR
-│   ├── launch-pulse/           # VITAL
-│   ├── market-analyzer/        # SCOPE
-│   ├── partner-blueprint/      # BRIDGE
-│   ├── position-lock/          # PRISM
-│   ├── product-announcement/   # HERALD
-│   ├── signal-radar/           # PULSE
-│   ├── whitespace-finder/      # DEPTH
-│   └── revops/                 # 10 skills (THRIVE, LENS, AMPLIFY, NURTURE, BOND, RIPPLE, RENEW, LADDER, FORECAST, ECHO)
-├── samples/                    # Worked examples
-├── python_runtime/             # Helper utilities for skills that emit metrics
-└── tests/                      # pytest coverage for the runtime utilities
+├── scripts/install.py            # CLI installer (Python 3.9+)
+├── gtm-skills/                   # 21 GTM-lifecycle skills
+│   ├── abm-playbook/             # TIER
+│   ├── battle-scanner/           # ARMOR
+│   ├── budget-allocator/         # APEX
+│   ├── community-catalyst/       # LOOP
+│   ├── competitive-battlecard/   # BATTLE
+│   ├── competitive-exec-brief/   # SHARP
+│   ├── demand-engine/            # WAVE
+│   ├── enablement-forge/         # CRAFT
+│   ├── flywheel-sync/            # ORBIT
+│   ├── growth-loop/              # ANCHOR
+│   ├── gtm-exec-plan/            # PRIME
+│   ├── journey-architect/        # 7-GATE
+│   ├── launch-command/           # IGNITE
+│   ├── launch-debrief/           # MIRROR
+│   ├── launch-pulse/             # VITAL
+│   ├── market-analyzer/          # SCOPE
+│   ├── partner-blueprint/        # BRIDGE
+│   ├── position-lock/            # PRISM
+│   ├── product-announcement/     # HERALD
+│   ├── signal-radar/             # PULSE
+│   └── whitespace-finder/        # DEPTH
+├── revops-skills/                # 10 post-sale & revenue-engine skills
+│   ├── customer-success/         # THRIVE
+│   ├── customer-analytics/       # LENS
+│   ├── customer-advocacy/        # AMPLIFY
+│   ├── lead-nurture/             # NURTURE
+│   ├── loyalty-lifecycle/        # BOND
+│   ├── referral-program/         # RIPPLE
+│   ├── renewal-orchestration/    # RENEW
+│   ├── revenue-analytics/        # LADDER
+│   ├── revenue-forecasting/      # FORECAST
+│   └── voice-of-customer/        # ECHO
+├── samples/                      # Worked examples
+├── python_runtime/               # Helper utilities for skills that emit metrics
+└── tests/                        # pytest coverage for the runtime utilities
 ```
 
 ---
@@ -256,7 +269,7 @@ A new 10-skill **RevOps** cluster covers the post-sale and revenue-engine surfac
 
 `customer-success` · `customer-analytics` · `customer-advocacy` · `lead-nurture` · `loyalty-lifecycle` · `referral-program` · `renewal-orchestration` · `revenue-analytics` · `revenue-forecasting` · `voice-of-customer`
 
-See [`skills/revops/README.md`](./skills/revops/README.md) for the cluster guide and suggested workflows.
+See [`revops-skills/README.md`](./revops-skills/README.md) for the cluster guide and suggested workflows.
 
 ---
 
