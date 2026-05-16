@@ -101,8 +101,8 @@ our new M365 Copilot extension targeting enterprise IT teams
 
 ### General
 
-**Q: Do I need all 19 skills installed to use one?**
-No. Each skill works independently. However, some skills produce outputs that enrich downstream skills. Install only the ones you need.
+**Q: Do I need all 31 skills installed to use one?**
+No. Each skill works independently. Some skills produce outputs that enrich downstream skills, but you only need to install the ones you actually use.
 
 **Q: What format are the outputs?**
 Most skills produce structured Markdown files. The GTM Exec Plan and Competitive Exec Brief also generate PowerPoint (.pptx) files. All outputs are saved to an `outputs/` directory.
@@ -148,7 +148,7 @@ Not automatically. You run each skill explicitly. However, skills like `gtm-exec
 **Q: PowerPoint generation is not working.**
 - Install python-pptx: `pip install python-pptx`
 - Ensure Python 3.9+ is available in your PATH
-- The `ppt-deck-generator` skill handles PPTX creation; ensure it is installed alongside any deck-producing skill
+- Deck generation is built into the deck-producing skills (`gtm-exec-plan`, `competitive-exec-brief`) and uses `scripts/generate_sample_deck.py` as a reference implementation — no separate skill install is required
 
 **Q: I get very generic outputs.**
 - Provide specific inputs: product name, target audience, competitors, timeline
@@ -172,29 +172,48 @@ Yes. If the skills are committed to your repository under `.github/skills/`, Cop
 
 ---
 
-## Quick Reference Card
+## Quick reference card
 
-| Task | Skill to Use | Framework |
-|------|-------------|-----------|
-| Detect market signals and trends | Signal Radar | PULSE |
-| Find market gaps and opportunities | Whitespace Finder | DEPTH |
-| Size a market with segment analysis | Market Analyzer | SCOPE |
-| Map the customer buying journey | Journey Architect | 7-GATE |
-| Build competitive battle cards | Battle Scanner | ARMOR |
-| Create a 1-slide competitive brief | Competitive Exec Brief | SHARP |
-| Lock positioning and messaging | Position Lock | PRISM |
-| Plan multi-channel demand generation | Demand Engine | WAVE |
-| Create sales and marketing assets | Enablement Forge | CRAFT |
-| Design a partner strategy | Partner Blueprint | BRIDGE |
-| Build community and PLG motions | Community Catalyst | LOOP |
-| Coordinate launch announcements | Product Announcement | HERALD |
-| Orchestrate a full product launch | Launch Command | IGNITE |
-| Optimize budget allocation | Budget Allocator | APEX |
-| Build a GTM analytics framework | Launch Pulse | VITAL |
-| Drive retention and expansion | Growth Loop | ANCHOR |
-| Run a post-launch retrospective | Launch Debrief | MIRROR |
-| Audit the full skill system health | Flywheel Sync | ORBIT |
-| **Create a full GTM plan and deck** | **GTM Exec Plan** | **PRIME** |
+### GTM lifecycle skills (21)
+
+| Task | Skill | Framework |
+|---|---|---|
+| Detect market signals and trends | signal-radar | PULSE |
+| Find market gaps and opportunities | whitespace-finder | DEPTH |
+| Size a market with segment analysis | market-analyzer | SCOPE |
+| Map the customer buying journey | journey-architect | 7-GATE |
+| Build competitive battle cards | battle-scanner | ARMOR |
+| Create a 1-slide competitive exec brief | competitive-exec-brief | SHARP |
+| Generate a deal-specific battlecard | competitive-battlecard | BATTLE |
+| Lock positioning and messaging | position-lock | PRISM |
+| Plan multi-channel demand generation | demand-engine | WAVE |
+| Create sales / marketing assets | enablement-forge | CRAFT |
+| Design a partner strategy | partner-blueprint | BRIDGE |
+| Build PLG / community motions | community-catalyst | LOOP |
+| Build an ABM playbook | abm-playbook | TIER |
+| Coordinate launch announcements | product-announcement | HERALD |
+| Orchestrate a product launch | launch-command | IGNITE |
+| Run a post-launch retrospective | launch-debrief | MIRROR |
+| Optimize budget allocation | budget-allocator | APEX |
+| Build a GTM analytics framework | launch-pulse | VITAL |
+| Drive retention and expansion | growth-loop | ANCHOR |
+| Audit the full skill system health | flywheel-sync | ORBIT |
+| **Create a full GTM plan and deck** | **gtm-exec-plan** | **PRIME** |
+
+### RevOps skills (10)
+
+| Task | Skill | Framework |
+|---|---|---|
+| Design a CS operating model + health score | customer-success | THRIVE |
+| Build cohort retention + engagement scoring | customer-analytics | LENS |
+| Run a customer advocacy / reference program | customer-advocacy | AMPLIFY |
+| Orchestrate multi-track lead nurture | lead-nurture | NURTURE |
+| Design a loyalty / lifecycle program | loyalty-lifecycle | BOND |
+| Build a referral program with K-factor math | referral-program | RIPPLE |
+| Run a T-180 renewal motion | renewal-orchestration | RENEW |
+| Build an ARR waterfall + revenue diagnostics | revenue-analytics | LADDER |
+| Build a calibrated revenue forecast | revenue-forecasting | FORECAST |
+| Stand up a Voice-of-Customer program | voice-of-customer | ECHO |
 
 ---
 
