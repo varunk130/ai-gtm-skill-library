@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-gtm-skill-library"
+version = "0.1.0"
+description = "Opinionated GTM skills for Claude Code and GitHub Copilot, with helper runtime utilities."
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Varun Kulkarni" }]
+requires-python = ">=3.9"
+keywords = ["gtm", "go-to-market", "claude-code", "github-copilot", "skills", "revops"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7",
+    "pyyaml>=6",
+]
+samples = [
+    "python-docx>=1.0",
+    "python-pptx>=0.6",
+]
+previews = [
+    "PyMuPDF>=1.23",
+    "pywin32>=306; platform_system=='Windows'",
+]
+
+[project.urls]
+Homepage = "https://github.com/varunk130/ai-gtm-skill-library"
+Issues = "https://github.com/varunk130/ai-gtm-skill-library/issues"
+Changelog = "https://github.com/varunk130/ai-gtm-skill-library/blob/master/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+include = ["python_runtime*"]
+exclude = ["tests*", "samples*", "scripts*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra --strict-markers"
