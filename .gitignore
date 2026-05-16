@@ -4,3 +4,28 @@ __pycache__/
 .env
 .DS_Store
 Thumbs.db
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python packaging and test
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Local outputs (skills write here by convention)
+outputs/
+
+# Generated PDFs from sample preview rendering
+samples/previews/_temp_*.pdf
+
