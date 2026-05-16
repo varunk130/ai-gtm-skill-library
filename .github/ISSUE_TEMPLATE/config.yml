@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question / discussion
+    url: https://github.com/varunk130/ai-gtm-skill-library/discussions
+    about: Ask a question, share how you're using the library, or propose an idea
+  - name: Security disclosure
+    url: https://github.com/varunk130/ai-gtm-skill-library/security/advisories/new
+    about: Report a security issue privately
