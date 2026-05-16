@@ -66,3 +66,27 @@ Save to `outputs/customer-success-[motion]-[YYYY-MM-DD].md`
 | **Renewal Defense Pack** | Value evidence pack template (ROI, adoption proof, outcome attainment) |
 | **Expansion Map** | Signals → plays → handoff rules between CSM and AE |
 | **CS Operating Metrics** | NRR, GRR, logo retention, time-to-value, expansion ARR |
+
+## Process
+
+1. **Tier the book** with explicit revenue and strategic-fit rationale; cut tiers that don't justify the coverage cost
+2. **Define 4–6 health signals** — at least 3 must be leading; document weights and decay
+3. **Author named risk plays** for the top 6–8 trigger conditions; every play has an owner + SLA
+4. **Design the review cadence** per tier with a fixed agenda; value evidence is non-negotiable
+5. **Build the renewal defense pack** template — what gets shown 90 days before renewal
+6. **Map expansion signals to plays** and codify the CSM → AE handoff
+
+## Tips
+
+1. **Health scores must be defensible** — every signal needs a "why this leads churn" rationale
+2. **Coverage ratios are not industry benchmarks** — they're a function of your motion's complexity
+3. **EBR/QBR without value evidence is a relationship tax** — make outcomes the agenda
+4. **Don't conflate CS with support** — support resolves issues, CS realizes outcomes
+5. **Renewal forecasts come from the health score**, not CSM optimism
+
+## Pairs With
+
+- **growth-loop** — Retention and expansion strategy at the system level
+- **journey-architect** — Post-sale journey gates the health signals attach to
+- **enablement-forge** — Builds the EBR / value review templates
+- **revenue-analytics** — NRR / GRR analysis the playbooks are scored against
