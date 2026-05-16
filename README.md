@@ -36,6 +36,15 @@ The result: the assistant produces the same caliber of artifact each time, in mi
 | **Customer success** | Health-score design, risk playbooks, EBR templates, and VoC operating cadence |
 | **Solo operators** | A senior GTM bench you can call by name through Claude Code or GitHub Copilot |
 
+### Contents
+- [Quickstart](#quickstart)
+- [Lifecycle overview](#lifecycle-overview)
+- [Skills catalog](#skills-catalog) — 31 skills grouped by phase
+- [Common workflows](#common-workflows)
+- [Installation](#installation) — manual + Python installer
+- [Framework reference](#framework-reference) — all 31 mnemonics
+- [Contributing](#contributing) · [License](#license)
+
 ---
 
 ## Quickstart
