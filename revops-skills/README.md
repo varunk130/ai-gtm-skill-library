@@ -38,13 +38,3 @@ demand-engine → lead-nurture → enablement-forge → customer-success
 ```
 customer-success → customer-advocacy → referral-program → community-catalyst
 ```
-
-## Install
-
-```bash
-# Install only the RevOps cluster (10 skills)
-cp -r revops-skills/* ~/.claude/skills/
-
-# Or use the installer to grab one
-python scripts/install.py install --skill customer-success --platform claude
-```
