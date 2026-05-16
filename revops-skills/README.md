@@ -42,6 +42,9 @@ customer-success → customer-advocacy → referral-program → community-cataly
 ## Install
 
 ```bash
-# Install just the RevOps cluster
-cp -r skills/revops/* ~/.claude/skills/
+# Install only the RevOps cluster (10 skills)
+cp -r revops-skills/* ~/.claude/skills/
+
+# Or use the installer to grab one
+python scripts/install.py install --skill customer-success --platform claude
 ```

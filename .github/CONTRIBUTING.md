@@ -11,7 +11,7 @@ Thank you for your interest in contributing to the AI GTM Skill Library.
 
 ## Skill Format
 
-Each skill lives in skills/<skill-name>/SKILL.md and follows this structure:
+Each skill lives in `gtm-skills/<skill-name>/SKILL.md` (or `revops-skills/<skill-name>/SKILL.md`) and follows this structure:
 
 - YAML frontmatter with 
 ame and description

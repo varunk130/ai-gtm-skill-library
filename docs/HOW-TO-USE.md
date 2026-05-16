@@ -36,26 +36,29 @@ git clone https://github.com/varunk130/ai-gtm-skill-library.git
 
 **Option A: Use the Python installer**
 ```bash
-# Install all skills to Claude Code
-python install.py install --platform claude
+# Install all 31 skills (both clusters) to Claude Code
+python scripts/install.py install --platform claude
 
 # Install all skills to GitHub Copilot
-python install.py install --platform copilot
+python scripts/install.py install --platform copilot
 
-# Install a single skill
-python install.py install --skill signal-radar --platform claude
+# Install a single skill (the installer searches both clusters)
+python scripts/install.py install --skill signal-radar    --platform claude
+python scripts/install.py install --skill customer-success --platform claude
 ```
 
 **Option B: Copy manually**
 
 For Claude Code:
 ```bash
-cp -r ai-gtm-skill-library/skills/* ~/.claude/skills/
+cp -r ai-gtm-skill-library/gtm-skills/*    ~/.claude/skills/
+cp -r ai-gtm-skill-library/revops-skills/* ~/.claude/skills/
 ```
 
 For GitHub Copilot:
 ```bash
-cp -r ai-gtm-skill-library/skills/* .github/skills/
+cp -r ai-gtm-skill-library/gtm-skills/*    .github/skills/
+cp -r ai-gtm-skill-library/revops-skills/* .github/skills/
 ```
 
 ### Step 3: Start Using Skills
