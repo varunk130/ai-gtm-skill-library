@@ -88,3 +88,27 @@ Save to `outputs/voice-of-customer-[scope]-[YYYY-MM-DD].md`
 | **Loop-Closure Protocol** | How and when customers are informed of action taken |
 | **VoC Operating Cadence** | Weekly triage, monthly review, quarterly roadmap sync |
 | **VoC Dashboard** | Theme volume, severity distribution, action SLA performance, NPS / CSAT trend, closed-loop rate |
+
+## Process
+
+1. **Inventory sources** and design the cadence; eliminate redundant surveys
+2. **Standardize the taxonomy** with PM, CS, and marketing co-sign
+3. **Score and prioritize** with a written rubric, leadership review monthly
+4. **Route to owners** with SLAs; track action time, not just intent
+5. **Close the loop** with every customer who raised an actioned theme
+6. **Refresh the taxonomy quarterly** — emergent themes deserve their own bucket
+
+## Tips
+
+1. **Survey fatigue is real** — cap touches per customer per quarter
+2. **Triangulate sources** — single-source insights are usually wrong
+3. **Behavioral data beats stated preference** — pair always
+4. **Loop closure is the most under-invested step** — and the highest-leverage one
+5. **VoC is a *system*** — one-off projects don't compound
+
+## Pairs With
+
+- **customer-success** — VoC themes feed CS risk plays and EBR agendas
+- **customer-analytics** — Behavioral data complements stated feedback
+- **journey-architect** — Stage tags align VoC with journey gates
+- **enablement-forge** — Updated objection handling responds to recurring VoC themes
