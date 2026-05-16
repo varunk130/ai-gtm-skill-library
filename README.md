@@ -2,18 +2,12 @@
 
 # 🚀 AI GTM Skill Library
 
-### The 20-Skill AI-Powered Go-To-Market Engine — including the new ABM playbook for Claude Code, GitHub Copilot & Cursor
+### A library of 31 opinionated GTM skills for Claude Code and GitHub Copilot
 
-[![Skills](https://img.shields.io/badge/Skills-19-blue?style=for-the-badge)](#-skills-catalog)
-[![Frameworks](https://img.shields.io/badge/Frameworks-19-green?style=for-the-badge)](#-skills-catalog)
+[![Skills](https://img.shields.io/badge/Skills-31-blue?style=for-the-badge)](#-skills-catalog)
+[![Frameworks](https://img.shields.io/badge/Frameworks-31-green?style=for-the-badge)](#-skills-catalog)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![How To Use](https://img.shields.io/badge/How_To_Use-Guide-purple?style=for-the-badge)](docs/HOW-TO-USE.md)
-[![Built with Claude Code](https://img.shields.io/badge/Built_with-Claude_Code-D97757?logo=anthropic&logoColor=white&style=for-the-badge)](https://claude.ai/code)
-[![GitHub Copilot](https://img.shields.io/badge/GitHub-Copilot-24292e?logo=github&logoColor=white&style=for-the-badge)](https://github.com/features/copilot)
-
-**Created and maintained by [Varun Kulkarni](https://github.com/varunk130)** · [⚡ Quickstart ↓](#-quickstart) · [Skills Catalog ↓](#-skills-catalog) · [How To Use](docs/HOW-TO-USE.md)
-
-**A curated library of skills for Claude Code and GitHub Copilot that gives AI-first GTM teams a structured, repeatable engine for every phase of go-to-market, from early market signal detection through post-launch retrospectives.** Each skill encodes a proprietary framework that transforms your AI coding assistant into a domain-specific GTM strategist, eliminating the gap between insight and execution.
 
 </div>
 
