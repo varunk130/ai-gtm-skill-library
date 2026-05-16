@@ -90,7 +90,7 @@ In Copilot Chat (VS Code, GitHub.com, or CLI), reference skills the same way. If
 @workspace Run the market-analyzer skill for the AI developer tools market
 
 @workspace Use the gtm-exec-plan skill to create a GTM strategy for 
-our new M365 Copilot extension targeting enterprise IT teams
+our new ACME Insight Studio extension targeting enterprise IT teams
 
 @workspace Run battle-scanner against Company A, Company B, and Company C
 ```

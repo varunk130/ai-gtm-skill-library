@@ -1,6 +1,6 @@
 ---
 name: gtm-exec-plan
-description: 'Creates a polished 3-4 page GTM executive brief and plan with a 4-slide PowerPoint deck. Orchestrates market analysis, positioning, competitive intel, channel strategy, and launch planning into exec-ready deliverables. Use when: GTM plan, go-to-market plan, GTM strategy, GTM brief, executive GTM plan, GTM deck, GTM presentation, launch plan deck, product GTM strategy, M365 Copilot extensibility GTM, new product GTM.'
+description: 'Creates a polished 3-4 page GTM executive brief and plan with a 4-slide PowerPoint deck. Orchestrates market analysis, positioning, competitive intel, channel strategy, and launch planning into exec-ready deliverables. Use when: GTM plan, go-to-market plan, GTM strategy, GTM brief, executive GTM plan, GTM deck, GTM presentation, launch plan deck, product GTM strategy, platform GTM, developer platform GTM, new product GTM.'
 ---
 
 # GTM Exec Plan (PRIME Framework)
@@ -10,7 +10,7 @@ Create a polished, executive-ready Go-To-Market brief (3-4 pages) and a 4-slide 
 ## When to Use
 - Presenting a GTM strategy to leadership or a steering committee
 - Kicking off a new product launch and need an executive-ready plan
-- Preparing a GTM strategy for a platform play (e.g., M365 Copilot extensibility, API ecosystem)
+- Preparing a GTM strategy for a platform play (e.g., ACME Insight Studio, API ecosystem)
 - Board or investor readiness for a go-to-market motion
 - Quarterly GTM refresh for an existing product line
 - Cross-functional alignment on a launch strategy
