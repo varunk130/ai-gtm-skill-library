@@ -11,7 +11,8 @@ import argparse
 from pathlib import Path
 
 
-SKILLS_DIR = Path(__file__).parent / "skills"
+REPO_ROOT = Path(__file__).resolve().parent.parent
+SKILLS_DIR = REPO_ROOT / "skills"
 
 CLAUDE_TARGET = Path.home() / ".claude" / "skills"
 COPILOT_TARGET = Path(".github") / "skills"
