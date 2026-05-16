@@ -78,3 +78,27 @@ Save to `outputs/customer-analytics-[scope]-[YYYY-MM-DD].md`
 | **Segment Behavior Matrix** | Behavior cohorts × outcome (retention, expansion, time-to-value) |
 | **Diagnostic Loop** | Weekly review template: anomaly → hypothesis → action → owner |
 | **Cohort Retention Curves** | M0–M12 retention by acquisition cohort and segment |
+
+## Process
+
+1. **Map lifecycle stages** with entry/exit criteria — agree with PM and CS before instrumenting
+2. **Define engagement score** with explicit weights; validate against historical churn
+3. **Decompose NRR** into a waterfall — every component reason-coded
+4. **Build behavioral cohorts** that predict outcomes better than firmographics
+5. **Stand up the diagnostic loop** — weekly anomaly review, owner assigned, action tracked
+6. **Wire cohort retention curves** into the executive cadence, not buried in a tool
+
+## Tips
+
+1. **Avoid vanity engagement metrics** — logins, page views, and DAU rarely predict retention
+2. **Validate the score against churn before deploying** — score that doesn't correlate is decoration
+3. **Segment behavior beats firmographic targeting** for retention plays
+4. **Treat contraction separately from churn** — different root causes, different fixes
+5. **Anomaly without action is noise** — every diagnostic must end with an owner
+
+## Pairs With
+
+- **journey-architect** — Lifecycle stages map directly to journey gates
+- **customer-success** — Health score consumes the engagement score
+- **growth-loop** — Retention curves feed loop-strength analysis
+- **revenue-analytics** — NRR decomposition rolls into revenue diagnostics
