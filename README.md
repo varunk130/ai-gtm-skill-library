@@ -54,11 +54,11 @@ The skills are organized into **5 strategic phases** that map to the full GTM li
 flowchart LR
     D["🔍 DISCOVER<br/>signal-radar<br/>whitespace-finder"]
     DE["📐 DESIGN<br/>market-analyzer<br/>journey-architect"]
-    P["🎯 POSITION<br/>position-lock · battle-scanner<br/>competitive-exec-brief"]
+    P["🎯 POSITION<br/>position-lock<br/>battle-scanner<br/>competitive-exec-brief"]
     L["🚀 LAUNCH<br/>launch-command<br/>product-announcement<br/>launch-debrief"]
-    A["📢 AMPLIFY<br/>demand-engine · enablement-forge<br/>partner-blueprint · community-catalyst"]
-    O["📊 OPTIMIZE<br/>budget-allocator<br/>launch-pulse · growth-loop"]
-    FS["🔄 flywheel-sync<br/>ORBIT system audit<br/>(bottleneck analysis across all 18)"]
+    A["📢 AMPLIFY<br/>demand-engine<br/>enablement-forge<br/>partner-blueprint<br/>community-catalyst"]
+    O["📊 OPTIMIZE<br/>budget-allocator<br/>launch-pulse<br/>growth-loop"]
+    FS["🔄 flywheel-sync<br/>ORBIT system audit<br/>(bottleneck analysis<br/>across all 18)"]
 
     D --> DE --> P --> L
     L --> A --> O
@@ -121,17 +121,17 @@ From first market signal to post-launch optimization, here is how the six phases
 
 ```mermaid
 flowchart TD
-    DISCOVER["🔍 DISCOVER\nSignal Radar · Whitespace Finder\n─────────────────────────\nDetect market signals and\nmap opportunity gaps"]
+    DISCOVER["🔍 <b>DISCOVER</b><br/>signal-radar<br/>whitespace-finder<br/><br/>Detect market signals<br/>and map opportunity gaps"]
 
-    DESIGN["📐 DESIGN\nMarket Analyzer · Journey Architect\n─────────────────────────\nSize the market and\nmap the buyer journey"]
+    DESIGN["📐 <b>DESIGN</b><br/>market-analyzer<br/>journey-architect<br/><br/>Size the market and<br/>map the buyer journey"]
 
-    POSITION["🎯 POSITION\nBattle Scanner · Competitive Exec Brief · Position Lock\n─────────────────────────\nBuild competitive intel and\nlock messaging at every level"]
+    POSITION["🎯 <b>POSITION</b><br/>battle-scanner<br/>competitive-exec-brief<br/>position-lock<br/><br/>Build competitive intel<br/>and lock messaging"]
 
-    AMPLIFY["📢 AMPLIFY\nDemand Engine · Enablement Forge · Partner Blueprint · Community Catalyst\n─────────────────────────\nActivate channels, arm sellers,\nand mobilize partners"]
+    AMPLIFY["📢 <b>AMPLIFY</b><br/>demand-engine<br/>enablement-forge<br/>partner-blueprint<br/>community-catalyst<br/><br/>Activate channels, arm sellers,<br/>and mobilize partners"]
 
-    LAUNCH["🚀 LAUNCH\nProduct Announcement · Launch Command  · Launch Debrief\n─────────────────────────\nOrchestrate launch execution\nand run retrospectives"]
+    LAUNCH["🚀 <b>LAUNCH</b><br/>product-announcement<br/>launch-command<br/>launch-debrief<br/><br/>Orchestrate launch execution<br/>and run retrospectives"]
 
-    OPTIMIZE["📊 OPTIMIZE\nBudget Allocator · Launch Pulse · Growth Loop\n─────────────────────────\nOptimize spend, measure impact,\nand drive retention"]
+    OPTIMIZE["📊 <b>OPTIMIZE</b><br/>budget-allocator<br/>launch-pulse<br/>growth-loop<br/><br/>Optimize spend, measure impact,<br/>and drive retention"]
 
     DISCOVER ==>|"Opportunity signals"| DESIGN
     DESIGN ==>|"Market & journey insights"| POSITION
