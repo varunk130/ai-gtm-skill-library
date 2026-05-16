@@ -85,7 +85,7 @@ Seven phases, 29 domain skills, plus 2 system skills (`flywheel-sync` audits the
 
 ---
 
-## 📋 Skills catalog
+## Skills catalog
 
 ### Discover (2)
 | Skill | Framework | Description |
@@ -237,7 +237,7 @@ ai-gtm-skill-library/
 
 ---
 
-## 🧠 Framework reference
+## Framework reference
 
 | Framework | Mnemonic | Core concept |
 |---|---|---|
