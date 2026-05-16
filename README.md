@@ -13,27 +13,6 @@
 
 ---
 
-## ⚡ Quickstart
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/varunk130/ai-gtm-skill-library.git
-
-# 2. Install all 31 skills for Claude Code
-mkdir -p ~/.claude/skills
-cp -r ai-gtm-skill-library/skills/* ~/.claude/skills/
-
-# 3. Restart Claude Code, then invoke a skill by name:
-#      signal-radar          — macro-market signal detection
-#      position-lock         — competitive positioning
-#      launch-command        — full launch orchestration
-#      flywheel-sync         — audit health of the full skill system
-```
-
-> First-time setup, GitHub Copilot integration, and FAQs are in the [How to Use Guide](docs/HOW-TO-USE.md).
-
----
-
 ## What this solves
 
 GTM teams produce the same artifacts over and over — positioning frameworks, launch plans, battle cards, renewal playbooks, forecast models, EBR decks. The work is often repeated from scratch because the playbook lives in someone's head, in a slide somewhere, or in last quarter's deck.
@@ -56,6 +35,27 @@ The result: the assistant produces the same caliber of artifact each time, in mi
 | **Sales & RevOps** | Pipeline forecasts, renewal playbooks, ARR analytics, and battle cards on demand |
 | **Customer success** | Health-score design, risk playbooks, EBR templates, and VoC operating cadence |
 | **Solo operators** | A senior GTM bench you can call by name through Claude Code or GitHub Copilot |
+
+---
+
+## Quickstart
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/varunk130/ai-gtm-skill-library.git
+
+# 2. Install all 31 skills for Claude Code
+mkdir -p ~/.claude/skills
+cp -r ai-gtm-skill-library/skills/* ~/.claude/skills/
+
+# 3. Restart Claude Code, then invoke a skill by name:
+#      signal-radar          — macro-market signal detection
+#      position-lock         — competitive positioning
+#      launch-command        — full launch orchestration
+#      flywheel-sync         — audit health of the full skill system
+```
+
+> First-time setup, GitHub Copilot integration, and FAQs are in the [How to Use Guide](docs/HOW-TO-USE.md).
 
 ---
 
