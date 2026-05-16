@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "total_skills": 31,
+  "clusters": [
+    {
+      "name": "gtm-skills",
+      "skill_count": 21,
+      "skills": [
+        {
+          "name": "abm-playbook",
+          "framework": "TIER",
+          "path": "gtm-skills/abm-playbook/SKILL.md",
+          "description": "Account-Based Marketing playbook builder \u2014 tiered account list (1:1, 1:few, 1:many), buying-group mapping, coordinated multi-channel plays per account, and pipeline acceleration plays for in-cycle accounts. Use when: ABM playbook, account-based marketing, target account list, tiered accounts, 1:1 marketing, buying group, named-account strategy, ABM plays, pipeline acceleration, in-cycle account acceleration.",
+          "use_when": [
+            "ABM playbook",
+            "account-based marketing",
+            "target account list",
+            "tiered accounts",
+            "1:1 marketing",
+            "buying group",
+            "named-account strategy",
+            "ABM plays",
+            "pipeline acceleration",
+            "in-cycle account acceleration"
+          ]
+        },
+        {
+          "name": "battle-scanner",
+          "framework": null,
+          "path": "gtm-skills/battle-scanner/SKILL.md",
+          "description": "Competitive intelligence engine that deconstructs competitor positioning, surfaces exploitable weaknesses, and predicts competitive responses. Use when: competitive analysis, competitor research, competitive landscape, competitive intelligence, who are our competitors, how do we compete against.",
+          "use_when": [
+            "competitive analysis",
+            "competitor research",
+            "competitive landscape",
+            "competitive intelligence",
+            "who are our competitors",
+            "how do we compete against"
+          ]
+        },
+        {
+          "name": "budget-allocator",
+          "framework": null,
+          "path": "gtm-skills/budget-allocator/SKILL.md",
+          "description": "Launch budget optimization using portfolio theory and scenario analysis with experimentation reserves. Use when: budget allocation, marketing budget, launch budget, how much to spend, budget planning, channel budget.",
+          "use_when": [
+            "budget allocation",
+            "marketing budget",
+            "launch budget",
+            "how much to spend",
+            "budget planning",
+            "channel budget"
+          ]
+        },
+        {
+          "name": "community-catalyst",
+          "framework": null,
+          "path": "gtm-skills/community-catalyst/SKILL.md",
+          "description": "Product-led growth and community strategy engine that designs viral loops, self-serve onboarding funnels, and user community programs. Use when: PLG strategy, product-led growth, community strategy, viral growth, referral program, developer community, user community, growth loops.",
+          "use_when": [
+            "PLG strategy",
+            "product-led growth",
+            "community strategy",
+            "viral growth",
+            "referral program",
+            "developer community",
+            "user community",
+            "growth loops"
+          ]
+        },
+        {
+          "name": "competitive-battlecard",
+          "framework": null,
+          "path": "gtm-skills/competitive-battlecard/SKILL.md",
+          "description": "On-demand sales battlecards for live competitive deals \u2014 positioning matrix, top objections with responses, trap questions, proof points, and a \"do not say\" list. Use when: competitor surfaced in deal, sales battlecard, competitive enablement, deal-specific battlecard, objection handling, competitive trap questions, why we win against, why we lose to, displacement playbook.",
+          "use_when": [
+            "competitor surfaced in deal",
+            "sales battlecard",
+            "competitive enablement",
+            "deal-specific battlecard",
+            "objection handling",
+            "competitive trap questions",
+            "why we win against",
+            "why we lose to",
+            "displacement playbook"
+          ]
+        },
+        {
+          "name": "competitive-exec-brief",
+          "framework": "SHARP",
+          "path": "gtm-skills/competitive-exec-brief/SKILL.md",
+          "description": "Creates an executive-ready competitive analysis brief with a 1-slide PPTX summary for leadership presentations. Use when: competitive brief, exec competitive summary, competitive slide, competitive pptx, board competitive update, leadership competitive briefing.",
+          "use_when": [
+            "competitive brief",
+            "exec competitive summary",
+            "competitive slide",
+            "competitive pptx",
+            "board competitive update",
+            "leadership competitive briefing"
+          ]
+        },
+        {
+          "name": "demand-engine",
+          "framework": null,
+          "path": "gtm-skills/demand-engine/SKILL.md",
+          "description": "Multi-channel demand generation strategy builder that designs the full pipeline from awareness to hand-raise with channel scoring and budget allocation. Use when: demand generation, demand gen strategy, lead generation, pipeline strategy, marketing channels, how do we generate demand, channel strategy.",
+          "use_when": [
+            "demand generation",
+            "demand gen strategy",
+            "lead generation",
+            "pipeline strategy",
+            "marketing channels",
+            "how do we generate demand",
+            "channel strategy"
+          ]
+        },
+        {
+          "name": "enablement-forge",
+          "framework": "CRAFT",
+          "path": "gtm-skills/enablement-forge/SKILL.md",
+          "description": "Sales and marketing enablement asset creation system that generates structured materials from pitch decks to objection handlers to ROI calculators. Use when: sales enablement, create battle cards, pitch deck, sales assets, talk tracks, objection handling, sales collateral, marketing assets.",
+          "use_when": [
+            "sales enablement",
+            "create battle cards",
+            "pitch deck",
+            "sales assets",
+            "talk tracks",
+            "objection handling",
+            "sales collateral",
+            "marketing assets"
+          ]
+        },
+        {
+          "name": "flywheel-sync",
+          "framework": "ORBIT",
+          "path": "gtm-skills/flywheel-sync/SKILL.md",
+          "description": "Meta-skill that audits health of the entire product launch engine, identifies broken links between phases, and generates improvement roadmaps. Use when: system health, skill audit, launch engine health, are our skills working together, process audit, workflow health check.",
+          "use_when": [
+            "system health",
+            "skill audit",
+            "launch engine health",
+            "are our skills working together",
+            "process audit",
+            "workflow health check"
+          ]
+        },
+        {
+          "name": "growth-loop",
+          "framework": "ANCHOR",
+          "path": "gtm-skills/growth-loop/SKILL.md",
+          "description": "Retention, expansion, and advocacy strategy that maximizes customer lifetime value through structured lifecycle programs. Use when: retention strategy, customer retention, expansion strategy, churn prevention, customer success, NRR, upsell, advocacy program.",
+          "use_when": [
+            "retention strategy",
+            "customer retention",
+            "expansion strategy",
+            "churn prevention",
+            "customer success",
+            "NRR",
+            "upsell",
+            "advocacy program"
+          ]
+        },
+        {
+          "name": "gtm-exec-plan",
+          "framework": "PRIME",
+          "path": "gtm-skills/gtm-exec-plan/SKILL.md",
+          "description": "Creates a polished 3-4 page GTM executive brief and plan with a 4-slide PowerPoint deck. Orchestrates market analysis, positioning, competitive intel, channel strategy, and launch planning into exec-ready deliverables. Use when: GTM plan, go-to-market plan, GTM strategy, GTM brief, executive GTM plan, GTM deck, GTM presentation, launch plan deck, product GTM strategy, platform GTM, developer platform GTM, new product GTM.",
+          "use_when": [
+            "GTM plan",
+            "go-to-market plan",
+            "GTM strategy",
+            "GTM brief",
+            "executive GTM plan",
+            "GTM deck",
+            "GTM presentation",
+            "launch plan deck",
+            "product GTM strategy",
+            "platform GTM",
+            "developer platform GTM",
+            "new product GTM"
+          ]
+        },
+        {
+          "name": "journey-architect",
+          "framework": null,
+          "path": "gtm-skills/journey-architect/SKILL.md",
+          "description": "End-to-end customer journey mapping engine with gated progression model that designs every touchpoint from awareness through advocacy. Use when: customer journey, buyer journey, journey map, touchpoints, conversion funnel, buying process, customer experience mapping.",
+          "use_when": [
+            "customer journey",
+            "buyer journey",
+            "journey map",
+            "touchpoints",
+            "conversion funnel",
+            "buying process",
+            "customer experience mapping"
+          ]
+        },
+        {
+          "name": "launch-command",
+          "framework": "IGNITE",
+          "path": "gtm-skills/launch-command/SKILL.md",
+          "description": "Launch orchestration and readiness assessment engine with cross-functional workstream tracking and go/no-go gates. Use when: launch readiness, launch checklist, launch orchestration, go no go, launch plan, are we ready to launch.",
+          "use_when": [
+            "launch readiness",
+            "launch checklist",
+            "launch orchestration",
+            "go no go",
+            "launch plan",
+            "are we ready to launch"
+          ]
+        },
+        {
+          "name": "launch-debrief",
+          "framework": "MIRROR",
+          "path": "gtm-skills/launch-debrief/SKILL.md",
+          "description": "Structured post-launch retrospective that produces quantified learnings and improvement playbooks. Use when: launch retrospective, post-launch review, what worked, launch debrief, post-mortem, lessons learned.",
+          "use_when": [
+            "launch retrospective",
+            "post-launch review",
+            "what worked",
+            "launch debrief",
+            "post-mortem",
+            "lessons learned"
+          ]
+        },
+        {
+          "name": "launch-pulse",
+          "framework": null,
+          "path": "gtm-skills/launch-pulse/SKILL.md",
+          "description": "GTM analytics and measurement framework that builds metrics architecture, dashboard specs, and alert systems. Use when: GTM metrics, launch metrics, measurement framework, KPIs, dashboard design, what should we measure, analytics framework.",
+          "use_when": [
+            "GTM metrics",
+            "launch metrics",
+            "measurement framework",
+            "KPIs",
+            "dashboard design",
+            "what should we measure",
+            "analytics framework"
+          ]
+        },
+        {
+          "name": "market-analyzer",
+          "framework": "SCOPE",
+          "path": "gtm-skills/market-analyzer/SKILL.md",
+          "description": "Comprehensive market analysis and sizing engine that goes beyond TAM/SAM/SOM to include growth drivers, risk factors, segment dynamics, and investment-grade market maps. Use when: market analysis, market sizing, market research, industry analysis, segment analysis, market opportunity, market landscape, how big is this market.",
+          "use_when": [
+            "market analysis",
+            "market sizing",
+            "market research",
+            "industry analysis",
+            "segment analysis",
+            "market opportunity",
+            "market landscape",
+            "how big is this market"
+          ]
+        },
+        {
+          "name": "partner-blueprint",
+          "framework": "BRIDGE",
+          "path": "gtm-skills/partner-blueprint/SKILL.md",
+          "description": "Partner and channel strategy architect that identifies, scores, and structures partnerships with mutual value propositions and co-GTM plans. Use when: partner strategy, channel partners, partnership, co-marketing, reseller strategy, integration partners, ecosystem strategy.",
+          "use_when": [
+            "partner strategy",
+            "channel partners",
+            "partnership",
+            "co-marketing",
+            "reseller strategy",
+            "integration partners",
+            "ecosystem strategy"
+          ]
+        },
+        {
+          "name": "position-lock",
+          "framework": "PRISM",
+          "path": "gtm-skills/position-lock/SKILL.md",
+          "description": "Brand positioning and messaging architecture engine that creates a defensible market position with cascading message hierarchy from tagline to feature copy. Use when: positioning, messaging, brand positioning, value proposition, messaging framework, how do we position, what is our message.",
+          "use_when": [
+            "positioning",
+            "messaging",
+            "brand positioning",
+            "value proposition",
+            "messaging framework",
+            "how do we position",
+            "what is our message"
+          ]
+        },
+        {
+          "name": "product-announcement",
+          "framework": "HERALD",
+          "path": "gtm-skills/product-announcement/SKILL.md",
+          "description": "Product announcement and launch communications generator that creates coordinated multi-channel launch messaging from press releases to social posts to internal comms. Use when: product announcement, launch announcement, product launch comms, press release, launch communications, announce new feature, announce new product.",
+          "use_when": [
+            "product announcement",
+            "launch announcement",
+            "product launch comms",
+            "press release",
+            "launch communications",
+            "announce new feature",
+            "announce new product"
+          ]
+        },
+        {
+          "name": "signal-radar",
+          "framework": "PULSE",
+          "path": "gtm-skills/signal-radar/SKILL.md",
+          "description": "Continuous macro-market signal detection and classification engine that surfaces emerging trends, threats, and whitespace opportunities. Use when: market signals, market intelligence, trend analysis, emerging threats, market monitoring, what is changing in our market.",
+          "use_when": [
+            "market signals",
+            "market intelligence",
+            "trend analysis",
+            "emerging threats",
+            "market monitoring",
+            "what is changing in our market"
+          ]
+        },
+        {
+          "name": "whitespace-finder",
+          "framework": null,
+          "path": "gtm-skills/whitespace-finder/SKILL.md",
+          "description": "Systematic unmet-needs discovery engine that maps gaps between market demand and existing solutions with quantified opportunity scores. Use when: find opportunities, unmet needs, market gaps, opportunity discovery, what should we build, where is the whitespace.",
+          "use_when": [
+            "find opportunities",
+            "unmet needs",
+            "market gaps",
+            "opportunity discovery",
+            "what should we build",
+            "where is the whitespace"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "revops-skills",
+      "skill_count": 10,
+      "skills": [
+        {
+          "name": "customer-advocacy",
+          "framework": "AMPLIFY",
+          "path": "revops-skills/customer-advocacy/SKILL.md",
+          "description": "Customer advocacy program design \u2014 advocate identification, reference orchestration, case study pipeline, community amplification, and influence-to-revenue attribution. Use when: customer advocacy, customer reference program, case study program, advocate identification, customer marketing, peer review acceleration, G2 / Gartner Peer Insights, customer-led growth, reference architecture.",
+          "use_when": [
+            "customer advocacy",
+            "customer reference program",
+            "case study program",
+            "advocate identification",
+            "customer marketing",
+            "peer review acceleration",
+            "G2 / Gartner Peer Insights",
+            "customer-led growth",
+            "reference architecture"
+          ]
+        },
+        {
+          "name": "customer-analytics",
+          "framework": "LENS",
+          "path": "revops-skills/customer-analytics/SKILL.md",
+          "description": "Customer analytics framework \u2014 cohort retention, lifecycle funnels, engagement scoring, segmentation, and behavioral diagnostics for product and CS teams. Use when: customer analytics, cohort analysis, retention curve, engagement score, customer segmentation, behavioral analysis, lifecycle funnel, RFM, activation diagnostics, usage analysis.",
+          "use_when": [
+            "customer analytics",
+            "cohort analysis",
+            "retention curve",
+            "engagement score",
+            "customer segmentation",
+            "behavioral analysis",
+            "lifecycle funnel",
+            "RFM",
+            "activation diagnostics",
+            "usage analysis"
+          ]
+        },
+        {
+          "name": "customer-success",
+          "framework": "THRIVE",
+          "path": "revops-skills/customer-success/SKILL.md",
+          "description": "Customer Success operating system \u2014 segmented coverage model, health scoring, risk playbooks, value reviews, and expansion motions tied to net revenue retention. Use when: customer success strategy, CS operating model, health score, risk playbook, EBR / QBR design, churn prevention, net retention, NRR, GRR, success plan, value realization, customer journey post-sale.",
+          "use_when": [
+            "customer success strategy",
+            "CS operating model",
+            "health score",
+            "risk playbook",
+            "EBR / QBR design",
+            "churn prevention",
+            "net retention",
+            "NRR",
+            "GRR",
+            "success plan",
+            "value realization",
+            "customer journey post-sale"
+          ]
+        },
+        {
+          "name": "lead-nurture",
+          "framework": "NURTURE",
+          "path": "revops-skills/lead-nurture/SKILL.md",
+          "description": "Lead nurture orchestration \u2014 multi-track nurture design by intent stage, scoring, behavioral triggers, MQL\u2192SQL handoff, and revival of cold leads. Use when: lead nurture, drip campaign, nurture track, lead scoring, MQL to SQL, lifecycle marketing, nurture sequence, behavioral trigger, lead revival, MQL handoff.",
+          "use_when": [
+            "lead nurture",
+            "drip campaign",
+            "nurture track",
+            "lead scoring",
+            "MQL to SQL",
+            "lifecycle marketing",
+            "nurture sequence",
+            "behavioral trigger",
+            "lead revival",
+            "MQL handoff"
+          ]
+        },
+        {
+          "name": "loyalty-lifecycle",
+          "framework": "BOND",
+          "path": "revops-skills/loyalty-lifecycle/SKILL.md",
+          "description": "Customer loyalty and lifecycle orchestration \u2014 tiered loyalty design, lifecycle journey programs, milestone triggers, and retention economics for B2B and B2C. Use when: loyalty program, customer lifecycle program, tiered loyalty, milestone marketing, retention program design, lifecycle journey, loyalty economics, member tiers, retention motion.",
+          "use_when": [
+            "loyalty program",
+            "customer lifecycle program",
+            "tiered loyalty",
+            "milestone marketing",
+            "retention program design",
+            "lifecycle journey",
+            "loyalty economics",
+            "member tiers",
+            "retention motion"
+          ]
+        },
+        {
+          "name": "referral-program",
+          "framework": "RIPPLE",
+          "path": "revops-skills/referral-program/SKILL.md",
+          "description": "Referral program design \u2014 referrer / referee incentive structure, viral mechanics, fraud and abuse controls, attribution, and channel placement. Use when: referral program, refer a friend, viral loop design, K-factor, advocacy referrals, partner referrals, customer referral incentives, referral attribution, viral coefficient.",
+          "use_when": [
+            "referral program",
+            "refer a friend",
+            "viral loop design",
+            "K-factor",
+            "advocacy referrals",
+            "partner referrals",
+            "customer referral incentives",
+            "referral attribution",
+            "viral coefficient"
+          ]
+        },
+        {
+          "name": "renewal-orchestration",
+          "framework": "RENEW",
+          "path": "revops-skills/renewal-orchestration/SKILL.md",
+          "description": "Renewal orchestration playbook \u2014 risk identification, renewal motion design, multi-thread engagement, commercial negotiation, and expansion-at-renewal plays. Use when: renewal playbook, renewal forecast, renewal risk, multi-year renewal, NRR, GRR, churn save, contract negotiation, expansion at renewal, renewal handoff.",
+          "use_when": [
+            "renewal playbook",
+            "renewal forecast",
+            "renewal risk",
+            "multi-year renewal",
+            "NRR",
+            "GRR",
+            "churn save",
+            "contract negotiation",
+            "expansion at renewal",
+            "renewal handoff"
+          ]
+        },
+        {
+          "name": "revenue-analytics",
+          "framework": "LADDER",
+          "path": "revops-skills/revenue-analytics/SKILL.md",
+          "description": "Revenue analytics architecture \u2014 ARR / NRR / GRR decomposition, cohort retention, expansion drivers, segment economics, and CAC payback diagnostics. Use when: revenue analytics, ARR waterfall, NRR analysis, GRR, expansion analysis, cohort revenue retention, CAC payback, magic number, segment economics, revenue diagnostics.",
+          "use_when": [
+            "revenue analytics",
+            "ARR waterfall",
+            "NRR analysis",
+            "GRR",
+            "expansion analysis",
+            "cohort revenue retention",
+            "CAC payback",
+            "magic number",
+            "segment economics",
+            "revenue diagnostics"
+          ]
+        },
+        {
+          "name": "revenue-forecasting",
+          "framework": "FORECAST",
+          "path": "revops-skills/revenue-forecasting/SKILL.md",
+          "description": "Revenue forecasting pipeline \u2014 bottoms-up pipeline forecast, tops-down model, ensemble blending, scenario analysis, and forecast calibration loop. Use when: revenue forecast, sales forecast, pipeline forecast, bookings forecast, NRR forecast, ARR forecast, forecast calibration, scenario planning, ensemble forecasting, board forecast.",
+          "use_when": [
+            "revenue forecast",
+            "sales forecast",
+            "pipeline forecast",
+            "bookings forecast",
+            "NRR forecast",
+            "ARR forecast",
+            "forecast calibration",
+            "scenario planning",
+            "ensemble forecasting",
+            "board forecast"
+          ]
+        },
+        {
+          "name": "voice-of-customer",
+          "framework": "ECHO",
+          "path": "revops-skills/voice-of-customer/SKILL.md",
+          "description": "Voice of Customer program \u2014 multi-source signal collection, theming and prioritization, evidence-to-action routing, and product / CS / marketing feedback loop closure. Use when: voice of customer, VoC program, customer feedback, NPS / CSAT / CES, qualitative theming, feedback synthesis, product feedback loop, customer insight engine.",
+          "use_when": [
+            "voice of customer",
+            "VoC program",
+            "customer feedback",
+            "NPS / CSAT / CES",
+            "qualitative theming",
+            "feedback synthesis",
+            "product feedback loop",
+            "customer insight engine"
+          ]
+        }
+      ]
+    }
+  ]
+}
