@@ -4,8 +4,8 @@
 
 ### A library of 31 opinionated GTM skills for Claude Code and GitHub Copilot
 
-[![Skills](https://img.shields.io/badge/Skills-31-blue?style=for-the-badge)](#-skills-catalog)
-[![Frameworks](https://img.shields.io/badge/Frameworks-31-green?style=for-the-badge)](#-skills-catalog)
+[![Skills](https://img.shields.io/badge/Skills-31-blue?style=for-the-badge)](#skills-catalog)
+[![Frameworks](https://img.shields.io/badge/Frameworks-31-green?style=for-the-badge)](#framework-reference)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![How To Use](https://img.shields.io/badge/How_To_Use-Guide-purple?style=for-the-badge)](docs/HOW-TO-USE.md)
 
@@ -57,8 +57,6 @@ cp -r ai-gtm-skill-library/revops-skills/* ~/.claude/skills/
 ```
 
 > First-time setup, GitHub Copilot integration, and FAQs are in the [How to Use Guide](docs/HOW-TO-USE.md).
-
----
 
 ---
 
