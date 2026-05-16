@@ -87,3 +87,27 @@ Save to `outputs/renewal-orchestration-[segment]-[YYYY-MM-DD].md`
 | **Value Realization Pack Template** | Outcome evidence + ROI presentation |
 | **Expansion Play Library** | Triggers → plays → AE/CSM ownership |
 | **Renewal Dashboard** | Risk distribution, renewal cohort GRR/NRR, save rate, expansion-at-renewal % |
+
+## Process
+
+1. **Build the risk score** with weighted signals; validate against historical churn
+2. **Codify the T-180 → T+30 timeline** with owners and SLAs
+3. **Pre-decide posture** at the segment level, not deal-by-deal
+4. **Write walk-away conditions** with finance and exec alignment
+5. **Standardize the value pack** so every CSM produces consistent evidence
+6. **Build the expansion play library** with explicit AE handoff rules
+
+## Tips
+
+1. **Late risk identification is the #1 churn driver** — instrument T-180 baseline
+2. **The redline is not the negotiation** — the negotiation is at the value pack
+3. **Multi-year discounts must be earned**, not given to close
+4. **Auto-renew is a privilege**, not a default; revoke when trust erodes
+5. **Always debrief renewals** — wins and losses both teach pricing posture
+
+## Pairs With
+
+- **customer-success** — Health score feeds the risk score
+- **revenue-analytics** — NRR / GRR diagnostics rolls renewal outcomes
+- **enablement-forge** — Builds the value realization pack and EBR templates
+- **revenue-forecasting** — Renewal-stage probability informs the forecast
