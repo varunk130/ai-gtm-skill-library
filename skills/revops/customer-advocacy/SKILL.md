@@ -91,3 +91,27 @@ Save to `outputs/customer-advocacy-[motion]-[YYYY-MM-DD].md`
 | **Advocate Library Schema** | Fields, SLA for sales requests, fatigue rules |
 | **Attribution Model** | Tagging spec + uplift measurement design |
 | **Pipeline Dashboard** | Active advocates by motion / segment, fatigue heatmap, request SLA performance |
+
+## Process
+
+1. **Define qualification** with a written rubric — not vibes
+2. **Pick motions** matched to current GTM needs; don't try to run all seven at once
+3. **Design the reward system** with professional capital as the lead category
+4. **Stand up the library** with disciplined fatigue and request SLAs
+5. **Build attribution tagging** before launching motions, not after
+6. **Run yield analysis quarterly** and rotate motions / segments
+
+## Tips
+
+1. **Cap asks per advocate per quarter** — fatigue silently destroys advocate programs
+2. **Tier rewards** so entry motions are easy to participate in
+3. **Never ask an at-risk customer to advocate** — coordinate with CS
+4. **Sales SLA on references** is the program's most visible KPI
+5. **Case study production is a pipeline**, not a one-off project
+
+## Pairs With
+
+- **customer-success** — Source of qualified candidates and health gating
+- **community-catalyst** — Hosts and amplifies advocacy motions
+- **enablement-forge** — Produces the case study and reference assets
+- **demand-engine** — Distributes advocacy assets across channels
