@@ -40,162 +40,108 @@ Each skill produces a structured, evidence-based artifact in minutes — a posit
 
 ---
 
-## 🏗️ Ecosystem Architecture
-
-The skills are organized into **5 strategic phases** that map to the full GTM lifecycle:
+## Lifecycle overview
 
 ```mermaid
 flowchart LR
-    D["🔍 DISCOVER<br/>signal-radar<br/>whitespace-finder"]
-    DE["📐 DESIGN<br/>market-analyzer<br/>journey-architect"]
-    P["🎯 POSITION<br/>position-lock<br/>battle-scanner<br/>competitive-exec-brief"]
-    L["🚀 LAUNCH<br/>launch-command<br/>product-announcement<br/>launch-debrief"]
-    A["📢 AMPLIFY<br/>demand-engine<br/>enablement-forge<br/>partner-blueprint<br/>community-catalyst"]
-    O["📊 OPTIMIZE<br/>budget-allocator<br/>launch-pulse<br/>growth-loop"]
-    FS["🔄 flywheel-sync<br/>ORBIT system audit<br/>(bottleneck analysis<br/>across all 18)"]
+    D[Discover<br/>2 skills]:::p1 --> DE[Design<br/>2 skills]:::p2 --> P[Position<br/>4 skills]:::p3 --> A[Amplify<br/>5 skills]:::p4 --> L[Launch<br/>3 skills]:::p5 --> O[Optimize<br/>3 skills]:::p6 --> R[RevOps<br/>10 skills]:::p7
+    R -.-> D
+    FS[flywheel-sync · gtm-exec-plan<br/>system + orchestrator]:::sys
+    FS -.- D & DE & P & A & L & O & R
 
-    D --> DE --> P --> L
-    L --> A --> O
-    O -.-> D
-    FS -.-> D
-    FS -.-> DE
-    FS -.-> P
-    FS -.-> L
-    FS -.-> A
-    FS -.-> O
-
-    classDef discover fill:#0078D4,color:#fff,stroke:#005A9E,stroke-width:2px,rx:8,ry:8
-    classDef design fill:#5C2D91,color:#fff,stroke:#412066,stroke-width:2px,rx:8,ry:8
-    classDef position fill:#E81123,color:#fff,stroke:#A80000,stroke-width:2px,rx:8,ry:8
-    classDef launch fill:#EE7100,color:#fff,stroke:#B85800,stroke-width:2px,rx:8,ry:8
-    classDef amplify fill:#107C10,color:#fff,stroke:#0B6A0B,stroke-width:2px,rx:8,ry:8
-    classDef optimize fill:#107C10,color:#fff,stroke:#0B6A0B,stroke-width:2px,rx:8,ry:8
-    classDef sync fill:#B4009E,color:#fff,stroke:#8C0078,stroke-width:2px,rx:8,ry:8
-    class D discover
-    class DE design
-    class P position
-    class L launch
-    class A amplify
-    class O optimize
-    class FS sync
+    classDef p1 fill:#0078D4,color:#fff,stroke:#005A9E
+    classDef p2 fill:#00B7C3,color:#fff,stroke:#008B94
+    classDef p3 fill:#5C2D91,color:#fff,stroke:#451F6E
+    classDef p4 fill:#FF8C00,color:#fff,stroke:#CC7000
+    classDef p5 fill:#D13438,color:#fff,stroke:#A4262C
+    classDef p6 fill:#107C10,color:#fff,stroke:#0B6A0B
+    classDef p7 fill:#8764B8,color:#fff,stroke:#5C4399
+    classDef sys fill:#B4009E,color:#fff,stroke:#8C0078
 ```
+
+Seven phases, 29 domain skills, plus 2 system skills (`flywheel-sync` audits the system, `gtm-exec-plan` orchestrates an executive deliverable).
 
 ---
 
-## 📋 Skills Catalog
+## 📋 Skills catalog
 
-| # | Skill | Framework | Phase | Description |
-|---|-------|-----------|-------|-------------|
-| 1 | Signal Radar | `PULSE` | Discover | Macro-market signal detection: tech shifts, regulatory changes, buyer behavior, ecosystem dynamics |
-| 2 | Whitespace Finder | `DEPTH` | Discover | Maps gaps between market demand and existing solutions with opportunity scoring |
-| 3 | Market Analyzer | `SCOPE` | Design | Investment-grade market analysis beyond TAM/SAM/SOM with segment deep dives |
-| 4 | Journey Architect | `7-GATE` | Design | End-to-end customer journey with gated progression and friction scoring |
-| 5 | Battle Scanner | `ARMOR` | Position | Competitive intelligence with response prediction and battle cards |
-| 6 | Competitive Exec Brief | `SHARP` | Position | Executive-ready competitive brief with 1-slide PPTX output |
-| 7 | Position Lock | `PRISM` | Position | Brand positioning architecture with L0-L5 message cascade |
-| 8 | Demand Engine | `WAVE` | Amplify | Multi-channel demand gen strategy with channel scoring and budget allocation |
-| 9 | Enablement Forge | `CRAFT` | Amplify | Sales/marketing asset creation from pitch decks to objection handlers |
-| 10 | Partner Blueprint | `BRIDGE` | Amplify | Partner strategy: identify, score, and structure partnerships with co-GTM plans |
-| 11 | Community Catalyst | `LOOP` | Amplify | PLG and community strategy with viral loops and K-factor modeling |
-| 12 | Product Announcement | `HERALD` | Launch | Coordinated multi-channel launch comms from press release to social to internal |
-| 13 | Launch Command | `IGNITE` | Launch | Launch orchestration with 8 workstreams, 4 gates, and go/no-go scoring |
-| 14 | Budget Allocator | `APEX` | Optimize | Budget optimization with portfolio theory, scenario analysis, experiment reserves |
-| 15 | Launch Pulse | `VITAL` | Optimize | GTM analytics architecture: metrics pyramid, dashboards, alerts, attribution |
-| 16 | Growth Loop | `ANCHOR` | Optimize | Retention and expansion strategy with health scoring and advocacy programs |
-| 17 | Launch Debrief | `MIRROR` | Launch | Post-launch retrospective with 5-Whys root cause and improvement scoring |
-| 18 | Flywheel Sync | `ORBIT` | System | Audits health of the entire skill system with bottleneck analysis |
-| 19 | **GTM Exec Plan** | **`PRIME`** | **Orchestrator** | **Creates a polished 3-4 page GTM exec brief and a 4-slide PowerPoint deck** |
-| 20 | Competitive Battlecard | `BATTLE` | Position | On-demand sales battlecards for live deals: positioning matrix, top objections + responses, trap questions, "do not say" list |
+### Discover (2)
+| Skill | Framework | Description |
+|---|---|---|
+| [signal-radar](./skills/signal-radar/SKILL.md) | `PULSE` | Macro-market signal detection across tech, regulatory, buyer, ecosystem, cultural vectors |
+| [whitespace-finder](./skills/whitespace-finder/SKILL.md) | `DEPTH` | Maps gaps between market demand and existing solutions with opportunity scoring |
+
+### Design (2)
+| Skill | Framework | Description |
+|---|---|---|
+| [market-analyzer](./skills/market-analyzer/SKILL.md) | `SCOPE` | Investment-grade market analysis beyond TAM/SAM/SOM with segment deep dives |
+| [journey-architect](./skills/journey-architect/SKILL.md) | `7-GATE` | End-to-end customer journey with gated progression and friction scoring |
+
+### Position (4)
+| Skill | Framework | Description |
+|---|---|---|
+| [position-lock](./skills/position-lock/SKILL.md) | `PRISM` | Brand positioning architecture with L0–L5 message cascade |
+| [battle-scanner](./skills/battle-scanner/SKILL.md) | `ARMOR` | Competitive intelligence with response prediction and battle cards |
+| [competitive-exec-brief](./skills/competitive-exec-brief/SKILL.md) | `SHARP` | Executive-ready competitive brief with 1-slide PPTX output |
+| [competitive-battlecard](./skills/competitive-battlecard/SKILL.md) | `BATTLE` | On-demand sales battlecards: objections, trap questions, "do not say" list |
+
+### Amplify (5)
+| Skill | Framework | Description |
+|---|---|---|
+| [demand-engine](./skills/demand-engine/SKILL.md) | `WAVE` | Multi-channel demand-gen strategy with channel scoring and budget allocation |
+| [enablement-forge](./skills/enablement-forge/SKILL.md) | `CRAFT` | Sales / marketing asset creation from pitch decks to objection handlers |
+| [partner-blueprint](./skills/partner-blueprint/SKILL.md) | `BRIDGE` | Partner strategy: identify, score, and structure partnerships with co-GTM plans |
+| [community-catalyst](./skills/community-catalyst/SKILL.md) | `LOOP` | PLG and community strategy with viral loops and K-factor modeling |
+| [abm-playbook](./skills/abm-playbook/SKILL.md) | `TIER` | ABM playbook: tiered account list, buying-group maps, coordinated plays |
+
+### Launch (3)
+| Skill | Framework | Description |
+|---|---|---|
+| [launch-command](./skills/launch-command/SKILL.md) | `IGNITE` | Launch orchestration with 8 workstreams, 4 gates, and go/no-go scoring |
+| [product-announcement](./skills/product-announcement/SKILL.md) | `HERALD` | Coordinated multi-channel launch comms — press, social, internal |
+| [launch-debrief](./skills/launch-debrief/SKILL.md) | `MIRROR` | Post-launch retrospective with 5-Whys root cause and improvement scoring |
+
+### Optimize (3)
+| Skill | Framework | Description |
+|---|---|---|
+| [budget-allocator](./skills/budget-allocator/SKILL.md) | `APEX` | Budget optimization with portfolio theory, scenarios, experiment reserves |
+| [launch-pulse](./skills/launch-pulse/SKILL.md) | `VITAL` | GTM analytics architecture: metrics pyramid, dashboards, alerts, attribution |
+| [growth-loop](./skills/growth-loop/SKILL.md) | `ANCHOR` | Retention and expansion strategy with health scoring and advocacy programs |
+
+### RevOps (10)
+| Skill | Framework | Description |
+|---|---|---|
+| [customer-success](./skills/revops/customer-success/SKILL.md) | `THRIVE` | Coverage tiering, health scoring, risk playbooks, expansion motion |
+| [customer-analytics](./skills/revops/customer-analytics/SKILL.md) | `LENS` | Lifecycle, engagement scoring, NRR decomposition, segment behavior |
+| [customer-advocacy](./skills/revops/customer-advocacy/SKILL.md) | `AMPLIFY` | Reference / case study / review pipeline + influence-to-revenue attribution |
+| [lead-nurture](./skills/revops/lead-nurture/SKILL.md) | `NURTURE` | Multi-track nurture, scoring, MQL→SQL handoff, cold-lead revival |
+| [loyalty-lifecycle](./skills/revops/loyalty-lifecycle/SKILL.md) | `BOND` | Tiered loyalty, lifecycle journeys, retention economics |
+| [referral-program](./skills/revops/referral-program/SKILL.md) | `RIPPLE` | Viral-loop design, K-factor, fraud / cannibalization controls |
+| [renewal-orchestration](./skills/revops/renewal-orchestration/SKILL.md) | `RENEW` | T-180 risk scoring, multi-thread engagement, expansion-at-renewal |
+| [revenue-analytics](./skills/revops/revenue-analytics/SKILL.md) | `LADDER` | ARR waterfall, leading indicators, drivers, CAC payback |
+| [revenue-forecasting](./skills/revops/revenue-forecasting/SKILL.md) | `FORECAST` | Bottoms-up + tops-down ensemble + calibration loop |
+| [voice-of-customer](./skills/revops/voice-of-customer/SKILL.md) | `ECHO` | Multi-source signal, theming, prioritization, loop closure |
+
+### System & orchestration (2)
+| Skill | Framework | Description |
+|---|---|---|
+| [flywheel-sync](./skills/flywheel-sync/SKILL.md) | `ORBIT` | Audits the full skill system, identifies bottlenecks, produces a fix roadmap |
+| [gtm-exec-plan](./skills/gtm-exec-plan/SKILL.md) | `PRIME` | Produces a 3–4 page executive GTM brief and a 4-slide PowerPoint deck |
 
 ---
 
-## 🔄 Workflow: Full GTM Lifecycle
+## Common workflows
 
-From first market signal to post-launch optimization, here is how the six phases connect:
-
-```mermaid
-flowchart TD
-    DISCOVER["🔍 <b>DISCOVER</b><br/>signal-radar<br/>whitespace-finder<br/><br/>Detect market signals<br/>and map opportunity gaps"]
-
-    DESIGN["📐 <b>DESIGN</b><br/>market-analyzer<br/>journey-architect<br/><br/>Size the market and<br/>map the buyer journey"]
-
-    POSITION["🎯 <b>POSITION</b><br/>battle-scanner<br/>competitive-exec-brief<br/>position-lock<br/><br/>Build competitive intel<br/>and lock messaging"]
-
-    AMPLIFY["📢 <b>AMPLIFY</b><br/>demand-engine<br/>enablement-forge<br/>partner-blueprint<br/>community-catalyst<br/><br/>Activate channels, arm sellers,<br/>and mobilize partners"]
-
-    LAUNCH["🚀 <b>LAUNCH</b><br/>product-announcement<br/>launch-command<br/>launch-debrief<br/><br/>Orchestrate launch execution<br/>and run retrospectives"]
-
-    OPTIMIZE["📊 <b>OPTIMIZE</b><br/>budget-allocator<br/>launch-pulse<br/>growth-loop<br/><br/>Optimize spend, measure impact,<br/>and drive retention"]
-
-    DISCOVER ==>|"Opportunity signals"| DESIGN
-    DESIGN ==>|"Market & journey insights"| POSITION
-    POSITION ==>|"Messaging & competitive edge"| AMPLIFY
-    AMPLIFY ==>|"Enabled channels & assets"| LAUNCH
-    LAUNCH ==>|"Performance data & learnings"| OPTIMIZE
-    OPTIMIZE -.->|"Growth insights feed next cycle"| DISCOVER
-
-    style DISCOVER fill:#0078D4,stroke:#005A9E,color:#fff,rx:12,ry:12
-    style DESIGN fill:#00B7C3,stroke:#008B94,color:#fff,rx:12,ry:12
-    style POSITION fill:#5C2D91,stroke:#451F6E,color:#fff,rx:12,ry:12
-    style AMPLIFY fill:#FF8C00,stroke:#CC7000,color:#fff,rx:12,ry:12
-    style LAUNCH fill:#D13438,stroke:#A4262C,color:#fff,rx:12,ry:12
-    style OPTIMIZE fill:#107C10,stroke:#0B6A0B,color:#fff,rx:12,ry:12
-```
-
-> **Flywheel Sync** (`ORBIT`) operates as a system-wide health layer that audits connections between all six phases, identifies bottlenecks, and generates improvement roadmaps to keep the entire engine running smoothly.
+| Workflow | Sequence |
+|---|---|
+| **New market entry** | `signal-radar` → `whitespace-finder` → `market-analyzer` → `position-lock` → `demand-engine` |
+| **Product launch** | `battle-scanner` → `position-lock` → `enablement-forge` → `launch-command` → `product-announcement` → `launch-pulse` |
+| **Quarterly review** | `flywheel-sync` → `revenue-analytics` → `growth-loop` → `budget-allocator` → `launch-debrief` |
+| **Renewal quarter** | `revenue-analytics` → `customer-analytics` → `customer-success` → `renewal-orchestration` → `revenue-forecasting` |
+| **Customer-led growth** | `customer-success` → `customer-advocacy` → `referral-program` → `community-catalyst` |
+| **Executive GTM plan** | `gtm-exec-plan` (orchestrates positioning, competitive, channel, and execution automatically) |
 
 ---
-
-## 🎯 Skill Dependency Map
-
-Each skill produces outputs that feed into downstream skills. Here's the data flow:
-
-```mermaid
-flowchart TD
-    SR[🔍 signal-radar] -->|Market signals| WF[🔍 whitespace-finder]
-    WF -->|Opportunity map| MA[📐 market-analyzer]
-    MA -->|Market sizing| JA[📐 journey-architect]
-    JA -->|Customer journey| BS[🎯 battle-scanner]
-    BS -->|Battle cards| CEB[🎯 competitive-exec-brief]
-    BS -->|Competitive intel| PL[🎯 position-lock]
-    PL -->|Messaging framework| DE[📢 demand-engine]
-    PL -->|Positioning| EF[📢 enablement-forge]
-    CEB -->|Exec brief| EF
-    DE -->|Channel strategy| EF
-    DE -->|Demand plan| PB[📢 partner-blueprint]
-    PB -->|Partner GTM| CC[📢 community-catalyst]
-    EF -->|Sales assets| LC[🚀 launch-command]
-    CC -->|Community plan| PA[🚀 product-announcement]
-    PA -->|Launch comms| LC
-    LC -->|Launch plan| BA[📊 budget-allocator]
-    BA -->|Budget model| LP[📊 launch-pulse]
-    LP -->|Metrics framework| GL[📊 growth-loop]
-    GL -->|Retention insights| LD[🚀 launch-debrief]
-    LD -->|Improvements| SR
-
-    FS[🔄 flywheel-sync] -.->|Health audit| SR
-    FS -.->|Health audit| LC
-    FS -.->|Health audit| GL
-
-    style SR fill:#0078D4,stroke:#005A9E,color:#fff
-    style WF fill:#0078D4,stroke:#005A9E,color:#fff
-    style MA fill:#00B7C3,stroke:#008B94,color:#fff
-    style JA fill:#00B7C3,stroke:#008B94,color:#fff
-    style BS fill:#5C2D91,stroke:#451F6E,color:#fff
-    style CEB fill:#5C2D91,stroke:#451F6E,color:#fff
-    style PL fill:#5C2D91,stroke:#451F6E,color:#fff
-    style DE fill:#FF8C00,stroke:#CC7000,color:#fff
-    style EF fill:#FF8C00,stroke:#CC7000,color:#fff
-    style PB fill:#FF8C00,stroke:#CC7000,color:#fff
-    style CC fill:#FF8C00,stroke:#CC7000,color:#fff
-    style PA fill:#D13438,stroke:#A4262C,color:#fff
-    style LC fill:#D13438,stroke:#A4262C,color:#fff
-    style LD fill:#D13438,stroke:#A4262C,color:#fff
-    style BA fill:#107C10,stroke:#0B6A0B,color:#fff
-    style LP fill:#107C10,stroke:#0B6A0B,color:#fff
-    style GL fill:#107C10,stroke:#0B6A0B,color:#fff
-    style FS fill:#B4009E,stroke:#8C0078,color:#fff
-```
 
 ---
 
