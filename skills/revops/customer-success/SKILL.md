@@ -10,3 +10,59 @@ Design a Customer Success operating system that turns post-sale into a predictab
 ## Core Principle
 
 **Customer Success is a *coverage and signal* problem, not a relationship problem.** Most CS teams over-invest in friendly check-ins with healthy accounts and under-invest in early risk signals and value proof. THRIVE forces tiered coverage, leading indicators, and renewal-defensible value evidence.
+
+## The THRIVE Framework
+
+| Letter | Stage | The Question |
+|--------|-------|--------------|
+| **T** | Tier the Book | Which accounts get high-touch, tech-touch, or pooled coverage — and why? |
+| **H** | Health Scoring | What 4–6 leading signals predict churn 90+ days out? |
+| **R** | Risk Playbooks | When a signal trips, what named play runs in what timeframe? |
+| **I** | Insight Reviews | What evidence of value gets shown at each review cadence? |
+| **V** | Value Realization | How is realized ROI captured and quantified before renewal? |
+| **E** | Expansion Motion | Which signals trigger which expansion play, and who owns the handoff? |
+
+## Coverage Tiering
+
+| Tier | ARR Band | Coverage | Cadence | Primary Goal |
+|------|----------|----------|---------|--------------|
+| **High-touch** | Top 10–20% of ARR | Named CSM, exec sponsor | Monthly check-in + quarterly EBR | NRR > 120% |
+| **Mid-touch** | Mid 30–60% | Pooled CSM, named for risks | Quarterly value review | GRR > 92% |
+| **Tech-touch** | Long tail | Digital programs, in-product nudges | Automated lifecycle | Self-serve renewal > 80% |
+
+## Health Score Design
+
+A useful health score uses **leading**, not lagging, signals. Lagging scores (NPS, ticket volume, login count) confirm churn after it's already locked in.
+
+| Signal Type | Example | Why It Leads |
+|-------------|---------|--------------|
+| **Adoption depth** | % of paid seats active weekly on critical workflows | Predicts contract value justification |
+| **Outcome attainment** | Customer-defined success metric progress | Predicts renewal defensibility |
+| **Stakeholder coverage** | # of named champions + exec sponsor engaged in last 90 days | Predicts survivability of champion change |
+| **Support signal velocity** | Critical-severity tickets trend (not count) | Predicts frustration cliff |
+| **Commercial signal** | Procurement contact, contract questions, late payment | Predicts negotiation posture |
+
+## Risk Playbooks
+
+Every health-score drop triggers a **named play** with an owner and a deadline:
+
+| Trigger | Play | Owner | SLA |
+|---------|------|-------|-----|
+| Champion leaves | "Land the new champion" — re-onboarding kit + exec re-intro within 14 days | CSM + AE | 14 days |
+| Adoption drop > 20% MoM | Root-cause workshop + adoption sprint | CSM + Solutions | 21 days |
+| Outcome miss flagged | Outcome reset + escalation to exec sponsor | CSM + VP CS | 30 days |
+| Stakeholder ghosting > 30 days | Multi-thread re-engagement + alternative-stakeholder hunt | CSM + AE | 21 days |
+
+## Output
+
+Save to `outputs/customer-success-[motion]-[YYYY-MM-DD].md`
+
+| Artifact | Description |
+|----------|-------------|
+| **Coverage Model** | Tier definitions, account assignment rules, CSM ratios |
+| **Health Score Spec** | 4–6 signals, weights, thresholds, decay rules |
+| **Risk Play Library** | Named plays with owners, SLAs, success criteria |
+| **Review Cadence Calendar** | EBR / QBR / value-review template by tier |
+| **Renewal Defense Pack** | Value evidence pack template (ROI, adoption proof, outcome attainment) |
+| **Expansion Map** | Signals → plays → handoff rules between CSM and AE |
+| **CS Operating Metrics** | NRR, GRR, logo retention, time-to-value, expansion ARR |
