@@ -99,3 +99,27 @@ Save to `outputs/referral-program-[motion]-[YYYY-MM-DD].md`
 | **Fraud Controls** | Detection rules and reward holds |
 | **Attribution Spec** | Tracking schema, incrementality test design |
 | **KPIs Dashboard** | Referral rate, invites/referrer, conversion, K-factor, fraud rate |
+
+## Process
+
+1. **Pick reward architecture** with sender + receiver explicit
+2. **Strip friction** from the invite mechanic; benchmark every step
+3. **Place the ask** at intrinsic-motivation moments (post-aha is gold)
+4. **Add proof** — testimonials, "X people have invited friends," referrer endorsement
+5. **Model the loop math** with sensitivities; identify the binding constraint
+6. **Instrument fraud and incrementality** before launching, not after
+
+## Tips
+
+1. **K-factor < 1 is fine** if it lowers blended CAC; don't only chase virality
+2. **Reward at successful action**, not invite, to align with revenue
+3. **Run a holdout** to prove incrementality — most teams skip this
+4. **Refresh rewards** quarterly; novelty drives participation
+5. **B2B referrals** often work better as advocacy plays than cash bounties
+
+## Pairs With
+
+- **customer-advocacy** — Top advocates are the highest-K referrers
+- **community-catalyst** — Communities amplify referral loops
+- **loyalty-lifecycle** — Tiered status integrates with referral milestones
+- **demand-engine** — Channel mix that promotes the program
