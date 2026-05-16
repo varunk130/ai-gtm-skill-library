@@ -327,6 +327,16 @@ ai-gtm-skill-library/
 
 ---
 
+## 🔄 RevOps Cluster
+
+A new 10-skill **RevOps** cluster covers the post-sale and revenue-engine surface area:
+
+`customer-success` · `customer-analytics` · `customer-advocacy` · `lead-nurture` · `loyalty-lifecycle` · `referral-program` · `renewal-orchestration` · `revenue-analytics` · `revenue-forecasting` · `voice-of-customer`
+
+See [`skills/revops/README.md`](./skills/revops/README.md) for the cluster guide and suggested workflows.
+
+---
+
 ## 🤝 Contributing
 
 We welcome contributions! To add or improve a skill:
