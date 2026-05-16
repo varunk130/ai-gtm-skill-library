@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this library in research, write-ups, or production GTM work, please cite it as below."
+title: "AI GTM Skill Library"
+abstract: >-
+  A library of 31 opinionated go-to-market skills for Claude Code and GitHub
+  Copilot. Each skill is a self-contained Markdown specification that encodes
+  a named mnemonic framework, an applied process, an output specification,
+  and a list of paired skills. Covers the GTM lifecycle (discover, design,
+  position, amplify, launch, optimize) plus a RevOps cluster (customer
+  success, analytics, advocacy, lead nurture, loyalty, referral, renewal,
+  revenue analytics, forecasting, voice of customer).
+type: software
+authors:
+  - family-names: Kulkarni
+    given-names: Varun
+    affiliation: Independent
+url: "https://github.com/varunk130/ai-gtm-skill-library"
+repository-code: "https://github.com/varunk130/ai-gtm-skill-library"
+license: MIT
+keywords:
+  - go-to-market
+  - GTM
+  - claude-code
+  - github-copilot
+  - AI agents
+  - skill library
+  - product marketing
+  - revenue operations
+  - customer success
