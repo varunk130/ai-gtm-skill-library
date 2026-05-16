@@ -93,3 +93,27 @@ Save to `outputs/revenue-forecasting-[period]-[YYYY-MM-DD].md`
 | **Calibration Report** | Forecast vs actual error decomposition, trend |
 | **Adjustments Log** | Every manual adjustment with rationale and owner |
 | **Forecast Dashboard** | Single source of truth across finance, sales, RevOps |
+
+## Process
+
+1. **Lock the definitions** — same ARR, period, and currency rules across teams
+2. **Build the bottoms-up** with disciplined hygiene and decay rules
+3. **Build at least one tops-down** model as a check
+4. **Blend into an ensemble** with weights from historical accuracy
+5. **Run scenarios** with named drivers, not just percent shifts
+6. **Close the calibration loop** every period — forecast credibility lives or dies here
+
+## Tips
+
+1. **Single-number forecasts hide risk** — always publish a confidence band
+2. **Decay stale opportunities ruthlessly** — they're the #1 source of forecast misses
+3. **Manual adjustments need evidence** — log them or they become hope
+4. **Calibrate per segment / per rep** — aggregate accuracy hides poor accuracy underneath
+5. **The forecast is a product** — ship versioned releases, not slack messages
+
+## Pairs With
+
+- **revenue-analytics** — Drivers and leading indicators feed the forecast
+- **renewal-orchestration** — Risk score informs renewal-stage probability
+- **customer-analytics** — Cohort retention curves feed run-rate models
+- **budget-allocator** — Forecast scenarios drive reallocation decisions
