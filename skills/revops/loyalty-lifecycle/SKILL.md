@@ -81,3 +81,27 @@ Save to `outputs/loyalty-lifecycle-[program]-[YYYY-MM-DD].md`
 | **Economic Model** | Incremental retention / ARPU, liability projection, payback |
 | **Member Communication Plan** | Welcome, tier reveal, anniversary, risk, win-back |
 | **Governance** | Tier review cadence, benefit refresh schedule, sunset criteria |
+
+## Process
+
+1. **Pick 3–5 target behaviors** with quantified retention / LTV thesis
+2. **Design the earn / burn** mechanics to reinforce those behaviors (not all behaviors)
+3. **Architect tiers** with experiential benefits and visible status
+4. **Map lifecycle moments** to specific program actions
+5. **Build the economic model** with incrementality controls
+6. **Stand up governance** — programs decay without quarterly refresh
+
+## Tips
+
+1. **Status > discount** — experiential benefits are stickier and cheaper
+2. **Always test against a holdout** — incrementality is the only honest metric
+3. **Cap tier downgrade pain** — punitive downgrades nuke trust
+4. **Refresh the redemption catalog** quarterly; staleness kills engagement
+5. **Track liability** like a finance line item, not a marketing footnote
+
+## Pairs With
+
+- **customer-success** — Health signal informs risk-moment triggers
+- **growth-loop** — Loyalty is a retention loop input
+- **customer-analytics** — Incrementality and segment behavior analysis
+- **referral-program** — Pairs naturally with advocacy and referral tiers
