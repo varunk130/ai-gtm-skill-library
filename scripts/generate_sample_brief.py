@@ -1,6 +1,6 @@
 """
 GTM Exec Plan - Sample Word Document Generator
-Produces a polished 3-4 page executive GTM brief using Microsoft Fluent design.
+Produces a polished 3-4 page executive GTM brief using modern Fluent-style design.
 """
 
 from docx import Document
@@ -12,7 +12,7 @@ from docx.oxml.ns import qn, nsdecls
 from docx.oxml import parse_xml
 import os
 
-# Microsoft Fluent colors
+# Fluent-style color palette
 NAVY = RGBColor(0x1B, 0x2A, 0x4A)
 BLUE = RGBColor(0x00, 0x78, 0xD4)
 TEAL = RGBColor(0x00, 0xB2, 0x94)
@@ -271,7 +271,7 @@ def build_section_1(doc):
         [
             ["ISV Partners", "Product/Eng Leaders", "Distribution via ACME Marketplace", "~8,000 ISVs"],
             ["SI Partners", "Practice Leads", "New billable service line", "~2,500 SI firms"],
-            ["Enterprise Dev Teams", "IT/Dev Managers", "Custom agent development", "~45,000 E5 orgs"],
+            ["Enterprise Dev Teams", "IT/Dev Managers", "Custom agent development", "~45,000 Enterprise tier orgs"],
         ],
         col_widths=[1.5, 1.5, 2.0, 1.3],
     )
@@ -283,9 +283,9 @@ def build_section_1(doc):
         ["vs. Alternative", "Our Advantage"],
         [
             ["Competitor A (AI Assistants)", "Native ACME Graph access, enterprise identity, compliance built in"],
-            ["Competitor B (CRM AI)", "Already deployed where users work (Outlook, Teams, Word)"],
+            ["Competitor B (CRM AI)", "Already deployed where users work (email, chat, docs)"],
             ["Competitor C (Workspace AI)", "3x larger enterprise installed base, deeper LOB app integration"],
-            ["Build from scratch", "10x faster to production with pre-built connectors and Copilot Studio"],
+            ["Build from scratch", "10x faster to production with pre-built connectors and ACME Studio"],
         ],
         col_widths=[2.2, 4.2],
     )
@@ -294,7 +294,7 @@ def build_section_1(doc):
     add_heading_styled(doc, "Messaging Hierarchy", level=3)
     add_bullet(doc, " Build where your users already work", bold_prefix="L0 (Tagline):")
     add_bullet(doc, " Ship AI agents that reach 200M+ users through the apps they use every day", bold_prefix="L1 (Value Prop):")
-    add_bullet(doc, " Native Graph API, enterprise security, Copilot Studio low-code, marketplace distribution", bold_prefix="L2 (Proof Points):")
+    add_bullet(doc, " Native Graph API, enterprise security, ACME Studio low-code, marketplace distribution", bold_prefix="L2 (Proof Points):")
     add_bullet(doc, " Declarative agents, API plugins, Graph connectors, Adaptive Cards", bold_prefix="L3 (Technical):")
 
 
@@ -333,7 +333,7 @@ def build_section_2(doc):
         doc,
         ["Risk", "Likelihood", "Mitigation"],
         [
-            ["Developer adoption slower than projected", "Medium", "$10M partner incentive fund + Copilot Studio low-code path"],
+            ["Developer adoption slower than projected", "Medium", "$10M partner incentive fund + ACME Studio low-code path"],
             ["Competitor A launches enterprise marketplace", "High", "Leverage ACME Graph lock-in and compliance certifications"],
             ["Quality concerns from early extensions", "Medium", "Curated marketplace with certification program at launch"],
         ],

@@ -1,6 +1,6 @@
 """
 GTM Exec Plan - Sample PowerPoint Deck Generator
-Produces a polished 4-slide executive GTM deck using Microsoft Fluent design.
+Produces a polished 4-slide executive GTM deck using modern Fluent-style design.
 """
 
 from pptx import Presentation
@@ -10,7 +10,7 @@ from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
 from pptx.enum.shapes import MSO_SHAPE
 import os
 
-# Microsoft Fluent Design Palette
+# Fluent-style Design Palette
 COLORS = {
     "dark_bg":     RGBColor(0x1B, 0x2A, 0x4A),
     "accent":      RGBColor(0x00, 0x78, 0xD4),
@@ -202,9 +202,9 @@ def build_slide_2(prs):
 
     diffs = [
         ("vs. Company A", "Native ACME Graph, enterprise identity, compliance"),
-        ("vs. Company B", "Already where users work: Outlook, Teams, Word"),
+        ("vs. Company B", "Already where users work: email, chat, docs"),
         ("vs. Company C", "3x enterprise base, deeper LOB integration"),
-        ("vs. Build custom", "10x faster with Copilot Studio + connectors"),
+        ("vs. Build custom", "10x faster with ACME Studio + connectors"),
     ]
     for i, (vs, adv) in enumerate(diffs):
         y = Inches(3.95) + Inches(i * 0.45)

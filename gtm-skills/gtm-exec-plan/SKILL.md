@@ -138,7 +138,7 @@ Use the `ppt-deck-generator` skill or `python-pptx` directly to create a polishe
 - Section label: "Execution Roadmap"
 
 **Deck design rules:**
-- Use the `ppt-deck-generator` color palette (navy dark_bg, Microsoft blue accent, teal accent2)
+- Use the `ppt-deck-generator` color palette (navy dark_bg, primary blue accent, teal accent2)
 - Segoe UI font family throughout
 - Maximum 30 words per slide section
 - Every slide must have one clear takeaway in the title
