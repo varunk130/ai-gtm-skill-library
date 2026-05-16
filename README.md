@@ -164,100 +164,62 @@ Seven phases, 29 domain skills, plus 2 system skills (`flywheel-sync` audits the
 
 ---
 
----
+## Installation
 
-## ⚡ Quick-Start Workflows
-
-### 🆕 New Market Entry
-```
-signal-radar -> whitespace-finder -> market-analyzer -> position-lock -> demand-engine
-```
-
-### 🏁 Product Launch
-```
-battle-scanner -> position-lock -> enablement-forge -> launch-command -> product-announcement -> launch-pulse
-```
-
-### 📊 Quarterly Strategy Review
-```
-flywheel-sync -> signal-radar -> growth-loop -> budget-allocator -> launch-debrief
-```
-
-### 🤝 Partner-Led Expansion
-```
-market-analyzer -> partner-blueprint -> community-catalyst -> demand-engine -> enablement-forge
-```
-
-### 📝 Executive GTM Plan
-```
-gtm-exec-plan  (orchestrates positioning, competitive, channel, and execution planning automatically)
-```
-Produces a 3-4 page executive brief and a 4-slide PowerPoint deck ready for leadership review.
-
----
-
-## 🛠️ Installation
-
-> **New to this library?** Read the [How to Use Guide](docs/HOW-TO-USE.md) for step-by-step instructions, example prompts, and FAQs.
-
-Each skill is a standalone `SKILL.md` file that can be installed into your Claude Code or GitHub Copilot environment.
-
-### Claude Code
+Each skill is a standalone `SKILL.md` file. Install them once into your assistant's skills directory and invoke by name.
 
 ```bash
-# Clone this repo
+# Clone
 git clone https://github.com/varunk130/ai-gtm-skill-library.git
+cd ai-gtm-skill-library
 
-# Copy all skills to your Claude Code skills directory
-cp -r ai-gtm-skill-library/skills/* ~/.claude/skills/
+# Claude Code (all skills)
+cp -r skills/* ~/.claude/skills/
 
-# Or install a single skill
-cp -r ai-gtm-skill-library/skills/signal-radar ~/.claude/skills/
+# GitHub Copilot (per-repo)
+cp -r skills/* /path/to/your-repo/.github/skills/
+
+# Or use the installer
+python scripts/install.py install --platform claude
+python scripts/install.py install --platform copilot
+python scripts/install.py install --skill signal-radar --platform claude
 ```
 
-### GitHub Copilot
+> For GitHub Copilot, you can also reference skills from `.github/copilot-instructions.md` or add them as custom instructions in Copilot Chat. Full guide in [docs/HOW-TO-USE.md](docs/HOW-TO-USE.md).
 
-```bash
-# Clone this repo
-git clone https://github.com/varunk130/ai-gtm-skill-library.git
+### Directory layout
 
-# Copy all skills to your GitHub Copilot instructions directory
-cp -r ai-gtm-skill-library/skills/* .github/skills/
-
-# Or install a single skill
-cp -r ai-gtm-skill-library/skills/signal-radar .github/skills/
-```
-
-> **Tip:** For GitHub Copilot, you can also reference skills directly from your `.github/copilot-instructions.md` file or include them as custom instructions in your Copilot Chat settings.
-
-### Directory Structure
-```
+```text
 ai-gtm-skill-library/
 ├── README.md
+├── docs/HOW-TO-USE.md
+├── scripts/install.py          # CLI installer (Python 3.9+)
 ├── skills/
-│   ├── signal-radar/SKILL.md        # PULSE Framework
-│   ├── whitespace-finder/SKILL.md   # DEPTH Framework
-│   ├── market-analyzer/SKILL.md     # SCOPE Framework
-│   ├── journey-architect/SKILL.md   # 7-GATE Framework
-│   ├── battle-scanner/SKILL.md      # ARMOR Framework
-│   ├── competitive-exec-brief/SKILL.md # SHARP Framework
-│   ├── position-lock/SKILL.md       # PRISM Framework
-│   ├── demand-engine/SKILL.md       # WAVE Framework
-│   ├── enablement-forge/SKILL.md    # CRAFT Framework
-│   ├── partner-blueprint/SKILL.md   # BRIDGE Framework
-│   ├── community-catalyst/SKILL.md  # LOOP Framework
-│   ├── product-announcement/SKILL.md # HERALD Framework
-│   ├── launch-command/SKILL.md      # IGNITE Protocol
-│   ├── budget-allocator/SKILL.md    # APEX Framework
-│   ├── launch-pulse/SKILL.md        # VITAL Framework
-│   ├── growth-loop/SKILL.md         # ANCHOR Framework
-│   ├── launch-debrief/SKILL.md      # MIRROR Framework
-│   ├── flywheel-sync/SKILL.md       # ORBIT System
-│   ├── gtm-exec-plan/SKILL.md      # PRIME Framework
-│   ├── competitive-battlecard/SKILL.md # BATTLE Framework
-├── docs/
-│   └── HOW-TO-USE.md
-└── LICENSE
+│   ├── abm-playbook/           # TIER
+│   ├── battle-scanner/         # ARMOR
+│   ├── budget-allocator/       # APEX
+│   ├── community-catalyst/     # LOOP
+│   ├── competitive-battlecard/ # BATTLE
+│   ├── competitive-exec-brief/ # SHARP
+│   ├── demand-engine/          # WAVE
+│   ├── enablement-forge/       # CRAFT
+│   ├── flywheel-sync/          # ORBIT
+│   ├── growth-loop/            # ANCHOR
+│   ├── gtm-exec-plan/          # PRIME
+│   ├── journey-architect/      # 7-GATE
+│   ├── launch-command/         # IGNITE
+│   ├── launch-debrief/         # MIRROR
+│   ├── launch-pulse/           # VITAL
+│   ├── market-analyzer/        # SCOPE
+│   ├── partner-blueprint/      # BRIDGE
+│   ├── position-lock/          # PRISM
+│   ├── product-announcement/   # HERALD
+│   ├── signal-radar/           # PULSE
+│   ├── whitespace-finder/      # DEPTH
+│   └── revops/                 # 10 skills (THRIVE, LENS, AMPLIFY, NURTURE, BOND, RIPPLE, RENEW, LADDER, FORECAST, ECHO)
+├── samples/                    # Worked examples
+├── python_runtime/             # Helper utilities for skills that emit metrics
+└── tests/                      # pytest coverage for the runtime utilities
 ```
 
 ---
