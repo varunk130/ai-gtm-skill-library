@@ -94,3 +94,27 @@ Save to `outputs/revenue-analytics-[scope]-[YYYY-MM-DD].md`
 | **Economics Pack** | CAC payback, LTV/CAC, magic number, segment breakdown |
 | **Diagnosis Memo** | Anomalies + hypotheses + named owners |
 | **Forecast Roll-Up** | Bottoms-up vs tops-down with delta explanation |
+
+## Process
+
+1. **Lock the ARR waterfall definitions** — one source of truth across finance, CS, and sales
+2. **Build the leading-indicator pack** with named thresholds, not just charts
+3. **Decompose drivers** with explicit attribution; refresh quarterly
+4. **Stand up cohort retention** with segment cuts that match motion design
+5. **Wire economics** into the operating cadence — not just board prep
+6. **Diagnose monthly**: anomaly → hypothesis → owner → action
+
+## Tips
+
+1. **One ARR definition** — every team must agree on what counts as ARR
+2. **Cohort > snapshot** — retention totals lie; cohorts don't
+3. **Always reason-code** churn and contraction; otherwise the diagnostic loop is closed
+4. **Leading indicators with no threshold** are decoration
+5. **CAC payback is the most honest growth metric** — easy to game, hard to fake
+
+## Pairs With
+
+- **customer-analytics** — Engagement and behavioral cohorts feed NRR decomposition
+- **revenue-forecasting** — Drivers and leading indicators inform the forecast
+- **customer-success** — Health-score distribution is a top GRR driver
+- **budget-allocator** — Economics inform reallocation decisions
