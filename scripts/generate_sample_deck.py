@@ -107,7 +107,7 @@ def build_slide_1(prs):
 
     # Product name
     add_text_box(slide, Inches(1.2), Inches(1.8), Inches(11), Inches(1.2),
-                 "M365 Copilot Extensibility", font_size=44, font_color=COLORS["text_white"],
+                 "ACME Insight Studio", font_size=44, font_color=COLORS["text_white"],
                  bold=True, alignment=PP_ALIGN.LEFT, font_name="Segoe UI Semibold")
 
     # Subtitle
@@ -162,7 +162,7 @@ def build_slide_2(prs):
     market_items = [
         ("$47B", "Total enterprise AI platform market (TAM)"),
         ("$12B", "AI extensibility segment addressable (SAM)"),
-        ("$1.8B", "Year 1 through M365 commercial base (SOM)"),
+        ("$1.8B", "Year 1 through ACME enterprise base (SOM)"),
     ]
     for i, (num, desc) in enumerate(market_items):
         y = Inches(1.85) + Inches(i * 0.7)
@@ -179,7 +179,7 @@ def build_slide_2(prs):
     why_items = [
         "68% enterprise AI adoption, customization is #1 unmet need",
         "Competitors 6-12 months behind on enterprise extensibility",
-        "M365 Copilot seats create captive distribution channel",
+        "ACME Insight Studio seats create captive distribution channel",
     ]
     for i, item in enumerate(why_items):
         add_text_box(slide, Inches(0.8), Inches(5.0) + Inches(i * 0.28), Inches(5.3), Inches(0.28),
@@ -191,7 +191,7 @@ def build_slide_2(prs):
     add_text_box(slide, Inches(6.8), Inches(1.4), Inches(3), Inches(0.35),
                  "POSITIONING", font_size=11, font_color=COLORS["accent"], bold=True)
     add_text_box(slide, Inches(6.8), Inches(1.8), Inches(5.8), Inches(1.3),
-                 "Ship AI agents that reach 400M+ users\nthrough the apps they use every day",
+                 "Ship AI agents that reach 200M+ users\nthrough the apps they use every day",
                  font_size=16, font_color=COLORS["dark_bg"], bold=True)
 
     # Differentiators card
@@ -201,7 +201,7 @@ def build_slide_2(prs):
                  "KEY DIFFERENTIATORS", font_size=11, font_color=COLORS["accent"], bold=True)
 
     diffs = [
-        ("vs. Company A", "Native M365 Graph, enterprise identity, compliance"),
+        ("vs. Company A", "Native ACME Graph, enterprise identity, compliance"),
         ("vs. Company B", "Already where users work: Outlook, Teams, Word"),
         ("vs. Company C", "3x enterprise base, deeper LOB integration"),
         ("vs. Build custom", "10x faster with Copilot Studio + connectors"),
@@ -459,10 +459,9 @@ def main():
     build_slide_3(prs)
     build_slide_4(prs)
 
-    output_dir = os.path.dirname(os.path.abspath(__file__))
-    samples_dir = os.path.join(output_dir, "samples")
+    samples_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "samples"))
     os.makedirs(samples_dir, exist_ok=True)
-    output_path = os.path.join(samples_dir, "gtm-plan-m365-copilot-extensibility.pptx")
+    output_path = os.path.join(samples_dir, "gtm-plan-acme-insight-studio.pptx")
     prs.save(output_path)
     print(f"Deck saved to: {output_path}")
     return output_path

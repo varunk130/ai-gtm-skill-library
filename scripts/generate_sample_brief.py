@@ -164,7 +164,7 @@ def build_cover_page(doc):
     # Title
     p = doc.add_paragraph()
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
-    run = p.add_run("M365 Copilot Extensibility")
+    run = p.add_run("ACME Insight Studio")
     run.font.name = "Segoe UI Semibold"
     run.font.size = Pt(32)
     run.font.color.rgb = NAVY
@@ -220,9 +220,9 @@ def build_exec_summary(doc):
 
     add_body(
         doc,
-        "Microsoft 365 Copilot Extensibility opens a new developer ecosystem that enables ISVs, "
+        "ACME Insight Studio opens a new developer ecosystem that enables ISVs, "
         "SIs, and enterprise teams to build custom AI agents, plugins, and connectors that run "
-        "natively inside M365 Copilot. This represents a platform shift comparable to the early "
+        "natively inside the ACME Cloud productivity suite. This represents a platform shift comparable to the early "
         "App Store moment: first movers who build on this platform will capture disproportionate "
         "enterprise distribution.",
         size=10,
@@ -258,8 +258,8 @@ def build_section_1(doc):
     add_body(
         doc,
         "For enterprise developers and ISV partners who need to extend AI capabilities within "
-        "the tools their users already live in, M365 Copilot Extensibility is the only platform "
-        "that provides native integration with the Microsoft 365 graph, security model, and 400M+ "
+        "the tools their users already live in, ACME Insight Studio is the only platform "
+        "that provides native integration with the ACME Graph API, security model, and 200M+ "
         "commercial user base, enabling AI-powered workflows that ship in days rather than months.",
         size=10,
     )
@@ -269,7 +269,7 @@ def build_section_1(doc):
         doc,
         ["Segment", "Persona", "Primary Need", "Estimated Size"],
         [
-            ["ISV Partners", "Product/Eng Leaders", "Distribution via M365 marketplace", "~8,000 ISVs"],
+            ["ISV Partners", "Product/Eng Leaders", "Distribution via ACME Marketplace", "~8,000 ISVs"],
             ["SI Partners", "Practice Leads", "New billable service line", "~2,500 SI firms"],
             ["Enterprise Dev Teams", "IT/Dev Managers", "Custom agent development", "~45,000 E5 orgs"],
         ],
@@ -282,7 +282,7 @@ def build_section_1(doc):
         doc,
         ["vs. Alternative", "Our Advantage"],
         [
-            ["Competitor A (AI Assistants)", "Native M365 Graph access, enterprise identity, compliance built in"],
+            ["Competitor A (AI Assistants)", "Native ACME Graph access, enterprise identity, compliance built in"],
             ["Competitor B (CRM AI)", "Already deployed where users work (Outlook, Teams, Word)"],
             ["Competitor C (Workspace AI)", "3x larger enterprise installed base, deeper LOB app integration"],
             ["Build from scratch", "10x faster to production with pre-built connectors and Copilot Studio"],
@@ -293,7 +293,7 @@ def build_section_1(doc):
     doc.add_paragraph()
     add_heading_styled(doc, "Messaging Hierarchy", level=3)
     add_bullet(doc, " Build where your users already work", bold_prefix="L0 (Tagline):")
-    add_bullet(doc, " Ship AI agents that reach 400M+ users through the apps they use every day", bold_prefix="L1 (Value Prop):")
+    add_bullet(doc, " Ship AI agents that reach 200M+ users through the apps they use every day", bold_prefix="L1 (Value Prop):")
     add_bullet(doc, " Native Graph API, enterprise security, Copilot Studio low-code, marketplace distribution", bold_prefix="L2 (Proof Points):")
     add_bullet(doc, " Declarative agents, API plugins, Graph connectors, Adaptive Cards", bold_prefix="L3 (Technical):")
 
@@ -305,13 +305,13 @@ def build_section_2(doc):
     add_heading_styled(doc, "Market Opportunity", level=3)
     add_bullet(doc, " $47B enterprise AI platform market (2026, industry estimates)", bold_prefix="TAM:")
     add_bullet(doc, " $12B AI extensibility and integration platform segment", bold_prefix="SAM:")
-    add_bullet(doc, " $1.8B addressable through M365 commercial base in Year 1", bold_prefix="SOM:")
+    add_bullet(doc, " $1.8B addressable through ACME enterprise base in Year 1", bold_prefix="SOM:")
 
     doc.add_paragraph()
     add_heading_styled(doc, "Why Now", level=3)
     add_bullet(doc, "Enterprise AI adoption hit 68% in 2025, but customization remains the #1 unmet need")
     add_bullet(doc, "Competitors are 6-12 months behind on enterprise-grade extensibility frameworks")
-    add_bullet(doc, "M365 Copilot seat penetration creates a captive distribution channel")
+    add_bullet(doc, "ACME Insight Studio seat penetration creates a captive distribution channel")
 
     doc.add_paragraph()
     add_heading_styled(doc, "Competitive Landscape", level=3)
@@ -319,7 +319,7 @@ def build_section_2(doc):
         doc,
         ["Competitor", "Strength", "Our Advantage", "Threat"],
         [
-            ["Competitor A (AI Assistants)", "Brand awareness, developer mindshare", "Enterprise security, M365 Graph, compliance", "High"],
+            ["Competitor A (AI Assistants)", "Brand awareness, developer mindshare", "Enterprise security, ACME Graph, compliance", "High"],
             ["Competitor B (CRM AI)", "CRM-native AI, strong SI channel", "Broader surface area (email, docs, chat)", "Medium"],
             ["Competitor C (IT Workflow AI)", "IT workflow depth", "Platform breadth beyond IT use cases", "Medium"],
             ["Competitor D (Workspace AI)", "Workspace integration", "3x enterprise seat base, LOB app ecosystem", "Medium"],
@@ -334,7 +334,7 @@ def build_section_2(doc):
         ["Risk", "Likelihood", "Mitigation"],
         [
             ["Developer adoption slower than projected", "Medium", "$10M partner incentive fund + Copilot Studio low-code path"],
-            ["Competitor A launches enterprise marketplace", "High", "Leverage M365 Graph lock-in and compliance certifications"],
+            ["Competitor A launches enterprise marketplace", "High", "Leverage ACME Graph lock-in and compliance certifications"],
             ["Quality concerns from early extensions", "Medium", "Curated marketplace with certification program at launch"],
         ],
         col_widths=[2.5, 1.0, 3.0],
@@ -477,9 +477,10 @@ def main():
     build_section_5(doc)
     build_footer(doc)
 
-    output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "samples")
+    output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "samples")
+    output_dir = os.path.abspath(output_dir)
     os.makedirs(output_dir, exist_ok=True)
-    output_path = os.path.join(output_dir, "gtm-plan-m365-copilot-extensibility.docx")
+    output_path = os.path.join(output_dir, "gtm-plan-acme-insight-studio.docx")
     doc.save(output_path)
     print(f"Word document saved to: {output_path}")
     return output_path
