@@ -237,10 +237,10 @@ ai-gtm-skill-library/
 
 ---
 
-## 🧠 Framework Quick Reference
+## 🧠 Framework reference
 
-| Framework | Mnemonic | Core Concept |
-|-----------|----------|--------------|
+| Framework | Mnemonic | Core concept |
+|---|---|---|
 | **PULSE** | _P_attern, _U_npack, _L_ayer, _S_core, _E_scalate | Detect signals before they become obvious |
 | **DEPTH** | _D_emand, _E_xisting, _P_ain, _T_rend, _H_ypothesis | Find gaps others miss |
 | **SCOPE** | _S_egment, _C_aliber, _O_pportunity, _P_otential, _E_dge | Size markets with conviction |
@@ -260,40 +260,39 @@ ai-gtm-skill-library/
 | **MIRROR** | _M_easure, _I_dentify, _R_oot-cause, _R_ecommend, _O_wn, _R_eview | Reflect honestly post-launch |
 | **ORBIT** | _O_bserve, _R_ate, _B_ottleneck, _I_mprove, _T_rack | Keep the flywheel spinning |
 | **PRIME** | _P_ositioning, _R_eadiness, _I_mpact, _M_otion, _E_xecution | Full GTM plan and deck in one skill |
+| **TIER** | _T_ier, _I_dentify-buying-group, _E_xecute-plays, _R_e-route-on-signal | ABM coordination beyond targeting |
+| **THRIVE** | _T_ier, _H_ealth, _R_isk, _I_nsight, _V_alue, _E_xpand | CS operating system tied to NRR |
+| **LENS** | _L_ifecycle, _E_ngagement, _N_RR-decomposition, _S_egment | Customer analytics that drives action |
+| **AMPLIFY** | _A_dvocate, _M_otion, _P_rogram, _L_ibrary, _I_nfluence, _F_eedback, _Y_ield | Advocacy as a supply chain, not a favor |
+| **NURTURE** | _N_eeds, _U_nderstand, _R_each, _T_rigger, _U_pgrade, _R_ecycle, _E_ngage | Signal-gated lead nurture |
+| **BOND** | _B_ehavior, _O_ffer, _N_otification, _D_efend | Loyalty programs with defensible economics |
+| **RIPPLE** | _R_eward, _I_nvite, _P_lacement, _P_roof, _L_oop-math, _E_valuate | Referral programs with real K-factor |
+| **RENEW** | _R_isk, _E_ngage, _N_egotiate, _E_xpand, _W_in | T-180 renewal motion + expansion-at-renewal |
+| **LADDER** | _L_eading, _A_ttribution, _D_river, _D_iagnosis, _E_xpansion, _R_etention | Revenue analytics beyond ARR totals |
+| **FORECAST** | _F_oundations, _O_utlook, _R_un-rate, _E_nsemble, _C_alibration, _A_djust, _S_cenarios, _T_rack | Calibrated, defensible forecasts |
+| **ECHO** | _E_licit, _C_ategorize, _H_ighlight, _O_perationalize | VoC with closed customer loop |
 
 ---
 
-## 🔄 RevOps Cluster
+## Contributing
 
-A new 10-skill **RevOps** cluster covers the post-sale and revenue-engine surface area:
+Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
 
-`customer-success` · `customer-analytics` · `customer-advocacy` · `lead-nurture` · `loyalty-lifecycle` · `referral-program` · `renewal-orchestration` · `revenue-analytics` · `revenue-forecasting` · `voice-of-customer`
-
-See [`revops-skills/README.md`](./revops-skills/README.md) for the cluster guide and suggested workflows.
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! To add or improve a skill:
-
-1. Fork this repository
-2. Create a feature branch (`git checkout -b improve-skill-name`)
-3. Update the `SKILL.md` in the relevant skill directory
-4. Submit a Pull Request with a description of your changes
+1. Fork and create a branch (`feat/`, `fix/`, or `docs/` prefix)
+2. Add or improve a `SKILL.md` under `gtm-skills/` or `revops-skills/`
+3. Keep the existing YAML frontmatter (`name` + `description`) and section structure
+4. Open a PR with a brief description of the change
 
 ---
 
-## 📄 License
+## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+MIT — see [LICENSE](LICENSE).
 
 ---
 
 <div align="center">
 
-**Built by Varun Kulkarni**
-
-*Powered by Claude Code & GitHub Copilot*
+Maintained by [Varun Kulkarni](https://github.com/varunk130)
 
 </div>
