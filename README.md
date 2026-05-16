@@ -19,24 +19,24 @@
 # 1. Clone the repo
 git clone https://github.com/varunk130/ai-gtm-skill-library.git
 
-# 2. Install all 19 skills globally for Claude Code
+# 2. Install all 31 skills for Claude Code
 mkdir -p ~/.claude/skills
 cp -r ai-gtm-skill-library/skills/* ~/.claude/skills/
 
-# 3. Restart Claude Code, then run a phase-specific workflow:
-#      /signal-radar          — macro-market signal detection
-#      /position-lock         — competitive positioning
-#      /launch-command        — full launch orchestration
-#      /flywheel-sync         — audit health of the entire 18-skill system
+# 3. Restart Claude Code, then invoke a skill by name:
+#      signal-radar          — macro-market signal detection
+#      position-lock         — competitive positioning
+#      launch-command        — full launch orchestration
+#      flywheel-sync         — audit health of the full skill system
 ```
 
-> 💡 First-time setup, GitHub Copilot integration, and FAQs are in the [How to Use Guide](docs/HOW-TO-USE.md) and the [full Installation](#%EF%B8%8F-installation) section below.
+> First-time setup, GitHub Copilot integration, and FAQs are in the [How to Use Guide](docs/HOW-TO-USE.md).
 
 ---
 
-## 💡 Why This Matters
+## What you get
 
-> **For AI GTM teams, this library replaces fragmented playbooks and tribal knowledge with 19 composable, AI-native skills that turn strategic analysis into executable plans in minutes, not weeks.** Teams using this system report collapsing their market-to-launch cycle by operationalizing every GTM phase with structured frameworks that build on each other like a flywheel.
+Each skill produces a structured, evidence-based artifact in minutes — a positioning framework, a launch plan, a renewal playbook, an ARR waterfall, a battle card. Skills are composable: outputs from one feed naturally into the next. The library has no runtime dependencies for the skills themselves (just Markdown files); a small Python utility is included for installation and PowerPoint generation.
 
 ---
 
