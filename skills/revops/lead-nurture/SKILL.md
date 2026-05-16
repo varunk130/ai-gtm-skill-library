@@ -80,3 +80,27 @@ Save to `outputs/lead-nurture-[program]-[YYYY-MM-DD].md`
 | **Handoff Spec** | MQL / SQL definitions, SLA, disposition loop |
 | **Recycle Plan** | Cold-lead criteria and reactivation triggers |
 | **KPIs** | MQL → SQL conversion, SQL → opportunity rate, time-to-handoff, disposition reasons |
+
+## Process
+
+1. **Map the buying stages** for your motion; never assume one-size-fits-all
+2. **Catalog the signals** and weight them by historical conversion lift
+3. **Design tracks per stage** with explicit entry / exit, not just send schedules
+4. **Build the scoring grid** with sales co-sign; align on MQL / SQL definitions
+5. **Spec the handoff** with SLA, disposition loop, and recycle path
+6. **Stand up the engagement refresh cycle** — quarterly content audit + signal recalibration
+
+## Tips
+
+1. **Time-based drip is anti-nurture** — gate progression by signal, not by day
+2. **Score is 2D, not 1D** — fit and intent must remain separable
+3. **A rejected MQL with no reason code is a broken loop** — enforce disposition
+4. **Refresh content quarterly** or the program self-decays
+5. **Cold leads aren't dead** — long-cycle nurture frequently produces 10–20% of pipeline
+
+## Pairs With
+
+- **demand-engine** — Channel mix that originates the leads
+- **journey-architect** — Stages the nurture tracks attach to
+- **enablement-forge** — Produces the per-stage assets
+- **customer-success** — Inherits the lead at first value handoff
