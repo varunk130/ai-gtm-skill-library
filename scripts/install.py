@@ -5,7 +5,6 @@ A lightweight utility to install skills into your Claude Code
 or GitHub Copilot environment.
 """
 
-import os
 import shutil
 import argparse
 from pathlib import Path
