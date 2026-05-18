@@ -11,13 +11,13 @@ Thanks for your interest in contributing! This project welcomes issues, suggesti
 
 ## Pull request workflow
 
-1. Fork the repo and create a feature branch from `main`:
+1. Fork the repo and create a feature branch from `master`:
    `git checkout -b feat/short-description` (or `fix/`, `docs/`, `chore/`).
 2. Keep changes focused — one logical change per PR.
 3. Add or update tests where it makes sense.
 4. Use [Conventional Commits](https://www.conventionalcommits.org/) where possible
    (`feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`).
-5. Open a PR against `main` and link the related issue.
+5. Open a PR against `master` and link the related issue.
 
 ## Local setup
 
