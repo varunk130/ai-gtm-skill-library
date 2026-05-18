@@ -28,7 +28,7 @@ Produced by the [`gtm-exec-plan`](../gtm-skills/gtm-exec-plan/SKILL.md) skill (P
 
 **Slide 2 — Positioning & readiness (market context, positioning, key differentiators, competitive landscape)**
 
-![Slide 2 — $12B Extensibility Opportunity](./previews/deck-slide-02.png)
+![Slide 2 — $12B Platform Integration Opportunity](./previews/deck-slide-02.png)
 
 **Slide 3 — Impact & motion (targets, KPIs, channel strategy)**
 

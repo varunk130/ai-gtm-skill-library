@@ -18,7 +18,7 @@ ACME Insight Studio opens a new developer ecosystem that enables ISVs, SI partne
 ## 1. Positioning and Differentiation
 
 **Positioning Statement:**
-For enterprise developers and ISV partners who need to extend AI capabilities within the tools their users already live in, ACME Insight Studio is the only platform that provides native integration with the ACME Graph API, enterprise identity model, and 200M+ commercial user base, enabling AI-powered workflows that ship in days rather than months.
+For enterprise developers and ISV partners who need to extend AI capabilities within the tools their users already live in, ACME Insight Studio is the only platform that provides native integration with the ACME Cloud Platform API, enterprise identity model, and 20M+ commercial user base, enabling AI-powered workflows that ship in days rather than months.
 
 **Target Segments:**
 
@@ -32,16 +32,16 @@ For enterprise developers and ISV partners who need to extend AI capabilities wi
 
 | vs. Alternative | Our Advantage |
 |---|---|
-| Competitor A (AI Assistants) | Native ACME Graph access, enterprise identity, compliance built in |
+| Competitor A (AI Assistants) | Native ACME Platform access, enterprise identity, compliance built in |
 | Competitor B (CRM AI) | Already deployed where users work — no context switch |
 | Competitor C (Workspace AI) | 3× larger enterprise installed base, deeper line-of-business integration |
 | Build from scratch | 10× faster to production with pre-built connectors and the ACME Studio low-code builder |
 
 **Messaging Hierarchy:**
 - **L0 (Tagline):** Build where your users already work
-- **L1 (Value Prop):** Ship AI agents that reach 200M+ users through the apps they use every day
-- **L2 (Proof Points):** Native Graph API access, enterprise-grade security, low-code builder, marketplace distribution
-- **L3 (Technical):** Declarative agents, API plugins, Graph connectors, adaptive UI cards, conversation extensions
+- **L1 (Value Prop):** Ship AI agents that reach 20M+ users through the apps they use every day
+- **L2 (Proof Points):** Native ACME Platform API access, enterprise-grade security, low-code builder, marketplace distribution
+- **L3 (Technical):** AI agents, REST integrations, data connectors, embedded UI components, in-app chat surfaces
 
 ---
 
@@ -49,19 +49,19 @@ For enterprise developers and ISV partners who need to extend AI capabilities wi
 
 **Market Opportunity:**
 - **TAM:** $47B enterprise AI platform market (2026, industry estimates)
-- **SAM:** $12B AI extensibility and integration platform segment
+- **SAM:** $12B AI platform and integration segment
 - **SOM:** $1.8B addressable through the ACME enterprise base in Year 1
 
 **Why Now:**
 1. Enterprise AI adoption hit 68% in 2025, but customization remains the #1 unmet need (industry research)
-2. Competitors are 6–12 months behind on enterprise-grade extensibility frameworks
+2. Competitors are 6–12 months behind on enterprise-grade platform integration frameworks
 3. ACME Insight Studio seat penetration creates a captive distribution channel that did not exist 18 months ago
 
 **Competitive Landscape:**
 
 | Competitor | Strength | Our Advantage | Threat Level |
 |---|---|---|---|
-| Competitor A (AI Assistants) | Brand awareness, developer mindshare | Enterprise security, ACME Graph, compliance | High |
+| Competitor A (AI Assistants) | Brand awareness, developer mindshare | Enterprise security, ACME Platform, compliance | High |
 | Competitor B (CRM AI) | CRM-native AI, strong SI channel | Broader surface area across email, docs, meetings, chat | Medium |
 | Competitor C (IT Workflow AI) | IT workflow depth | Platform breadth beyond IT use cases | Medium |
 | Competitor D (Workspace AI) | Workspace integration | 3× enterprise seat base, stronger LOB app ecosystem | Medium |
@@ -71,7 +71,7 @@ For enterprise developers and ISV partners who need to extend AI capabilities wi
 | Risk | Likelihood | Mitigation |
 |---|---|---|
 | Developer adoption slower than projected | Medium | Accelerate with a $10M partner incentive fund and the ACME Studio low-code path |
-| Competitor A launches enterprise plugin marketplace | High | Leverage existing ACME Graph integration depth and compliance certifications |
+| Competitor A launches enterprise plugin marketplace | High | Leverage existing ACME Platform integration depth and compliance certifications |
 | Quality concerns from early extensions | Medium | Curated marketplace with a certification program at launch |
 
 ---

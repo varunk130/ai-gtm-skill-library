@@ -146,7 +146,7 @@ def build_slide_2(prs):
     # Header bar
     header = add_shape(slide, Inches(0), Inches(0), SLIDE_WIDTH, Inches(1.05), COLORS["dark_bg"])
     add_text_box(slide, Inches(0.8), Inches(0.12), Inches(10), Inches(0.55),
-                 "The $12B Extensibility Opportunity Is Ours to Capture",
+                 "The $12B Platform Integration Opportunity Is Ours to Capture",
                  font_size=24, font_color=COLORS["text_white"], bold=True,
                  font_name="Segoe UI Semibold")
     add_text_box(slide, Inches(0.8), Inches(0.62), Inches(8), Inches(0.35),
@@ -161,7 +161,7 @@ def build_slide_2(prs):
 
     market_items = [
         ("$47B", "Total enterprise AI platform market (TAM)"),
-        ("$12B", "AI extensibility segment addressable (SAM)"),
+        ("$12B", "AI platform integration segment addressable (SAM)"),
         ("$1.8B", "Year 1 through ACME enterprise base (SOM)"),
     ]
     for i, (num, desc) in enumerate(market_items):
@@ -178,7 +178,7 @@ def build_slide_2(prs):
                  "WHY NOW", font_size=11, font_color=COLORS["accent_warm"], bold=True)
     why_items = [
         "68% enterprise AI adoption, customization is #1 unmet need",
-        "Competitors 6-12 months behind on enterprise extensibility",
+        "Competitors 6-12 months behind on enterprise platform integration",
         "ACME Insight Studio seats create captive distribution channel",
     ]
     for i, item in enumerate(why_items):
@@ -191,7 +191,7 @@ def build_slide_2(prs):
     add_text_box(slide, Inches(6.8), Inches(1.4), Inches(3), Inches(0.35),
                  "POSITIONING", font_size=11, font_color=COLORS["accent"], bold=True)
     add_text_box(slide, Inches(6.8), Inches(1.8), Inches(5.8), Inches(1.3),
-                 "Ship AI agents that reach 200M+ users\nthrough the apps they use every day",
+                 "Ship AI agents that reach 20M+ users\nthrough the apps they use every day",
                  font_size=16, font_color=COLORS["dark_bg"], bold=True)
 
     # Differentiators card
@@ -201,7 +201,7 @@ def build_slide_2(prs):
                  "KEY DIFFERENTIATORS", font_size=11, font_color=COLORS["accent"], bold=True)
 
     diffs = [
-        ("vs. Company A", "Native ACME Graph, enterprise identity, compliance"),
+        ("vs. Company A", "Native ACME Platform, enterprise identity, compliance"),
         ("vs. Company B", "Already where users work: email, chat, docs"),
         ("vs. Company C", "3x enterprise base, deeper LOB integration"),
         ("vs. Build custom", "10x faster with ACME Studio + connectors"),
@@ -293,7 +293,7 @@ def build_slide_3(prs):
         ("Extension Publish Rate", "20/week", "steady state", "Weekly"),
         ("Time-to-First-Extension", "< 4 hrs", "developer avg", "Weekly"),
         ("D30 User Retention", "> 40%", "extension users", "Monthly"),
-        ("Co-Sell Attach Rate", "15%", "of Copilot deals", "Monthly"),
+        ("Co-Sell Attach Rate", "15%", "of ACME platform deals", "Monthly"),
     ]
     for i, (metric, target, context, cadence) in enumerate(kpis):
         y = Inches(3.2) + Inches(i * 0.48)

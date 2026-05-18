@@ -259,7 +259,7 @@ def build_section_1(doc):
         doc,
         "For enterprise developers and ISV partners who need to extend AI capabilities within "
         "the tools their users already live in, ACME Insight Studio is the only platform "
-        "that provides native integration with the ACME Graph API, security model, and 200M+ "
+        "that provides native integration with the ACME Cloud Platform API, security model, and 20M+ "
         "commercial user base, enabling AI-powered workflows that ship in days rather than months.",
         size=10,
     )
@@ -282,7 +282,7 @@ def build_section_1(doc):
         doc,
         ["vs. Alternative", "Our Advantage"],
         [
-            ["Competitor A (AI Assistants)", "Native ACME Graph access, enterprise identity, compliance built in"],
+            ["Competitor A (AI Assistants)", "Native ACME Platform access, enterprise identity, compliance built in"],
             ["Competitor B (CRM AI)", "Already deployed where users work (email, chat, docs)"],
             ["Competitor C (Workspace AI)", "3x larger enterprise installed base, deeper LOB app integration"],
             ["Build from scratch", "10x faster to production with pre-built connectors and ACME Studio"],
@@ -293,9 +293,9 @@ def build_section_1(doc):
     doc.add_paragraph()
     add_heading_styled(doc, "Messaging Hierarchy", level=3)
     add_bullet(doc, " Build where your users already work", bold_prefix="L0 (Tagline):")
-    add_bullet(doc, " Ship AI agents that reach 200M+ users through the apps they use every day", bold_prefix="L1 (Value Prop):")
-    add_bullet(doc, " Native Graph API, enterprise security, ACME Studio low-code, marketplace distribution", bold_prefix="L2 (Proof Points):")
-    add_bullet(doc, " Declarative agents, API plugins, Graph connectors, Adaptive Cards", bold_prefix="L3 (Technical):")
+    add_bullet(doc, " Ship AI agents that reach 20M+ users through the apps they use every day", bold_prefix="L1 (Value Prop):")
+    add_bullet(doc, " Native ACME Platform API, enterprise security, ACME Studio low-code, marketplace distribution", bold_prefix="L2 (Proof Points):")
+    add_bullet(doc, " AI agents, REST integrations, data connectors, embedded UI components", bold_prefix="L3 (Technical):")
 
 
 def build_section_2(doc):
@@ -304,13 +304,13 @@ def build_section_2(doc):
 
     add_heading_styled(doc, "Market Opportunity", level=3)
     add_bullet(doc, " $47B enterprise AI platform market (2026, industry estimates)", bold_prefix="TAM:")
-    add_bullet(doc, " $12B AI extensibility and integration platform segment", bold_prefix="SAM:")
+    add_bullet(doc, " $12B AI platform and integration segment", bold_prefix="SAM:")
     add_bullet(doc, " $1.8B addressable through ACME enterprise base in Year 1", bold_prefix="SOM:")
 
     doc.add_paragraph()
     add_heading_styled(doc, "Why Now", level=3)
     add_bullet(doc, "Enterprise AI adoption hit 68% in 2025, but customization remains the #1 unmet need")
-    add_bullet(doc, "Competitors are 6-12 months behind on enterprise-grade extensibility frameworks")
+    add_bullet(doc, "Competitors are 6-12 months behind on enterprise-grade platform integration frameworks")
     add_bullet(doc, "ACME Insight Studio seat penetration creates a captive distribution channel")
 
     doc.add_paragraph()
@@ -319,7 +319,7 @@ def build_section_2(doc):
         doc,
         ["Competitor", "Strength", "Our Advantage", "Threat"],
         [
-            ["Competitor A (AI Assistants)", "Brand awareness, developer mindshare", "Enterprise security, ACME Graph, compliance", "High"],
+            ["Competitor A (AI Assistants)", "Brand awareness, developer mindshare", "Enterprise security, ACME Platform, compliance", "High"],
             ["Competitor B (CRM AI)", "CRM-native AI, strong SI channel", "Broader surface area (email, docs, chat)", "Medium"],
             ["Competitor C (IT Workflow AI)", "IT workflow depth", "Platform breadth beyond IT use cases", "Medium"],
             ["Competitor D (Workspace AI)", "Workspace integration", "3x enterprise seat base, LOB app ecosystem", "Medium"],
@@ -334,7 +334,7 @@ def build_section_2(doc):
         ["Risk", "Likelihood", "Mitigation"],
         [
             ["Developer adoption slower than projected", "Medium", "$10M partner incentive fund + ACME Studio low-code path"],
-            ["Competitor A launches enterprise marketplace", "High", "Leverage ACME Graph lock-in and compliance certifications"],
+            ["Competitor A launches enterprise marketplace", "High", "Leverage ACME Platform lock-in and compliance certifications"],
             ["Quality concerns from early extensions", "Medium", "Curated marketplace with certification program at launch"],
         ],
         col_widths=[2.5, 1.0, 3.0],
@@ -368,7 +368,7 @@ def build_section_3(doc):
             ["Extension Publish Rate", "20/week steady state", "Weekly"],
             ["Developer Time-to-First-Extension", "< 4 hours", "Weekly"],
             ["Extension User Retention (D30)", "> 40%", "Monthly"],
-            ["Partner Co-Sell Attach Rate", "15% of Copilot deals", "Monthly"],
+            ["Partner Co-Sell Attach Rate", "15% of ACME platform deals", "Monthly"],
         ],
         col_widths=[2.8, 2.0, 1.0],
     )
