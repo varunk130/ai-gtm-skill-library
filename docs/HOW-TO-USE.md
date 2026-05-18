@@ -89,7 +89,7 @@ In Copilot Chat (VS Code, GitHub.com, or CLI), reference skills the same way. If
 ```
 @workspace Run the market-analyzer skill for the AI developer tools market
 
-@workspace Use the gtm-exec-plan skill to create a GTM strategy for 
+@workspace Use the gtm-exec-plan skill to create a GTM strategy for
 our new ACME Insight Studio extension targeting enterprise IT teams
 
 @workspace Run battle-scanner against Company A, Company B, and Company C
@@ -119,7 +119,7 @@ Follow the GTM lifecycle phases. Here are the most common sequences:
 
 **New product launch (full cycle):**
 ```
-signal-radar -> whitespace-finder -> market-analyzer -> position-lock 
+signal-radar -> whitespace-finder -> market-analyzer -> position-lock
 -> battle-scanner -> demand-engine -> enablement-forge -> launch-command
 ```
 
