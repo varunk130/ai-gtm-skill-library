@@ -86,7 +86,7 @@ Open Claude Code in your terminal and reference a skill naturally:
 In Copilot Chat (VS Code, GitHub.com, or CLI), reference skills the same way. If skills are installed in `.github/skills/`, Copilot will pick them up from your repository context.
 
 **Example prompts:**
-```
+```text
 @workspace Run the market-analyzer skill for the AI developer tools market
 
 @workspace Use the gtm-exec-plan skill to create a GTM strategy for
@@ -118,18 +118,18 @@ Yes. Each skill is a single Markdown file (`SKILL.md`). Open it, edit the framew
 Follow the GTM lifecycle phases. Here are the most common sequences:
 
 **New product launch (full cycle):**
-```
+```text
 signal-radar -> whitespace-finder -> market-analyzer -> position-lock
 -> battle-scanner -> demand-engine -> enablement-forge -> launch-command
 ```
 
 **Quick executive GTM plan:**
-```
+```text
 gtm-exec-plan  (this orchestrates the others automatically)
 ```
 
 **Competitive deep dive:**
-```
+```text
 battle-scanner -> competitive-exec-brief -> position-lock
 ```
 
