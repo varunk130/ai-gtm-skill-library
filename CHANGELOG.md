@@ -7,9 +7,9 @@ All notable changes to the AI GTM Skill Library are documented here. The format 
 ### Added
 - **RevOps skill cluster** (10 new skills): `customer-success` (THRIVE), `customer-analytics` (LENS), `customer-advocacy` (AMPLIFY), `lead-nurture` (NURTURE), `loyalty-lifecycle` (BOND), `referral-program` (RIPPLE), `renewal-orchestration` (RENEW), `revenue-analytics` (LADDER), `revenue-forecasting` (FORECAST), `voice-of-customer` (ECHO).
 - **"What this solves"** opening section in README with problem statement, solution, and audience guide.
-- **Sample preview screenshots** (`samples/previews/`) — PNG renderings of the 4 deck slides and 5 brief pages, embedded in `samples/README.md` so GitHub renders the formatted output inline.
+- **Sample preview screenshots** (`samples/previews/`) - PNG renderings of the 4 deck slides and 5 brief pages, embedded in `samples/README.md` so GitHub renders the formatted output inline.
 - **`samples/README.md`** with a clear pointer to the previews (since GitHub cannot natively preview `.docx` / `.pptx`).
-- **`scripts/render_sample_previews.py`** — Word/PowerPoint COM + PyMuPDF script that regenerates the PNG previews from the binary samples.
+- **`scripts/render_sample_previews.py`** - Word/PowerPoint COM + PyMuPDF script that regenerates the PNG previews from the binary samples.
 
 ### Changed
 - **Folder structure**: `skills/` renamed to `gtm-skills/`, and `skills/revops/` lifted to top-level `revops-skills/`. Both clusters are now first-class top-level folders.
@@ -32,5 +32,5 @@ All notable changes to the AI GTM Skill Library are documented here. The format 
 ## How to update this file
 
 - Add new entries under **[Unreleased]** as work is merged.
-- When tagging a release, rename **[Unreleased]** to `[X.Y.Z] — YYYY-MM-DD` and start a fresh **[Unreleased]** section.
+- When tagging a release, rename **[Unreleased]** to `[X.Y.Z] - YYYY-MM-DD` and start a fresh **[Unreleased]** section.
 - Group entries under `Added`, `Changed`, `Deprecated`, `Removed`, `Fixed`, `Security`.

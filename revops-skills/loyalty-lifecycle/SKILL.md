@@ -1,11 +1,11 @@
 ---
 name: loyalty-lifecycle
-description: 'Customer loyalty and lifecycle orchestration — tiered loyalty design, lifecycle journey programs, milestone triggers, and retention economics for B2B and B2C. Use when: loyalty program, customer lifecycle program, tiered loyalty, milestone marketing, retention program design, lifecycle journey, loyalty economics, member tiers, retention motion.'
+description: 'Customer loyalty and lifecycle orchestration - tiered loyalty design, lifecycle journey programs, milestone triggers, and retention economics for B2B and B2C. Use when: loyalty program, customer lifecycle program, tiered loyalty, milestone marketing, retention program design, lifecycle journey, loyalty economics, member tiers, retention motion.'
 ---
 
 # Loyalty & Lifecycle (BOND Framework)
 
-Design a loyalty and lifecycle program that produces measurable retention lift — not a tier ladder for its own sake. BOND forces clarity on what behaviors loyalty is supposed to reinforce, what evidence the customer sees, and how the program economics actually pay back.
+Design a loyalty and lifecycle program that produces measurable retention lift - not a tier ladder for its own sake. BOND forces clarity on what behaviors loyalty is supposed to reinforce, what evidence the customer sees, and how the program economics actually pay back.
 
 ## Core Principle
 
@@ -15,7 +15,7 @@ Design a loyalty and lifecycle program that produces measurable retention lift �
 
 | Letter | Stage | The Question |
 |--------|-------|--------------|
-| **B** | Behavior Targeting | Which 3–5 customer behaviors, if reinforced, would shift retention and LTV? |
+| **B** | Behavior Targeting | Which 3-5 customer behaviors, if reinforced, would shift retention and LTV? |
 | **O** | Offer Architecture | What earn / burn mechanics + tier benefits reinforce those behaviors? |
 | **N** | Notification & Lifecycle | What lifecycle triggers and moments deliver the program in-context? |
 | **D** | Defend the Economics | How does the program pay back, and what's the cannibalization guardrail? |
@@ -36,7 +36,7 @@ A useful program changes behavior in measurable ways. Start with:
 
 | Element | Best Practice |
 |---------|---------------|
-| **Number of tiers** | 3–4; more dilutes status |
+| **Number of tiers** | 3-4; more dilutes status |
 | **Tier criteria** | Mix of spend + behavior; behavior-only tiers possible |
 | **Tier benefits** | At least one *experiential* benefit per tier (not just discounts) |
 | **Tier durability** | Annual review or rolling 12-month; never punitive |
@@ -84,24 +84,24 @@ Save to `outputs/loyalty-lifecycle-[program]-[YYYY-MM-DD].md`
 
 ## Process
 
-1. **Pick 3–5 target behaviors** with quantified retention / LTV thesis
+1. **Pick 3-5 target behaviors** with quantified retention / LTV thesis
 2. **Design the earn / burn** mechanics to reinforce those behaviors (not all behaviors)
 3. **Architect tiers** with experiential benefits and visible status
 4. **Map lifecycle moments** to specific program actions
 5. **Build the economic model** with incrementality controls
-6. **Stand up governance** — programs decay without quarterly refresh
+6. **Stand up governance** - programs decay without quarterly refresh
 
 ## Tips
 
-1. **Status > discount** — experiential benefits are stickier and cheaper
-2. **Always test against a holdout** — incrementality is the only honest metric
-3. **Cap tier downgrade pain** — punitive downgrades nuke trust
+1. **Status > discount** - experiential benefits are stickier and cheaper
+2. **Always test against a holdout** - incrementality is the only honest metric
+3. **Cap tier downgrade pain** - punitive downgrades nuke trust
 4. **Refresh the redemption catalog** quarterly; staleness kills engagement
 5. **Track liability** like a finance line item, not a marketing footnote
 
 ## Pairs With
 
-- **customer-success** — Health signal informs risk-moment triggers
-- **growth-loop** — Loyalty is a retention loop input
-- **customer-analytics** — Incrementality and segment behavior analysis
-- **referral-program** — Pairs naturally with advocacy and referral tiers
+- **customer-success** - Health signal informs risk-moment triggers
+- **growth-loop** - Loyalty is a retention loop input
+- **customer-analytics** - Incrementality and segment behavior analysis
+- **referral-program** - Pairs naturally with advocacy and referral tiers

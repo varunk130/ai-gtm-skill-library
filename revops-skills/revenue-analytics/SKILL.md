@@ -1,11 +1,11 @@
 ---
 name: revenue-analytics
-description: 'Revenue analytics architecture — ARR / NRR / GRR decomposition, cohort retention, expansion drivers, segment economics, and CAC payback diagnostics. Use when: revenue analytics, ARR waterfall, NRR analysis, GRR, expansion analysis, cohort revenue retention, CAC payback, magic number, segment economics, revenue diagnostics.'
+description: 'Revenue analytics architecture - ARR / NRR / GRR decomposition, cohort retention, expansion drivers, segment economics, and CAC payback diagnostics. Use when: revenue analytics, ARR waterfall, NRR analysis, GRR, expansion analysis, cohort revenue retention, CAC payback, magic number, segment economics, revenue diagnostics.'
 ---
 
 # Revenue Analytics (LADDER Framework)
 
-Design a revenue analytics layer that answers *where revenue is being created, where it's leaking, and which lever to pull next* — not a dashboard of vanity totals. LADDER decomposes ARR, attributes it, diagnoses drivers, and turns analysis into named actions.
+Design a revenue analytics layer that answers *where revenue is being created, where it's leaking, and which lever to pull next* - not a dashboard of vanity totals. LADDER decomposes ARR, attributes it, diagnoses drivers, and turns analysis into named actions.
 
 ## Core Principle
 
@@ -15,12 +15,12 @@ Design a revenue analytics layer that answers *where revenue is being created, w
 
 | Letter | Stage | The Question |
 |--------|-------|--------------|
-| **L** | Leading Indicators | Which forward-looking metrics predict ARR movement 1–2 quarters out? |
-| **A** | Attribution | Where does new ARR come from — channel, motion, segment, cohort? |
-| **D** | Drivers | Which 3–5 levers explain most of the variance in NRR and growth? |
+| **L** | Leading Indicators | Which forward-looking metrics predict ARR movement 1-2 quarters out? |
+| **A** | Attribution | Where does new ARR come from - channel, motion, segment, cohort? |
+| **D** | Drivers | Which 3-5 levers explain most of the variance in NRR and growth? |
 | **D** | Diagnosis | What's broken or accelerating, and what's the named hypothesis? |
 | **E** | Expansion Economics | What's the economics of expansion vs new logo by segment? |
-| **R** | Retention Decomposition | What's GRR, contraction, churn — by cohort and reason code? |
+| **R** | Retention Decomposition | What's GRR, contraction, churn - by cohort and reason code? |
 
 ## ARR Waterfall
 
@@ -43,9 +43,9 @@ Lagging metrics (ARR, NRR) confirm what already happened. Leading metrics let yo
 
 | Metric | Leads What | Lead Time |
 |--------|------------|-----------|
-| **Qualified pipeline coverage (3x)** | Bookings | 1–2 quarters |
+| **Qualified pipeline coverage (3x)** | Bookings | 1-2 quarters |
 | **Engagement score trajectory** | Renewal / NRR | 2 quarters |
-| **Health score distribution** | GRR | 1–2 quarters |
+| **Health score distribution** | GRR | 1-2 quarters |
 | **MQL→SQL conversion** | New logo bookings | 1 quarter |
 | **Expansion pipeline coverage** | Expansion ARR | 1 quarter |
 | **Win-rate by segment** | Booking productivity | 1 quarter |
@@ -88,8 +88,8 @@ Save to `outputs/revenue-analytics-[scope]-[YYYY-MM-DD].md`
 | Artifact | Description |
 |----------|-------------|
 | **ARR Waterfall** | Period-over-period with segmentation |
-| **Leading-Indicator Pack** | 6–8 metrics with thresholds and trend |
-| **Driver Decomposition** | Top 3–5 drivers with quantified contribution to variance |
+| **Leading-Indicator Pack** | 6-8 metrics with thresholds and trend |
+| **Driver Decomposition** | Top 3-5 drivers with quantified contribution to variance |
 | **Cohort Retention Heatmap** | Cohort × period with segment cuts |
 | **Economics Pack** | CAC payback, LTV/CAC, magic number, segment breakdown |
 | **Diagnosis Memo** | Anomalies + hypotheses + named owners |
@@ -97,24 +97,24 @@ Save to `outputs/revenue-analytics-[scope]-[YYYY-MM-DD].md`
 
 ## Process
 
-1. **Lock the ARR waterfall definitions** — one source of truth across finance, CS, and sales
+1. **Lock the ARR waterfall definitions** - one source of truth across finance, CS, and sales
 2. **Build the leading-indicator pack** with named thresholds, not just charts
 3. **Decompose drivers** with explicit attribution; refresh quarterly
 4. **Stand up cohort retention** with segment cuts that match motion design
-5. **Wire economics** into the operating cadence — not just board prep
+5. **Wire economics** into the operating cadence - not just board prep
 6. **Diagnose monthly**: anomaly → hypothesis → owner → action
 
 ## Tips
 
-1. **One ARR definition** — every team must agree on what counts as ARR
-2. **Cohort > snapshot** — retention totals lie; cohorts don't
+1. **One ARR definition** - every team must agree on what counts as ARR
+2. **Cohort > snapshot** - retention totals lie; cohorts don't
 3. **Always reason-code** churn and contraction; otherwise the diagnostic loop is closed
 4. **Leading indicators with no threshold** are decoration
-5. **CAC payback is the most honest growth metric** — easy to game, hard to fake
+5. **CAC payback is the most honest growth metric** - easy to game, hard to fake
 
 ## Pairs With
 
-- **customer-analytics** — Engagement and behavioral cohorts feed NRR decomposition
-- **revenue-forecasting** — Drivers and leading indicators inform the forecast
-- **customer-success** — Health-score distribution is a top GRR driver
-- **budget-allocator** — Economics inform reallocation decisions
+- **customer-analytics** - Engagement and behavioral cohorts feed NRR decomposition
+- **revenue-forecasting** - Drivers and leading indicators inform the forecast
+- **customer-success** - Health-score distribution is a top GRR driver
+- **budget-allocator** - Economics inform reallocation decisions

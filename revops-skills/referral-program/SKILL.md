@@ -1,11 +1,11 @@
 ---
 name: referral-program
-description: 'Referral program design — referrer / referee incentive structure, viral mechanics, fraud and abuse controls, attribution, and channel placement. Use when: referral program, refer a friend, viral loop design, K-factor, advocacy referrals, partner referrals, customer referral incentives, referral attribution, viral coefficient.'
+description: 'Referral program design - referrer / referee incentive structure, viral mechanics, fraud and abuse controls, attribution, and channel placement. Use when: referral program, refer a friend, viral loop design, K-factor, advocacy referrals, partner referrals, customer referral incentives, referral attribution, viral coefficient.'
 ---
 
 # Referral Program (RIPPLE Framework)
 
-Design a referral program with a real viral mechanic — not a "refer a friend" button buried in settings. RIPPLE forces explicit design of who refers, why they refer, what the receiver gets, where the program lives, and how it's measured against a viral coefficient.
+Design a referral program with a real viral mechanic - not a "refer a friend" button buried in settings. RIPPLE forces explicit design of who refers, why they refer, what the receiver gets, where the program lives, and how it's measured against a viral coefficient.
 
 ## Core Principle
 
@@ -60,7 +60,7 @@ Placement determines who sees the ask and when.
 
 | Placement | When It Works |
 |-----------|---------------|
-| **Post-aha moment** | After the first clear value event — referrer is intrinsically motivated |
+| **Post-aha moment** | After the first clear value event - referrer is intrinsically motivated |
 | **Account / settings page** | Permanent home, low discoverability |
 | **Email lifecycle** | Anniversary, milestone, or NPS positive |
 | **In-app banner** | High visibility; must be dismissible |
@@ -70,9 +70,9 @@ Placement determines who sees the ask and when.
 
 | Metric | Definition | Target |
 |--------|------------|--------|
-| **Referral rate** | % of eligible customers who refer at least once in window | 5–15% strong |
-| **Invites per referrer** | Average invites sent by active referrer | 3–8 strong |
-| **Conversion rate** | % of invitees who become customers | 5–25% varies by motion |
+| **Referral rate** | % of eligible customers who refer at least once in window | 5-15% strong |
+| **Invites per referrer** | Average invites sent by active referrer | 3-8 strong |
+| **Conversion rate** | % of invitees who become customers | 5-25% varies by motion |
 | **K-factor** | Referral rate × Invites × Conversion | > 1.0 = self-sustaining loop |
 | **Cycle time** | Days from invite to converted referee | Shorter = faster compounding |
 
@@ -105,7 +105,7 @@ Save to `outputs/referral-program-[motion]-[YYYY-MM-DD].md`
 1. **Pick reward architecture** with sender + receiver explicit
 2. **Strip friction** from the invite mechanic; benchmark every step
 3. **Place the ask** at intrinsic-motivation moments (post-aha is gold)
-4. **Add proof** — testimonials, "X people have invited friends," referrer endorsement
+4. **Add proof** - testimonials, "X people have invited friends," referrer endorsement
 5. **Model the loop math** with sensitivities; identify the binding constraint
 6. **Instrument fraud and incrementality** before launching, not after
 
@@ -113,13 +113,13 @@ Save to `outputs/referral-program-[motion]-[YYYY-MM-DD].md`
 
 1. **K-factor < 1 is fine** if it lowers blended CAC; don't only chase virality
 2. **Reward at successful action**, not invite, to align with revenue
-3. **Run a holdout** to prove incrementality — most teams skip this
+3. **Run a holdout** to prove incrementality - most teams skip this
 4. **Refresh rewards** quarterly; novelty drives participation
 5. **B2B referrals** often work better as advocacy plays than cash bounties
 
 ## Pairs With
 
-- **customer-advocacy** — Top advocates are the highest-K referrers
-- **community-catalyst** — Communities amplify referral loops
-- **loyalty-lifecycle** — Tiered status integrates with referral milestones
-- **demand-engine** — Channel mix that promotes the program
+- **customer-advocacy** - Top advocates are the highest-K referrers
+- **community-catalyst** - Communities amplify referral loops
+- **loyalty-lifecycle** - Tiered status integrates with referral milestones
+- **demand-engine** - Channel mix that promotes the program

@@ -33,7 +33,7 @@ For enterprise developers and ISV partners who need to extend AI capabilities wi
 | vs. Alternative | Our Advantage |
 |---|---|
 | Competitor A (AI Assistants) | Native ACME Platform access, enterprise identity, compliance built in |
-| Competitor B (CRM AI) | Already deployed where users work — no context switch |
+| Competitor B (CRM AI) | Already deployed where users work - no context switch |
 | Competitor C (Workspace AI) | 3× larger enterprise installed base, deeper line-of-business integration |
 | Build from scratch | 10× faster to production with pre-built connectors and the ACME Studio low-code builder |
 
@@ -54,7 +54,7 @@ For enterprise developers and ISV partners who need to extend AI capabilities wi
 
 **Why Now:**
 1. Enterprise AI adoption hit 68% in 2025, but customization remains the #1 unmet need (industry research)
-2. Competitors are 6–12 months behind on enterprise-grade platform integration frameworks
+2. Competitors are 6-12 months behind on enterprise-grade platform integration frameworks
 3. ACME Insight Studio seat penetration creates a captive distribution channel that did not exist 18 months ago
 
 **Competitive Landscape:**
@@ -121,9 +121,9 @@ For enterprise developers and ISV partners who need to extend AI capabilities wi
 | Phase | Timeline | Key Milestones | Gate Criteria |
 |---|---|---|---|
 | Pre-Launch | Weeks -4 to -1 | Messaging final, enablement complete, ISV extensions certified | Go / No-Go review |
-| Launch Week | Day 1–5 | Press release, CEO demo, developer livestream, SI launch event | 50+ extensions Day 1 |
-| Post-Launch Month 1 | Days 8–30 | Weekly metrics cadence, community activation, first hackathon | 200+ MAD, sentiment > 4.0 |
-| Post-Launch Month 2–3 | Days 31–90 | Regional expansion, certification program, Phase 2 planning | 1,200 MAD, $40M pipeline |
+| Launch Week | Day 1-5 | Press release, CEO demo, developer livestream, SI launch event | 50+ extensions Day 1 |
+| Post-Launch Month 1 | Days 8-30 | Weekly metrics cadence, community activation, first hackathon | 200+ MAD, sentiment > 4.0 |
+| Post-Launch Month 2-3 | Days 31-90 | Regional expansion, certification program, Phase 2 planning | 1,200 MAD, $40M pipeline |
 
 ---
 

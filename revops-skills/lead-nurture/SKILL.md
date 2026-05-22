@@ -1,6 +1,6 @@
 ---
 name: lead-nurture
-description: 'Lead nurture orchestration — multi-track nurture design by intent stage, scoring, behavioral triggers, MQL→SQL handoff, and revival of cold leads. Use when: lead nurture, drip campaign, nurture track, lead scoring, MQL to SQL, lifecycle marketing, nurture sequence, behavioral trigger, lead revival, MQL handoff.'
+description: 'Lead nurture orchestration - multi-track nurture design by intent stage, scoring, behavioral triggers, MQL→SQL handoff, and revival of cold leads. Use when: lead nurture, drip campaign, nurture track, lead scoring, MQL to SQL, lifecycle marketing, nurture sequence, behavioral trigger, lead revival, MQL handoff.'
 ---
 
 # Lead Nurture (NURTURE Framework)
@@ -9,7 +9,7 @@ Design a lead-nurture system that respects buyer intent, routes leads to the rig
 
 ## Core Principle
 
-**Nurture fails when it treats time as the trigger.** "Send email 3 on day 7" assumes every lead is on the same journey. NURTURE treats signal — not the calendar — as the trigger, and gates progression by demonstrated intent.
+**Nurture fails when it treats time as the trigger.** "Send email 3 on day 7" assumes every lead is on the same journey. NURTURE treats signal - not the calendar - as the trigger, and gates progression by demonstrated intent.
 
 ## The NURTURE Framework
 
@@ -29,7 +29,7 @@ Design a lead-nurture system that respects buyer intent, routes leads to the rig
 |-------|-----------|------------|---------|
 | **Unaware** | Discovered category, no problem framing | Frame the problem | Bi-weekly |
 | **Aware** | Acknowledges problem, exploring | Reframe with our POV | Weekly |
-| **Considering** | Evaluating vendors | Differentiate + de-risk | 2–4×/week, behavior-gated |
+| **Considering** | Evaluating vendors | Differentiate + de-risk | 2-4×/week, behavior-gated |
 | **Decision** | Short-listed | Accelerate to demo / sales | Daily during active window |
 | **Dormant / Lost** | No activity 60+ days OR closed-lost | Reactivate on signal | Quarterly check-in + signal trigger |
 
@@ -40,9 +40,9 @@ A robust nurture system reads **explicit** and **behavioral** signals together:
 | Type | Example | Implication |
 |------|---------|-------------|
 | **Explicit** | Form fill, demo request, pricing page submit | High-confidence stage signal |
-| **Behavioral — high** | Pricing page, comparison page, case study deep read | Considering or Decision |
-| **Behavioral — medium** | Webinar registration, ebook download | Aware → Considering |
-| **Behavioral — low** | Blog visit, newsletter open | Unaware → Aware |
+| **Behavioral - high** | Pricing page, comparison page, case study deep read | Considering or Decision |
+| **Behavioral - medium** | Webinar registration, ebook download | Aware → Considering |
+| **Behavioral - low** | Blog visit, newsletter open | Unaware → Aware |
 | **Decay** | No engagement 30+ days | Re-route to lighter cadence |
 
 ## Lead Scoring Design
@@ -51,7 +51,7 @@ Combine **fit** (firmographic) and **intent** (behavioral) into a 2D grid, not a
 
 | Fit \\ Intent | Low | Medium | High |
 |---|---|---|---|
-| **High** | Marketing nurture | Sales-assist | SQL — immediate |
+| **High** | Marketing nurture | Sales-assist | SQL - immediate |
 | **Medium** | Standard nurture | Behavior-gated | SDR-triggered |
 | **Low** | Newsletter only | Selective nurture | Manual triage |
 
@@ -88,19 +88,19 @@ Save to `outputs/lead-nurture-[program]-[YYYY-MM-DD].md`
 3. **Design tracks per stage** with explicit entry / exit, not just send schedules
 4. **Build the scoring grid** with sales co-sign; align on MQL / SQL definitions
 5. **Spec the handoff** with SLA, disposition loop, and recycle path
-6. **Stand up the engagement refresh cycle** — quarterly content audit + signal recalibration
+6. **Stand up the engagement refresh cycle** - quarterly content audit + signal recalibration
 
 ## Tips
 
-1. **Time-based drip is anti-nurture** — gate progression by signal, not by day
-2. **Score is 2D, not 1D** — fit and intent must remain separable
-3. **A rejected MQL with no reason code is a broken loop** — enforce disposition
+1. **Time-based drip is anti-nurture** - gate progression by signal, not by day
+2. **Score is 2D, not 1D** - fit and intent must remain separable
+3. **A rejected MQL with no reason code is a broken loop** - enforce disposition
 4. **Refresh content quarterly** or the program self-decays
-5. **Cold leads aren't dead** — long-cycle nurture frequently produces 10–20% of pipeline
+5. **Cold leads aren't dead** - long-cycle nurture frequently produces 10-20% of pipeline
 
 ## Pairs With
 
-- **demand-engine** — Channel mix that originates the leads
-- **journey-architect** — Stages the nurture tracks attach to
-- **enablement-forge** — Produces the per-stage assets
-- **customer-success** — Inherits the lead at first value handoff
+- **demand-engine** - Channel mix that originates the leads
+- **journey-architect** - Stages the nurture tracks attach to
+- **enablement-forge** - Produces the per-stage assets
+- **customer-success** - Inherits the lead at first value handoff

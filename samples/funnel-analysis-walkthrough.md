@@ -1,4 +1,4 @@
-# Funnel Analysis — Worked Example
+# Funnel Analysis - Worked Example
 
 Pairs with `python_runtime/funnel.py` and the `budget-allocator` skill.
 

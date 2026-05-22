@@ -9,7 +9,7 @@ One-paragraph framing: what post-sale or revenue-engine problem this skill solve
 
 ## Core Principle
 
-**State the single most important rule the skill enforces** — the opinion that separates this from a generic CS / RevOps template (e.g., "leading signals beat lagging metrics," "renewal is won at T-180 not in the redline").
+**State the single most important rule the skill enforces** - the opinion that separates this from a generic CS / RevOps template (e.g., "leading signals beat lagging metrics," "renewal is won at T-180 not in the redline").
 
 ## The MNEMONIC Framework
 
@@ -26,11 +26,11 @@ One-paragraph framing: what post-sale or revenue-engine problem this skill solve
 
 ## Process
 
-1. **First step** — what to instrument, what to score, what to escalate
-2. **Second step** — codify thresholds, owners, SLAs
-3. **Third step** — design the play library or operating cadence
-4. **Fourth step** — measurement and feedback loop
-5. **Fifth step** — handoff to paired skill
+1. **First step** - what to instrument, what to score, what to escalate
+2. **Second step** - codify thresholds, owners, SLAs
+3. **Third step** - design the play library or operating cadence
+4. **Fourth step** - measurement and feedback loop
+5. **Fifth step** - handoff to paired skill
 
 ## Output
 
@@ -45,12 +45,12 @@ Save to `outputs/example-revops-skill-[segment]-[YYYY-MM-DD].md`
 
 ## Tips
 
-1. **Lead with signal, not lagging metric** — RevOps fails when scorecards confirm churn after it's locked in
-2. **Every play has an owner and a deadline** — playbooks without ownership rot
-3. **Validate against historical data** — model is decoration until back-tested
+1. **Lead with signal, not lagging metric** - RevOps fails when scorecards confirm churn after it's locked in
+2. **Every play has an owner and a deadline** - playbooks without ownership rot
+3. **Validate against historical data** - model is decoration until back-tested
 
 ## Pairs With
 
-- **upstream-revops-skill** — Provides the input data or signal feed
-- **downstream-revops-skill** — Consumes the operating spec or measurement output
-- **gtm-skill** — Cross-cluster pairing (e.g., `enablement-forge`, `growth-loop`)
+- **upstream-revops-skill** - Provides the input data or signal feed
+- **downstream-revops-skill** - Consumes the operating spec or measurement output
+- **gtm-skill** - Cross-cluster pairing (e.g., `enablement-forge`, `growth-loop`)

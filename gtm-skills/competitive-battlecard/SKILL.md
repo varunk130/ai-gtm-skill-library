@@ -1,17 +1,17 @@
 ---
 name: competitive-battlecard
-description: 'On-demand sales battlecards for live competitive deals — positioning matrix, top objections with responses, trap questions, proof points, and a "do not say" list. Use when: competitor surfaced in deal, sales battlecard, competitive enablement, deal-specific battlecard, objection handling, competitive trap questions, why we win against, why we lose to, displacement playbook.'
+description: 'On-demand sales battlecards for live competitive deals - positioning matrix, top objections with responses, trap questions, proof points, and a "do not say" list. Use when: competitor surfaced in deal, sales battlecard, competitive enablement, deal-specific battlecard, objection handling, competitive trap questions, why we win against, why we lose to, displacement playbook.'
 ---
 
 # Competitive Battlecard
 
-Generate a deal-specific competitive battlecard in minutes when a competitor surfaces in an active opportunity. Sales reps get a focused, defensible playbook — not a 30-page positioning deck — that maps directly to the deal context (industry, company size, current stack) so they can respond confidently in the next call.
+Generate a deal-specific competitive battlecard in minutes when a competitor surfaces in an active opportunity. Sales reps get a focused, defensible playbook - not a 30-page positioning deck - that maps directly to the deal context (industry, company size, current stack) so they can respond confidently in the next call.
 
-This skill assumes you already have a working understanding of the competitor (or have run **win-loss-analysis** / **competitive-positioning**). It is the *delivery layer* — turning prior intelligence into something a rep can act on between meetings. **No external sources are queried; the skill produces the battlecard from the inputs you provide.**
+This skill assumes you already have a working understanding of the competitor (or have run **win-loss-analysis** / **competitive-positioning**). It is the *delivery layer* - turning prior intelligence into something a rep can act on between meetings. **No external sources are queried; the skill produces the battlecard from the inputs you provide.**
 
 ## Core Principle
 
-**A battlecard is a constraint, not just a cheat sheet.** Its job is to keep reps on the messages that win and off the messages that lose — especially the ones that *feel* compelling in the moment but historically tank deals. Half the value is the "do not say" list.
+**A battlecard is a constraint, not just a cheat sheet.** Its job is to keep reps on the messages that win and off the messages that lose - especially the ones that *feel* compelling in the moment but historically tank deals. Half the value is the "do not say" list.
 
 ---
 
@@ -19,11 +19,11 @@ This skill assumes you already have a working understanding of the competitor (o
 
 | Section | Description |
 |---------|-------------|
-| **Positioning Matrix** | Side-by-side comparison on the 4–6 dimensions the buyer actually weighs |
+| **Positioning Matrix** | Side-by-side comparison on the 4-6 dimensions the buyer actually weighs |
 | **Top 3 Objections + Responses** | The objections this competitor's reps are trained to plant, with battle-tested responses |
-| **Trap Questions** | 3–5 questions the rep can ask the buyer that are easy for *us* to answer and hard for *them* — surfaces our strengths without naming the competitor |
+| **Trap Questions** | 3-5 questions the rep can ask the buyer that are easy for *us* to answer and hard for *them* - surfaces our strengths without naming the competitor |
 | **Proof Points** | Customer outcomes, case study one-liners, and metrics, mapped to the deal's industry/size when possible |
-| **"Do Not Say" List** | The 3–5 talking points that feel right but lose deals — with the reason each one backfires |
+| **"Do Not Say" List** | The 3-5 talking points that feel right but lose deals - with the reason each one backfires |
 | **Discovery Re-Open** | Suggested questions to re-open discovery if the rep has been pulled into a feature comparison too early |
 | **Next-Step Recommendation** | The specific next action that historically advances deals against this competitor (POC structure, exec alignment, security-led demo, etc.) |
 
@@ -41,10 +41,10 @@ Battlecards are *deal-specific by design.* The same competitor in a different in
 
 ### Step 1: Intake
 I'll ask:
-> "Which competitor has surfaced? What's the deal context — industry, company size, current stack, deal stage, the buying committee roles you've met, and what the competitor has reportedly told the buyer? What internal intel do you have on this competitor (positioning, prior win-loss data, recent product launches)?"
+> "Which competitor has surfaced? What's the deal context - industry, company size, current stack, deal stage, the buying committee roles you've met, and what the competitor has reportedly told the buyer? What internal intel do you have on this competitor (positioning, prior win-loss data, recent product launches)?"
 
 ### Step 2: Positioning Matrix
-Map the 4–6 dimensions this buyer actually cares about (drawn from the deal context — not a generic feature grid). Score each side as **Win / Tie / Lose / Mixed**, with a one-line rationale per cell. Reps don't read three-paragraph cells.
+Map the 4-6 dimensions this buyer actually cares about (drawn from the deal context - not a generic feature grid). Score each side as **Win / Tie / Lose / Mixed**, with a one-line rationale per cell. Reps don't read three-paragraph cells.
 
 ### Step 3: Predict the Competitor's 3 Objections
 For this competitor in this deal context, what will their rep most likely plant in the buyer's mind? Phrase each as the buyer is likely to repeat it back ("I heard your platform doesn't handle X"), then write the response.
@@ -52,10 +52,10 @@ For this competitor in this deal context, what will their rep most likely plant 
 Each response follows the **3-line structure**:
 1. **Acknowledge** the partial truth (don't deny what's verifiably true)
 2. **Reframe** to a dimension we win on
-3. **Proof** — a specific customer outcome or capability the buyer can verify
+3. **Proof** - a specific customer outcome or capability the buyer can verify
 
 ### Step 4: Generate Trap Questions
-Trap questions are buyer-facing and *competitor-neutral*. They surface a real pain that we solve well and the competitor handles poorly — without naming the competitor (which always backfires). Each trap question includes:
+Trap questions are buyer-facing and *competitor-neutral*. They surface a real pain that we solve well and the competitor handles poorly - without naming the competitor (which always backfires). Each trap question includes:
 - The question itself
 - Why it surfaces our advantage
 - The likely buyer answer that opens the door
@@ -66,10 +66,10 @@ Match customer stories / metrics / quotes to this deal's industry and company si
 - Same industry OR same size band → medium weight
 - Logo-recognition only → lowest weight, used sparingly
 
-For each proof point, include the specific metric (not "improved efficiency" — *"reduced ramp time from 14 to 4 days"*).
+For each proof point, include the specific metric (not "improved efficiency" - *"reduced ramp time from 14 to 4 days"*).
 
 ### Step 6: Build the "Do Not Say" List
-The hardest and most valuable section. Identify 3–5 talking points that:
+The hardest and most valuable section. Identify 3-5 talking points that:
 - Reps reach for instinctively against this competitor
 - Have historically correlated with losses (from win-loss data) OR
 - Pattern-match to known buyer triggers (e.g., trash-talking the competitor, over-claiming, attacking on price)
@@ -100,9 +100,9 @@ One specific recommendation tied to deal stage:
 | Native integrations | Tie | Tie | Both have the top 10 the buyer mentioned |
 | Pricing transparency | Win (public tiers) | Lose (custom-quote only) | Strong wedge with finance buyer |
 
-**Top Objection #1 — "Acme has more enterprise logos."**
-1. Acknowledge: "Acme has been in market longer in the enterprise tier — that's true."
-2. Reframe: "What we hear from buyers who switched is that mid-market and upper-mid was where Acme's deployment model started slowing them down — multi-month PS engagements vs. self-serve in days."
+**Top Objection #1 - "Acme has more enterprise logos."**
+1. Acknowledge: "Acme has been in market longer in the enterprise tier - that's true."
+2. Reframe: "What we hear from buyers who switched is that mid-market and upper-mid was where Acme's deployment model started slowing them down - multi-month PS engagements vs. self-serve in days."
 3. Proof: "[Customer X], 1,200 FTEs in your industry, ran POC in 9 days and was in production in 5 weeks."
 
 **Trap Question:** *"How much PS budget did you set aside for implementation, and what's the trigger that releases it?"*
@@ -128,6 +128,6 @@ One specific recommendation tied to deal stage:
 
 ## Pairs With
 
-- **win-loss-analysis** — supplies the empirical loss reasons that populate "Do Not Say"
-- **competitive-positioning** — supplies the strategic positioning that frames the matrix
-- **competitive-exec-brief** — battlecard for executive-level conversations rather than rep-level deals
+- **win-loss-analysis** - supplies the empirical loss reasons that populate "Do Not Say"
+- **competitive-positioning** - supplies the strategic positioning that frames the matrix
+- **competitive-exec-brief** - battlecard for executive-level conversations rather than rep-level deals

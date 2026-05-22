@@ -1,15 +1,15 @@
 ---
 name: voice-of-customer
-description: 'Voice of Customer program — multi-source signal collection, theming and prioritization, evidence-to-action routing, and product / CS / marketing feedback loop closure. Use when: voice of customer, VoC program, customer feedback, NPS / CSAT / CES, qualitative theming, feedback synthesis, product feedback loop, customer insight engine.'
+description: 'Voice of Customer program - multi-source signal collection, theming and prioritization, evidence-to-action routing, and product / CS / marketing feedback loop closure. Use when: voice of customer, VoC program, customer feedback, NPS / CSAT / CES, qualitative theming, feedback synthesis, product feedback loop, customer insight engine.'
 ---
 
 # Voice of Customer (ECHO Framework)
 
-Design a Voice-of-Customer program that turns raw feedback into routed, prioritized, evidence-backed actions — not a quarterly NPS report nobody reads. ECHO replaces ad-hoc surveys with a multi-source signal pipeline that PMs, CS, and marketing all rely on.
+Design a Voice-of-Customer program that turns raw feedback into routed, prioritized, evidence-backed actions - not a quarterly NPS report nobody reads. ECHO replaces ad-hoc surveys with a multi-source signal pipeline that PMs, CS, and marketing all rely on.
 
 ## Core Principle
 
-**VoC fails when it conflates *collection* with *insight*.** A survey isn't a program. ECHO standardizes how signal is elicited, themed, prioritized, and *closed* — with the loop back to the customer being the most often skipped step.
+**VoC fails when it conflates *collection* with *insight*.** A survey isn't a program. ECHO standardizes how signal is elicited, themed, prioritized, and *closed* - with the loop back to the customer being the most often skipped step.
 
 ## The ECHO Framework
 
@@ -43,7 +43,7 @@ Without disciplined theming, VoC becomes a junk drawer. Adopt:
 | Field | Spec |
 |-------|------|
 | **Theme** | Standardized taxonomy (refreshed quarterly, not ad-hoc) |
-| **Severity** | Critical / Major / Minor — based on revenue impact, not emotion |
+| **Severity** | Critical / Major / Minor - based on revenue impact, not emotion |
 | **Source** | Channel of origin (survey, ticket, call, etc.) |
 | **Segment** | ICP segment, plan tier, motion |
 | **Stage** | Pre-sale / Onboarding / Adoption / Renewal / Churn |
@@ -60,7 +60,7 @@ Without disciplined theming, VoC becomes a junk drawer. Adopt:
 | **Strategic Fit** | Does the fix advance the platform thesis or fix a wart? |
 | **Reach** | What share of ARR or users does the change touch? |
 
-Combine into a RICE-style score, but never let the score replace judgment — leadership review is part of the process.
+Combine into a RICE-style score, but never let the score replace judgment - leadership review is part of the process.
 
 ## Operationalize: Route, Act, Close
 
@@ -73,7 +73,7 @@ Combine into a RICE-style score, but never let the score replace judgment — le
 | **Roadmap signal** | PM Leadership | Roadmap update in next planning cycle |
 | **Service quality** | Support Ops | Triaged in 5 business days |
 
-**Loop closure with the customer is non-negotiable.** Every customer who raised a theme should hear back when a related change ships — closes trust loop and earns the next round of feedback.
+**Loop closure with the customer is non-negotiable.** Every customer who raised a theme should hear back when a related change ships - closes trust loop and earns the next round of feedback.
 
 ## Output
 
@@ -96,19 +96,19 @@ Save to `outputs/voice-of-customer-[scope]-[YYYY-MM-DD].md`
 3. **Score and prioritize** with a written rubric, leadership review monthly
 4. **Route to owners** with SLAs; track action time, not just intent
 5. **Close the loop** with every customer who raised an actioned theme
-6. **Refresh the taxonomy quarterly** — emergent themes deserve their own bucket
+6. **Refresh the taxonomy quarterly** - emergent themes deserve their own bucket
 
 ## Tips
 
-1. **Survey fatigue is real** — cap touches per customer per quarter
-2. **Triangulate sources** — single-source insights are usually wrong
-3. **Behavioral data beats stated preference** — pair always
-4. **Loop closure is the most under-invested step** — and the highest-leverage one
-5. **VoC is a *system*** — one-off projects don't compound
+1. **Survey fatigue is real** - cap touches per customer per quarter
+2. **Triangulate sources** - single-source insights are usually wrong
+3. **Behavioral data beats stated preference** - pair always
+4. **Loop closure is the most under-invested step** - and the highest-leverage one
+5. **VoC is a *system*** - one-off projects don't compound
 
 ## Pairs With
 
-- **customer-success** — VoC themes feed CS risk plays and EBR agendas
-- **customer-analytics** — Behavioral data complements stated feedback
-- **journey-architect** — Stage tags align VoC with journey gates
-- **enablement-forge** — Updated objection handling responds to recurring VoC themes
+- **customer-success** - VoC themes feed CS risk plays and EBR agendas
+- **customer-analytics** - Behavioral data complements stated feedback
+- **journey-architect** - Stage tags align VoC with journey gates
+- **enablement-forge** - Updated objection handling responds to recurring VoC themes

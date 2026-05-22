@@ -1,11 +1,11 @@
 ---
 name: renewal-orchestration
-description: 'Renewal orchestration playbook — risk identification, renewal motion design, multi-thread engagement, commercial negotiation, and expansion-at-renewal plays. Use when: renewal playbook, renewal forecast, renewal risk, multi-year renewal, NRR, GRR, churn save, contract negotiation, expansion at renewal, renewal handoff.'
+description: 'Renewal orchestration playbook - risk identification, renewal motion design, multi-thread engagement, commercial negotiation, and expansion-at-renewal plays. Use when: renewal playbook, renewal forecast, renewal risk, multi-year renewal, NRR, GRR, churn save, contract negotiation, expansion at renewal, renewal handoff.'
 ---
 
 # Renewal Orchestration (RENEW Framework)
 
-Design a renewal motion that produces forecastable Gross Revenue Retention, defends price, and uses the renewal moment as an *expansion* event — not a re-validation event. RENEW replaces "let's get the redline back" with a coordinated, signal-driven motion that starts 120+ days before contract end.
+Design a renewal motion that produces forecastable Gross Revenue Retention, defends price, and uses the renewal moment as an *expansion* event - not a re-validation event. RENEW replaces "let's get the redline back" with a coordinated, signal-driven motion that starts 120+ days before contract end.
 
 ## Core Principle
 
@@ -23,7 +23,7 @@ Design a renewal motion that produces forecastable Gross Revenue Retention, defe
 
 ## Renewal Risk Scoring
 
-Risk is a composite — not a single number. Score these at T-180:
+Risk is a composite - not a single number. Score these at T-180:
 
 | Dimension | Signal | Weight |
 |-----------|--------|--------|
@@ -99,15 +99,15 @@ Save to `outputs/renewal-orchestration-[segment]-[YYYY-MM-DD].md`
 
 ## Tips
 
-1. **Late risk identification is the #1 churn driver** — instrument T-180 baseline
-2. **The redline is not the negotiation** — the negotiation is at the value pack
+1. **Late risk identification is the #1 churn driver** - instrument T-180 baseline
+2. **The redline is not the negotiation** - the negotiation is at the value pack
 3. **Multi-year discounts must be earned**, not given to close
 4. **Auto-renew is a privilege**, not a default; revoke when trust erodes
-5. **Always debrief renewals** — wins and losses both teach pricing posture
+5. **Always debrief renewals** - wins and losses both teach pricing posture
 
 ## Pairs With
 
-- **customer-success** — Health score feeds the risk score
-- **revenue-analytics** — NRR / GRR diagnostics rolls renewal outcomes
-- **enablement-forge** — Builds the value realization pack and EBR templates
-- **revenue-forecasting** — Renewal-stage probability informs the forecast
+- **customer-success** - Health score feeds the risk score
+- **revenue-analytics** - NRR / GRR diagnostics rolls renewal outcomes
+- **enablement-forge** - Builds the value realization pack and EBR templates
+- **revenue-forecasting** - Renewal-stage probability informs the forecast

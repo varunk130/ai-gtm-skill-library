@@ -29,10 +29,10 @@ These six use cases represent the highest-priority GTM scenarios that enterprise
 **Company A**, a mid-market enterprise AI platform company (1,200 employees, $180M ARR), is launching a new AI-powered document intelligence product called "DocMind." The market already has 6 established competitors, and Company A needs to carve out a defensible position and generate pipeline within 90 days of GA.
 
 **Key Stakeholders:**
-- Person A — VP of Product Marketing
-- Person B — Head of Demand Generation
-- Person C — CRO
-- Person D — VP of Partnerships
+- Person A - VP of Product Marketing
+- Person B - Head of Demand Generation
+- Person C - CRO
+- Person D - VP of Partnerships
 
 ### Challenge
 
@@ -113,7 +113,7 @@ enablement-forge → demand-engine → growth-loop → budget-allocator → laun
 |--------|----------------|----------------------|--------|
 | Win Rate vs. Company E | 38% | 54% | +16 pts |
 | Competitive Deal Loss Rate | 15% | 8% | -7 pts |
-| At-Risk Account Saves | — | 23 of 31 flagged accounts retained | 74% save rate |
+| At-Risk Account Saves | - | 23 of 31 flagged accounts retained | 74% save rate |
 | Displacement Pipeline | $0 | $8.7M from Company E install base | New |
 | Sales Confidence Score (Internal Survey) | 3.1/5 | 4.4/5 | +42% |
 
@@ -189,7 +189,7 @@ enablement-forge → demand-engine → budget-allocator → launch-pulse
 | **Customer Intelligence** | `growth-loop` | ANCHOR framework analysis: segmented 2,300 accounts into 4 health tiers; identified 680 "expansion-ready" accounts (health score > 80, usage growth > 20% QoQ, no open escalations); mapped 3 expansion triggers (new compliance regulation, team growth, incident spike) |
 | **Expansion Journey** | `journey-architect` | 5-gate expansion journey: Signal Detection → Education → Trial Activation → Business Case → Expansion Close; each gate has entry criteria, content needs, and exit metrics |
 | **Opportunity Scoring** | `whitespace-finder` | Scored upsell opportunities: AI Security Copilot fits 520 accounts (avg. uplift $65K); AI Compliance Engine fits 340 accounts (avg. uplift $120K); both products fit 180 accounts (avg. uplift $175K) |
-| **Expansion Messaging** | `position-lock` | Product-specific messaging: AI Security Copilot — "Your analysts, 10x faster." AI Compliance Engine — "Audit-ready, always." Bundle — "Complete AI security, one platform." |
+| **Expansion Messaging** | `position-lock` | Product-specific messaging: AI Security Copilot - "Your analysts, 10x faster." AI Compliance Engine - "Audit-ready, always." Bundle - "Complete AI security, one platform." |
 | **Sales Arming** | `enablement-forge` | Expansion playbook: propensity-based account prioritization matrix, QBR expansion talk track, ROI calculator per product, customer success story library (5 mock stories), objection handler for budget conversations |
 | **Demand Activation** | `demand-engine` | In-product upsell triggers, customer webinar series ("Beyond Threat Detection"), executive dinner series for top 50 accounts, targeted email nurture (12-touch sequence segmented by propensity score) |
 | **Investment Model** | `budget-allocator` | $1.8M expansion budget: customer marketing (40%), CS-led events (25%), in-product experiences (20%), executive engagement (15%); projected 14:1 ROI |
@@ -238,9 +238,9 @@ demand-engine → enablement-forge → launch-command
 | **Regional Positioning** | `position-lock` | EMEA-adapted messaging: "AI-powered HR built for European compliance." Sub-messaging by region: UK (productivity focus), DACH (compliance + works council), Nordics (employee experience + sustainability) |
 | **Partner Network** | `partner-blueprint` | Identified 15 regional SI/consulting partners across 3 sub-regions; activated 6 founding partners with localized co-GTM plans; compliance consulting partnership with Company L (GDPR specialists) |
 | **Buyer Journey** | `journey-architect` | EMEA-adapted 7-gate journey: added "Compliance Validation" gate between Evaluation and Decision (unique to EMEA); mapped 23% longer sales cycle vs. North America (avg. 142 days vs. 115 days) |
-| **Demand Strategy** | `demand-engine` | 5-channel EMEA plan: regional events/trade shows (30%), partner co-marketing (25%), localized content/SEO (20%), analyst relations — EU-focused firms (15%), targeted ABM for top 200 accounts (10%); total budget: $2.1M |
+| **Demand Strategy** | `demand-engine` | 5-channel EMEA plan: regional events/trade shows (30%), partner co-marketing (25%), localized content/SEO (20%), analyst relations - EU-focused firms (15%), targeted ABM for top 200 accounts (10%); total budget: $2.1M |
 | **Enablement** | `enablement-forge` | EMEA-specific assets: localized pitch decks (EN, DE, FR), GDPR compliance whitepaper, EU AI Act readiness guide, works council FAQ, regional customer proof points, multilingual demo environments |
-| **Launch Orchestration** | `launch-command` | 3-phase regional launch: Phase 1 — UK office + 3 UK partners (Month 1-3); Phase 2 — DACH expansion + 2 DACH partners (Month 4-6); Phase 3 — Nordics + France (Month 7-9); Go/No-Go gate after each phase |
+| **Launch Orchestration** | `launch-command` | 3-phase regional launch: Phase 1 - UK office + 3 UK partners (Month 1-3); Phase 2 - DACH expansion + 2 DACH partners (Month 4-6); Phase 3 - Nordics + France (Month 7-9); Go/No-Go gate after each phase |
 
 ### Hypothetical Results (18-Month)
 
@@ -271,7 +271,7 @@ demand-engine → enablement-forge → launch-command
 
 ### Challenge
 
-Product sunsets are high-risk GTM events. Customers feel abandoned, competitors aggressively target the install base with migration offers, and internal sales teams deprioritize sunset accounts in favor of new business. Company M's previous product sunset (2 years ago) lost 34% of the affected ARR — leadership has mandated a structured approach to prevent a repeat.
+Product sunsets are high-risk GTM events. Customers feel abandoned, competitors aggressively target the install base with migration offers, and internal sales teams deprioritize sunset accounts in favor of new business. Company M's previous product sunset (2 years ago) lost 34% of the affected ARR - leadership has mandated a structured approach to prevent a repeat.
 
 ### Skill Workflow
 
@@ -287,13 +287,13 @@ product-announcement → launch-command → launch-pulse
 |-------|-----------|------------|
 | **Threat Assessment** | `signal-radar` | Detected 4 competitive signals: Company N launched a "PredictOne migration accelerator" (direct threat), Company P is offering 18-month free tier to PredictOne customers (pricing threat), 3 industry analysts published "alternatives to PredictOne" reports (influence threat), community forums showing rising churn sentiment (retention threat) |
 | **Customer Segmentation** | `growth-loop` | ANCHOR analysis of 840 accounts: 310 "healthy" (high usage, multi-product, low risk), 290 "at-risk" (single-product, declining usage or open support escalations), 240 "critical" (actively evaluating competitors or contract renewal in < 6 months); custom retention playbook per segment |
-| **Competitive Defense** | `battle-scanner` | Battle cards for 3 competitors actively targeting PredictOne base; identified Company N's migration tool limitations (no support for custom model pipelines — affects 60% of PredictOne customers); created "why stay" competitive ammunition |
-| **Migration Messaging** | `position-lock` | Sunset messaging cascade: L0 — "Your models, now with superpowers." L1 — "Everything you built on PredictOne, running faster on PredictStudio with zero retraining." L2 — Proof points: 3x inference speed, native GPU orchestration, backward-compatible API, free migration tooling. Separate messaging tracks for healthy vs. at-risk vs. critical segments |
+| **Competitive Defense** | `battle-scanner` | Battle cards for 3 competitors actively targeting PredictOne base; identified Company N's migration tool limitations (no support for custom model pipelines - affects 60% of PredictOne customers); created "why stay" competitive ammunition |
+| **Migration Messaging** | `position-lock` | Sunset messaging cascade: L0 - "Your models, now with superpowers." L1 - "Everything you built on PredictOne, running faster on PredictStudio with zero retraining." L2 - Proof points: 3x inference speed, native GPU orchestration, backward-compatible API, free migration tooling. Separate messaging tracks for healthy vs. at-risk vs. critical segments |
 | **Migration Journey** | `journey-architect` | 6-gate migration journey: Notification → Education → Sandbox Trial → Migration Planning → Execution → Validation; each gate has segment-specific SLAs (critical accounts get white-glove support at every gate); mapped average migration timeline: 21 days for standard, 45 days for complex |
 | **Sales & CS Arming** | `enablement-forge` | Migration kit: account-level migration readiness scorecard, CS talk track for sunset notification calls, migration ROI calculator (showing PredictStudio cost savings), competitive defense one-pager ("Why Company N is not the answer"), FAQ document (47 questions), executive escalation playbook for at-risk accounts |
-| **Retention Campaigns** | `demand-engine` | 3-track campaign: (1) "Early mover" incentive — 20% discount for accounts migrating in first 90 days, (2) webinar series "PredictStudio for PredictOne power users" — 6 sessions covering migration paths, (3) executive outreach program — Person L personally calls top 50 accounts; total budget: $1.4M |
+| **Retention Campaigns** | `demand-engine` | 3-track campaign: (1) "Early mover" incentive - 20% discount for accounts migrating in first 90 days, (2) webinar series "PredictStudio for PredictOne power users" - 6 sessions covering migration paths, (3) executive outreach program - Person L personally calls top 50 accounts; total budget: $1.4M |
 | **Communications** | `product-announcement` | Phased comms plan: private notification to top 100 accounts (Week 1) → broad customer email + blog post (Week 2) → public announcement + analyst briefing (Week 3) → community AMA session (Week 4); each phase has holding statements for competitive FUD |
-| **Execution** | `launch-command` | 9-month migration program: Phase 1 — healthy accounts self-serve migration (Month 1-3); Phase 2 — at-risk accounts with guided migration (Month 3-6); Phase 3 — critical accounts with white-glove migration + executive engagement (Month 4-9); Go/No-Go gate after each phase |
+| **Execution** | `launch-command` | 9-month migration program: Phase 1 - healthy accounts self-serve migration (Month 1-3); Phase 2 - at-risk accounts with guided migration (Month 3-6); Phase 3 - critical accounts with white-glove migration + executive engagement (Month 4-9); Go/No-Go gate after each phase |
 | **Measurement** | `launch-pulse` | Migration dashboard: accounts migrated (by segment), ARR retained vs. churned, migration completion rate, average migration duration, competitive loss tracking, NPS before/after migration, support ticket volume |
 
 ### Hypothetical Results (9-Month)
@@ -341,7 +341,7 @@ The following matrix shows which skills are leveraged in each use case, demonstr
 | Launch Debrief | | | | | | |
 | Flywheel Sync | | | | | | |
 
-> **Key Insight:** `position-lock`, `demand-engine`, and `enablement-forge` appear in all 6 use cases, confirming they are the foundational skills every GTM motion requires. Discovery skills (`signal-radar`, `whitespace-finder`) and competitive skills (`battle-scanner`) are critical for any motion involving market uncertainty. Notably, the product sunset use case (UC6) uses 10 skills — demonstrating that even "end-of-life" motions require the same GTM rigor as new launches.
+> **Key Insight:** `position-lock`, `demand-engine`, and `enablement-forge` appear in all 6 use cases, confirming they are the foundational skills every GTM motion requires. Discovery skills (`signal-radar`, `whitespace-finder`) and competitive skills (`battle-scanner`) are critical for any motion involving market uncertainty. Notably, the product sunset use case (UC6) uses 10 skills - demonstrating that even "end-of-life" motions require the same GTM rigor as new launches.
 
 ---
 
@@ -368,4 +368,4 @@ See the [How to Use Guide](../docs/HOW-TO-USE.md) for detailed instructions.
 
 ---
 
-*Generated using the AI GTM Skill Library — 19 composable skills for the full go-to-market lifecycle.*
+*Generated using the AI GTM Skill Library - 19 composable skills for the full go-to-market lifecycle.*

@@ -1,11 +1,11 @@
 ---
 name: customer-advocacy
-description: 'Customer advocacy program design — advocate identification, reference orchestration, case study pipeline, community amplification, and influence-to-revenue attribution. Use when: customer advocacy, customer reference program, case study program, advocate identification, customer marketing, peer review acceleration, G2 / Gartner Peer Insights, customer-led growth, reference architecture.'
+description: 'Customer advocacy program design - advocate identification, reference orchestration, case study pipeline, community amplification, and influence-to-revenue attribution. Use when: customer advocacy, customer reference program, case study program, advocate identification, customer marketing, peer review acceleration, G2 / Gartner Peer Insights, customer-led growth, reference architecture.'
 ---
 
 # Customer Advocacy (AMPLIFY Framework)
 
-Design a customer advocacy program that converts happy customers into a predictable supply of references, case studies, peer reviews, and community influence — and ties advocacy activity back to pipeline. AMPLIFY replaces ad-hoc "can you do a quote?" asks with a structured advocate pipeline and an attribution model that earns the program ongoing investment.
+Design a customer advocacy program that converts happy customers into a predictable supply of references, case studies, peer reviews, and community influence - and ties advocacy activity back to pipeline. AMPLIFY replaces ad-hoc "can you do a quote?" asks with a structured advocate pipeline and an attribution model that earns the program ongoing investment.
 
 ## Core Principle
 
@@ -40,8 +40,8 @@ Not every happy customer qualifies. A useful candidate has:
 | Motion | Effort to Customer | Sales Influence | Marketing Influence |
 |--------|-------------------|-----------------|---------------------|
 | **Sales reference call** | 30 min | Very High | Low |
-| **Written case study** | 2–4 hours | High | High |
-| **Video testimonial** | 1–2 hours | Medium | Very High |
+| **Written case study** | 2-4 hours | High | High |
+| **Video testimonial** | 1-2 hours | Medium | Very High |
 | **Peer review (G2 / Gartner)** | 15 min | Medium | High |
 | **Conference speaker** | High | Medium | Very High |
 | **Community AMA / panel** | 1 hour | Low | High |
@@ -94,7 +94,7 @@ Save to `outputs/customer-advocacy-[motion]-[YYYY-MM-DD].md`
 
 ## Process
 
-1. **Define qualification** with a written rubric — not vibes
+1. **Define qualification** with a written rubric - not vibes
 2. **Pick motions** matched to current GTM needs; don't try to run all seven at once
 3. **Design the reward system** with professional capital as the lead category
 4. **Stand up the library** with disciplined fatigue and request SLAs
@@ -103,15 +103,15 @@ Save to `outputs/customer-advocacy-[motion]-[YYYY-MM-DD].md`
 
 ## Tips
 
-1. **Cap asks per advocate per quarter** — fatigue silently destroys advocate programs
+1. **Cap asks per advocate per quarter** - fatigue silently destroys advocate programs
 2. **Tier rewards** so entry motions are easy to participate in
-3. **Never ask an at-risk customer to advocate** — coordinate with CS
+3. **Never ask an at-risk customer to advocate** - coordinate with CS
 4. **Sales SLA on references** is the program's most visible KPI
 5. **Case study production is a pipeline**, not a one-off project
 
 ## Pairs With
 
-- **customer-success** — Source of qualified candidates and health gating
-- **community-catalyst** — Hosts and amplifies advocacy motions
-- **enablement-forge** — Produces the case study and reference assets
-- **demand-engine** — Distributes advocacy assets across channels
+- **customer-success** - Source of qualified candidates and health gating
+- **community-catalyst** - Hosts and amplifies advocacy motions
+- **enablement-forge** - Produces the case study and reference assets
+- **demand-engine** - Distributes advocacy assets across channels

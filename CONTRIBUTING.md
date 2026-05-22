@@ -4,16 +4,16 @@ Thanks for your interest in contributing! This project welcomes issues, suggesti
 
 ## Ways to contribute
 
-- **Report a bug** — open an issue describing what you tried, what you expected, and what happened.
-- **Suggest a feature** — open an issue describing the problem and your proposed solution.
-- **Improve the docs** — typo fixes, clarifications, and new examples are always welcome.
-- **Write code** — pick up an open issue or propose a small change first so we can align on scope.
+- **Report a bug** - open an issue describing what you tried, what you expected, and what happened.
+- **Suggest a feature** - open an issue describing the problem and your proposed solution.
+- **Improve the docs** - typo fixes, clarifications, and new examples are always welcome.
+- **Write code** - pick up an open issue or propose a small change first so we can align on scope.
 
 ## Pull request workflow
 
 1. Fork the repo and create a feature branch from `master`:
    `git checkout -b feat/short-description` (or `fix/`, `docs/`, `chore/`).
-2. Keep changes focused — one logical change per PR.
+2. Keep changes focused - one logical change per PR.
 3. Add or update tests where it makes sense.
 4. Use [Conventional Commits](https://www.conventionalcommits.org/) where possible
    (`feat:`, `fix:`, `docs:`, `chore:`, `refactor:`, `test:`).
@@ -29,7 +29,7 @@ See the README for project-specific setup. In general:
 
 ## Code style
 
-- Be consistent with surrounding code — match the style you find.
+- Be consistent with surrounding code - match the style you find.
 - Keep functions small and well-named.
 - Comment **why**, not **what**, where context isn't obvious.
 - Prefer composition over inheritance.

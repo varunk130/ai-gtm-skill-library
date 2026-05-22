@@ -148,7 +148,7 @@ Not automatically. You run each skill explicitly. However, skills like `gtm-exec
 **Q: PowerPoint generation is not working.**
 - Install python-pptx: `pip install python-pptx`
 - Ensure Python 3.9+ is available in your PATH
-- Deck generation is built into the deck-producing skills (`gtm-exec-plan`, `competitive-exec-brief`) and uses `scripts/generate_sample_deck.py` as a reference implementation — no separate skill install is required
+- Deck generation is built into the deck-producing skills (`gtm-exec-plan`, `competitive-exec-brief`) and uses `scripts/generate_sample_deck.py` as a reference implementation - no separate skill install is required
 
 **Q: I get very generic outputs.**
 - Provide specific inputs: product name, target audience, competitors, timeline

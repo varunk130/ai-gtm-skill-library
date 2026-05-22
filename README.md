@@ -15,7 +15,7 @@
 
 ## What this solves
 
-GTM teams produce the same artifacts over and over — positioning frameworks, launch plans, battle cards, renewal playbooks, forecast models, EBR decks. The work is often repeated from scratch because the playbook lives in someone's head, in a slide somewhere, or in last quarter's deck.
+GTM teams produce the same artifacts over and over - positioning frameworks, launch plans, battle cards, renewal playbooks, forecast models, EBR decks. The work is often repeated from scratch because the playbook lives in someone's head, in a slide somewhere, or in last quarter's deck.
 
 This library replaces that with **31 named skills**, each one a self-contained Markdown file that teaches an AI coding assistant how to produce a specific GTM artifact. A skill encodes:
 
@@ -30,7 +30,7 @@ The result: the assistant produces the same caliber of artifact each time, in mi
 
 | Audience | What they get |
 |---|---|
-| **Founders & GTM leads** | A repeatable engine from market signal through renewal — no "let me build the deck again" |
+| **Founders & GTM leads** | A repeatable engine from market signal through renewal - no "let me build the deck again" |
 | **Product marketing** | Positioning, launch comms, competitive briefs, and battle cards with consistent structure |
 | **Sales & RevOps** | Pipeline forecasts, renewal playbooks, ARR analytics, and battle cards on demand |
 | **Customer success** | Health-score design, risk playbooks, EBR templates, and VoC operating cadence |
@@ -39,10 +39,10 @@ The result: the assistant produces the same caliber of artifact each time, in mi
 ### Contents
 - [Quickstart](#quickstart)
 - [Lifecycle overview](#lifecycle-overview)
-- [Skills catalog](#skills-catalog) — 31 skills grouped by phase
+- [Skills catalog](#skills-catalog) - 31 skills grouped by phase
 - [Common workflows](#common-workflows)
-- [Installation](#installation) — manual + Python installer
-- [Framework reference](#framework-reference) — all 31 mnemonics
+- [Installation](#installation) - manual + Python installer
+- [Framework reference](#framework-reference) - all 31 mnemonics
 - [Contributing](#contributing) · [License](#license)
 
 ---
@@ -109,7 +109,7 @@ Seven phases, 29 domain skills, plus 2 system skills (`flywheel-sync` audits the
 ### Position (4)
 | Skill | Framework | Description |
 |---|---|---|
-| [position-lock](./gtm-skills/position-lock/SKILL.md) | `PRISM` | Brand positioning architecture with L0–L5 message cascade |
+| [position-lock](./gtm-skills/position-lock/SKILL.md) | `PRISM` | Brand positioning architecture with L0-L5 message cascade |
 | [battle-scanner](./gtm-skills/battle-scanner/SKILL.md) | `ARMOR` | Competitive intelligence with response prediction and battle cards |
 | [competitive-exec-brief](./gtm-skills/competitive-exec-brief/SKILL.md) | `SHARP` | Executive-ready competitive brief with 1-slide PPTX output |
 | [competitive-battlecard](./gtm-skills/competitive-battlecard/SKILL.md) | `BATTLE` | On-demand sales battlecards: objections, trap questions, "do not say" list |
@@ -127,7 +127,7 @@ Seven phases, 29 domain skills, plus 2 system skills (`flywheel-sync` audits the
 | Skill | Framework | Description |
 |---|---|---|
 | [launch-command](./gtm-skills/launch-command/SKILL.md) | `IGNITE` | Launch orchestration with 8 workstreams, 4 gates, and go/no-go scoring |
-| [product-announcement](./gtm-skills/product-announcement/SKILL.md) | `HERALD` | Coordinated multi-channel launch comms — press, social, internal |
+| [product-announcement](./gtm-skills/product-announcement/SKILL.md) | `HERALD` | Coordinated multi-channel launch comms - press, social, internal |
 | [launch-debrief](./gtm-skills/launch-debrief/SKILL.md) | `MIRROR` | Post-launch retrospective with 5-Whys root cause and improvement scoring |
 
 ### Optimize (3)
@@ -155,7 +155,7 @@ Seven phases, 29 domain skills, plus 2 system skills (`flywheel-sync` audits the
 | Skill | Framework | Description |
 |---|---|---|
 | [flywheel-sync](./gtm-skills/flywheel-sync/SKILL.md) | `ORBIT` | Audits the full skill system, identifies bottlenecks, produces a fix roadmap |
-| [gtm-exec-plan](./gtm-skills/gtm-exec-plan/SKILL.md) | `PRIME` | Produces a 3–4 page executive GTM brief and a 4-slide PowerPoint deck |
+| [gtm-exec-plan](./gtm-skills/gtm-exec-plan/SKILL.md) | `PRIME` | Produces a 3-4 page executive GTM brief and a 4-slide PowerPoint deck |
 
 ---
 
@@ -286,7 +286,7 @@ ai-gtm-skill-library/
 
 ## Contributing
 
-Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
+Contributions are welcome - see [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
 
 1. Fork and create a branch (`feat/`, `fix/`, or `docs/` prefix)
 2. Add or improve a `SKILL.md` under `gtm-skills/` or `revops-skills/`
@@ -297,7 +297,7 @@ Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). The short 
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT - see [LICENSE](LICENSE).
 
 ---
 

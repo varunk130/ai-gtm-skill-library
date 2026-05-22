@@ -1,6 +1,6 @@
 # `python_runtime/`
 
-Small, dependency-free Python helpers that GTM skills can call when they need to compute something — funnel conversion math, signal scoring, ranking — rather than asking an LLM to do arithmetic.
+Small, dependency-free Python helpers that GTM skills can call when they need to compute something - funnel conversion math, signal scoring, ranking - rather than asking an LLM to do arithmetic.
 
 The skills themselves are still Markdown specs. These helpers are optional and live here so that:
 
@@ -10,7 +10,7 @@ The skills themselves are still Markdown specs. These helpers are optional and l
 
 ## Modules
 
-### `funnel.py` — funnel conversion analysis
+### `funnel.py` - funnel conversion analysis
 
 ```python
 from python_runtime.funnel import FunnelStage, analyze_funnel
@@ -31,7 +31,7 @@ report.stage_conversions    # [("MQL", 0.25), ("SQL", 0.32), ...]
 
 Used by skills that report a funnel and need a defensible "biggest leak" pointer.
 
-### `signals.py` — weighted market / intent signal scoring
+### `signals.py` - weighted market / intent signal scoring
 
 ```python
 from python_runtime.signals import score_market_signal, rank_signals

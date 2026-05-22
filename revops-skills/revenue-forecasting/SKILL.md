@@ -1,11 +1,11 @@
 ---
 name: revenue-forecasting
-description: 'Revenue forecasting pipeline — bottoms-up pipeline forecast, tops-down model, ensemble blending, scenario analysis, and forecast calibration loop. Use when: revenue forecast, sales forecast, pipeline forecast, bookings forecast, NRR forecast, ARR forecast, forecast calibration, scenario planning, ensemble forecasting, board forecast.'
+description: 'Revenue forecasting pipeline - bottoms-up pipeline forecast, tops-down model, ensemble blending, scenario analysis, and forecast calibration loop. Use when: revenue forecast, sales forecast, pipeline forecast, bookings forecast, NRR forecast, ARR forecast, forecast calibration, scenario planning, ensemble forecasting, board forecast.'
 ---
 
 # Revenue Forecasting (FORECAST Framework)
 
-Design a revenue-forecasting pipeline that produces a defensible, calibrated number — not a rep-roll-up that's been over-promised twice. FORECAST blends bottoms-up pipeline math with a tops-down model, runs scenarios, and closes the loop with calibration so the forecast improves quarter over quarter.
+Design a revenue-forecasting pipeline that produces a defensible, calibrated number - not a rep-roll-up that's been over-promised twice. FORECAST blends bottoms-up pipeline math with a tops-down model, runs scenarios, and closes the loop with calibration so the forecast improves quarter over quarter.
 
 ## Core Principle
 
@@ -31,7 +31,7 @@ Design a revenue-forecasting pipeline that produces a defensible, calibrated num
 | **Stage Conversion** | Historical conversion % from each stage to closed-won, refreshed quarterly |
 | **Time-in-Stage Decay** | Probability decay for opportunities aging past expected stage duration |
 | **Rep Commit Categories** | Commit / Best Case / Pipeline / Omitted with named definitions |
-| **Coverage Multiples** | 3x for new logo, 1.2–1.5x for renewal, segment-specific |
+| **Coverage Multiples** | 3x for new logo, 1.2-1.5x for renewal, segment-specific |
 | **Hygiene Rules** | Stale opps demoted, no-next-step opps flagged, close-date discipline |
 
 ## Tops-Down Run-Rate Model
@@ -45,7 +45,7 @@ Design a revenue-forecasting pipeline that produces a defensible, calibrated num
 
 ## Ensemble Blending
 
-Don't pick one model — blend them, weighted by historical accuracy:
+Don't pick one model - blend them, weighted by historical accuracy:
 
 | Component | Weight Rationale |
 |-----------|------------------|
@@ -54,7 +54,7 @@ Don't pick one model — blend them, weighted by historical accuracy:
 | **Tops-down run-rate** | Weight up for mature, stable segments |
 | **AI / ML model** | Weight up only if it beats the others on out-of-sample tests |
 
-Always produce **point estimate + confidence band** — never a single number with no error bar.
+Always produce **point estimate + confidence band** - never a single number with no error bar.
 
 ## Scenarios
 
@@ -65,7 +65,7 @@ Always produce **point estimate + confidence band** — never a single number wi
 | **Downside** | Bottom quartile conversion + concentration-risk realization |
 | **Stress** | Material churn / lost-deal / macro event sensitivity |
 
-Each scenario must name the **2–3 drivers** that move it, not just shift a number.
+Each scenario must name the **2-3 drivers** that move it, not just shift a number.
 
 ## Calibration Loop
 
@@ -96,24 +96,24 @@ Save to `outputs/revenue-forecasting-[period]-[YYYY-MM-DD].md`
 
 ## Process
 
-1. **Lock the definitions** — same ARR, period, and currency rules across teams
+1. **Lock the definitions** - same ARR, period, and currency rules across teams
 2. **Build the bottoms-up** with disciplined hygiene and decay rules
 3. **Build at least one tops-down** model as a check
 4. **Blend into an ensemble** with weights from historical accuracy
 5. **Run scenarios** with named drivers, not just percent shifts
-6. **Close the calibration loop** every period — forecast credibility lives or dies here
+6. **Close the calibration loop** every period - forecast credibility lives or dies here
 
 ## Tips
 
-1. **Single-number forecasts hide risk** — always publish a confidence band
-2. **Decay stale opportunities ruthlessly** — they're the #1 source of forecast misses
-3. **Manual adjustments need evidence** — log them or they become hope
-4. **Calibrate per segment / per rep** — aggregate accuracy hides poor accuracy underneath
-5. **The forecast is a product** — ship versioned releases, not slack messages
+1. **Single-number forecasts hide risk** - always publish a confidence band
+2. **Decay stale opportunities ruthlessly** - they're the #1 source of forecast misses
+3. **Manual adjustments need evidence** - log them or they become hope
+4. **Calibrate per segment / per rep** - aggregate accuracy hides poor accuracy underneath
+5. **The forecast is a product** - ship versioned releases, not slack messages
 
 ## Pairs With
 
-- **revenue-analytics** — Drivers and leading indicators feed the forecast
-- **renewal-orchestration** — Risk score informs renewal-stage probability
-- **customer-analytics** — Cohort retention curves feed run-rate models
-- **budget-allocator** — Forecast scenarios drive reallocation decisions
+- **revenue-analytics** - Drivers and leading indicators feed the forecast
+- **renewal-orchestration** - Risk score informs renewal-stage probability
+- **customer-analytics** - Cohort retention curves feed run-rate models
+- **budget-allocator** - Forecast scenarios drive reallocation decisions
