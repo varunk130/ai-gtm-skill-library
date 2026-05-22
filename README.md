@@ -256,6 +256,7 @@ ai-gtm-skill-library/
 | **7-GATE** | Seven decision gates across the buyer journey | Design journeys that convert |
 | **ARMOR** | _A_nalyze, _R_ank, _M_ap, _O_utmaneuver, _R_espond | Compete with intelligence |
 | **SHARP** | _S_napshot, _H_ead-to-head, _A_ction, _R_isk, _P_itch | Brief executives in 60 seconds |
+| **BATTLE** | _B_uyer-pain, _A_lternatives, _T_rap-questions, _T_alking-points, _L_andmines, _E_xits | Sales battlecards with objection handling and "do not say" lists |
 | **PRISM** | _P_osition, _R_eason, _I_mpact, _S_tory, _M_essage | Lock positioning across levels |
 | **WAVE** | _W_here, _A_udience, _V_ehicle, _E_xecute | Drive demand across channels |
 | **CRAFT** | _C_ontext, _R_ole, _A_sset, _F_ormat, _T_one | Forge assets that enable sellers |
