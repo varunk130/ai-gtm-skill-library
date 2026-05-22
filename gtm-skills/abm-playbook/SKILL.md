@@ -1,11 +1,11 @@
 ---
 name: abm-playbook
-description: 'Account-Based Marketing playbook builder — tiered account list (1:1, 1:few, 1:many), buying-group mapping, coordinated multi-channel plays per account, and pipeline acceleration plays for in-cycle accounts. Use when: ABM playbook, account-based marketing, target account list, tiered accounts, 1:1 marketing, buying group, named-account strategy, ABM plays, pipeline acceleration, in-cycle account acceleration.'
+description: 'Account-Based Marketing playbook builder - tiered account list (1:1, 1:few, 1:many), buying-group mapping, coordinated multi-channel plays per account, and pipeline acceleration plays for in-cycle accounts. Use when: ABM playbook, account-based marketing, target account list, tiered accounts, 1:1 marketing, buying group, named-account strategy, ABM plays, pipeline acceleration, in-cycle account acceleration.'
 ---
 
 # ABM Playbook (TIER Framework)
 
-Build a complete Account-Based Marketing playbook — tiered account list, buying-group map per tier, coordinated multi-channel plays, and pipeline acceleration plays for accounts already in cycle. ABM is structurally different from PLG, sales-led, and channel motions; this skill captures that difference rather than bolting it onto a generic GTM template.
+Build a complete Account-Based Marketing playbook - tiered account list, buying-group map per tier, coordinated multi-channel plays, and pipeline acceleration plays for accounts already in cycle. ABM is structurally different from PLG, sales-led, and channel motions; this skill captures that difference rather than bolting it onto a generic GTM template.
 
 ## Core Principle
 
@@ -24,9 +24,9 @@ Build a complete Account-Based Marketing playbook — tiered account list, buyin
 
 | Tier | Account Count | Investment per Account | Personalization | Signal Cadence |
 |------|--------------:|------------------------|-----------------|----------------|
-| **1:1** | 5–25 | High (custom content, exec engagement, dedicated SDR) | Per-account creative | Weekly |
-| **1:few** | 25–150 | Medium (cluster-level personalization, named SDR pod) | Per-cluster (3–8 accounts share) | Bi-weekly |
-| **1:many** | 150–2000 | Low (scaled programs with industry/persona personalization) | Per-segment creative | Monthly |
+| **1:1** | 5-25 | High (custom content, exec engagement, dedicated SDR) | Per-account creative | Weekly |
+| **1:few** | 25-150 | Medium (cluster-level personalization, named SDR pod) | Per-cluster (3-8 accounts share) | Bi-weekly |
+| **1:many** | 150-2000 | Low (scaled programs with industry/persona personalization) | Per-segment creative | Monthly |
 
 ## Buying Group Mapping
 
@@ -50,9 +50,9 @@ Save to `outputs/abm-playbook-[motion]-[YYYY-MM-DD].md`
 |----------|-------------|
 | **Tiered Account List** | Account names + tier assignment + rationale |
 | **Buying Group Maps** | Per-account (1:1) or per-cluster (1:few) with named roles + engagement state |
-| **Play Library** | 6–10 named plays, each tagged by tier + buying-group role + channel mix |
-| **Acceleration Plays** | 3–5 plays triggered by in-cycle signals |
-| **Coordination Calendar** | Weekly view across all channels per tier — catches over- and under-engagement |
+| **Play Library** | 6-10 named plays, each tagged by tier + buying-group role + channel mix |
+| **Acceleration Plays** | 3-5 plays triggered by in-cycle signals |
+| **Coordination Calendar** | Weekly view across all channels per tier - catches over- and under-engagement |
 | **Measurement Plan** | Per-tier KPIs: account-level engagement, opportunity creation, pipeline velocity, win rate |
 
 ## The Play Library Pattern
@@ -83,10 +83,10 @@ Every play follows this structure:
 ## Process
 
 1. **Tier the accounts** with explicit rationale per tier; cut accounts that don't justify any tier
-2. **Map buying groups** — full named mapping for 1:1, role patterns for 1:few, persona-level for 1:many
-3. **Build the play library** — 6–10 plays covering cold start through expansion; every play names a role
-4. **Design acceleration plays** for each in-cycle signal — trade scale for speed
-5. **Build the coordination calendar** — weekly view to catch over- and under-engagement
+2. **Map buying groups** - full named mapping for 1:1, role patterns for 1:few, persona-level for 1:many
+3. **Build the play library** - 6-10 plays covering cold start through expansion; every play names a role
+4. **Design acceleration plays** for each in-cycle signal - trade scale for speed
+5. **Build the coordination calendar** - weekly view to catch over- and under-engagement
 6. **Define per-tier measurement** with ABM-friendly metrics (lead-level MQLs are not the right yardstick)
 
 ## Per-Tier Measurement
@@ -98,15 +98,15 @@ Every play follows this structure:
 | 1:many | Pipeline created per program | Account engagement coverage, MQA rate |
 
 ## Tips
-1. **Tier with rationale, not gut feel** — every 1:1 is an investment commitment
-2. **Plays are per-account, not per-channel** — channel-led ABM almost always over-engages
-3. **Acceleration > acquisition** — in-cycle accounts are 5–10× more efficient than cold ABM
-4. **Re-tier quarterly** — accounts that don't engage in 1:1 for 2 quarters drop to 1:few
-5. **Pair with intent scoring + channel orchestration** — ABM consumes those outputs
+1. **Tier with rationale, not gut feel** - every 1:1 is an investment commitment
+2. **Plays are per-account, not per-channel** - channel-led ABM almost always over-engages
+3. **Acceleration > acquisition** - in-cycle accounts are 5-10× more efficient than cold ABM
+4. **Re-tier quarterly** - accounts that don't engage in 1:1 for 2 quarters drop to 1:few
+5. **Pair with intent scoring + channel orchestration** - ABM consumes those outputs
 
 ## Pairs With
 
-- **journey-architect** — Maps the buyer journey; ABM coordinates above it
-- **demand-engine** — Channel-level orchestration the calendar consumes
-- **enablement-forge** — Produces the assets each play needs
-- **competitive-battlecard** — Per-deal cards that drop into in-cycle acceleration
+- **journey-architect** - Maps the buyer journey; ABM coordinates above it
+- **demand-engine** - Channel-level orchestration the calendar consumes
+- **enablement-forge** - Produces the assets each play needs
+- **competitive-battlecard** - Per-deal cards that drop into in-cycle acceleration
