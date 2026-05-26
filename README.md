@@ -60,7 +60,7 @@ cp -r ai-gtm-skill-library/revops-skills/* ~/.claude/skills/
 
 # 3. Restart Claude Code, then invoke a skill by name:
 #      signal-radar          — macro-market signal detection
-#      position-lock         — competitive positioning
+#      position-lock         — brand positioning architecture
 #      launch-command        — full launch orchestration
 #      flywheel-sync         — audit health of the full skill system
 ```
