@@ -206,7 +206,7 @@ ai-gtm-skill-library/
 ├── README.md
 ├── docs/HOW-TO-USE.md
 ├── scripts/install.py            # CLI installer (Python 3.9+)
-├── gtm-skills/                   # 21 GTM-lifecycle skills
+├── gtm-skills/                   # 21 GTM skills (19 lifecycle + 2 system)
 │   ├── abm-playbook/             # TIER
 │   ├── battle-scanner/           # ARMOR
 │   ├── budget-allocator/         # APEX
