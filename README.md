@@ -295,6 +295,42 @@ Contributions are welcome - see [CONTRIBUTING.md](CONTRIBUTING.md). The short ve
 
 ---
 
+## Related work
+
+Part of a portfolio of AI agent and skill libraries for product, GTM, and decision-making teams.
+
+**Discovery & research**
+
+- [ai-customer-discovery-skills](https://github.com/varunk130/ai-customer-discovery-skills) - Turn raw customer signal into validated product opportunities (12 skills planned)
+- [jtbd-extractor](https://github.com/varunk130/jtbd-extractor) - Extract Jobs-to-be-Done statements from research, with opportunity scoring
+
+**Strategy & decisions**
+
+- [claude-code-skills](https://github.com/varunk130/claude-code-skills) - 29 production-grade skills for finance, product, strategy, and game theory
+- [AI-Builder-Decision-Analyst](https://github.com/varunk130/AI-Builder-Decision-Analyst) - 11 skills that catch bad bets before you ship across DECIDE / BUILD / COMMUNICATE / LEARN
+- [pm-copilots](https://github.com/varunk130/pm-copilots) - 4 PM copilots - stakeholder translation, decision engine, financial analyst, roadmap architect
+
+**Go-to-market**
+
+- [ai-marketing-claude-skills](https://github.com/varunk130/ai-marketing-claude-skills) - 12 marketing-ops skills with scoring algorithms and statistical frameworks
+- [ai-partner-ecosystem-analysis](https://github.com/varunk130/ai-partner-ecosystem-analysis) - Deep research on any ISV, partner, or competitor with a 1-slide PPTX output
+
+**UX & design**
+
+- [ai-ux-skill-library](https://github.com/varunk130/ai-ux-skill-library) - 12 frameworks for designing UX for AI products, agents, and AI-powered experiences
+
+**Multi-agent demos**
+
+- [multi-ai-agent-pm-team](https://github.com/varunk130/multi-ai-agent-pm-team) - 6-agent React pipeline that turns customer feedback into executive-ready strategy
+- [ai-legal-team-agent](https://github.com/varunk130/ai-legal-team-agent) - 4-agent legal analysis team with Python orchestrator and Claude Code skills
+
+**Evaluation & operations**
+
+- [AI-Eval-Skills](https://github.com/varunk130/AI-Eval-Skills) - 6 skills to plan, generate, run, interpret, and triage AI agent evaluations
+- [ai-workflow-playbooks](https://github.com/varunk130/ai-workflow-playbooks) - 21 playbooks + 10 skills + 4 guardians + 5 runbooks across the 7-stage delivery pipeline
+
+---
+
 ## License
 
 MIT - see [LICENSE](LICENSE).
