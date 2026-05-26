@@ -148,7 +148,7 @@ Seven phases, 29 domain skills, plus 2 system skills (`flywheel-sync` audits the
 | [referral-program](./revops-skills/referral-program/SKILL.md) | `RIPPLE` | Viral-loop design, K-factor, fraud / cannibalization controls |
 | [renewal-orchestration](./revops-skills/renewal-orchestration/SKILL.md) | `RENEW` | T-180 risk scoring, multi-thread engagement, expansion-at-renewal |
 | [revenue-analytics](./revops-skills/revenue-analytics/SKILL.md) | `LADDER` | ARR waterfall, leading indicators, drivers, CAC payback |
-| [revenue-forecasting](./revops-skills/revenue-forecasting/SKILL.md) | `FORECAST` | Bottoms-up + tops-down ensemble + calibration loop |
+| [revenue-forecasting](./revops-skills/revenue-forecasting/SKILL.md) | `FORECAST` | Bottom-up + top-down ensemble + calibration loop |
 | [voice-of-customer](./revops-skills/voice-of-customer/SKILL.md) | `ECHO` | Multi-source signal, theming, prioritization, loop closure |
 
 ### System & orchestration (2)
