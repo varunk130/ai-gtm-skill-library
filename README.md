@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/hero.svg" alt="AI GTM Skill Library. 31 opinionated GTM skills across 8 lifecycle phases." width="100%"/>
+
 # 🚀 AI GTM Skill Library
 
 ### A library of 31 opinionated GTM skills for Claude Code and GitHub Copilot
