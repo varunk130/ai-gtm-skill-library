@@ -1,0 +1,191 @@
+<svg viewBox="0 0 1280 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AI GTM Skill Library. 31 opinionated GTM skills across 8 lifecycle phases.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="55%" stop-color="#10162c"/>
+      <stop offset="100%" stop-color="#0a0e1a"/>
+    </linearGradient>
+    <radialGradient id="glowCoral" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#f97316" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPink" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1c2342" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#10162c" stop-opacity="0.96"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#ffd0c2"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="36" height="36" patternUnits="userSpaceOnUse">
+      <circle cx="1.5" cy="1.5" r="1" fill="#ffffff" opacity="0.06"/>
+    </pattern>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feGaussianBlur stdDeviation="8" result="b"/>
+      <feOffset dy="6"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.4"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="560" fill="url(#bg)"/>
+  <rect width="1280" height="560" fill="url(#dots)"/>
+
+  <circle cx="160" cy="120" r="320" fill="url(#glowCoral)"/>
+  <circle cx="1120" cy="500" r="360" fill="url(#glowPink)"/>
+
+  <g opacity="0.18" stroke="#ffffff" stroke-width="1">
+    <line x1="80" y1="0" x2="80" y2="560"/>
+    <line x1="1200" y1="0" x2="1200" y2="560"/>
+  </g>
+
+  <g transform="translate(80, 60)">
+    <rect x="0" y="0" width="290" height="32" rx="16" fill="#161c30" stroke="#f97316" stroke-opacity="0.55" stroke-width="1"/>
+    <circle cx="18" cy="16" r="4" fill="#f97316"/>
+    <circle cx="18" cy="16" r="7" fill="none" stroke="#f97316" stroke-opacity="0.55" stroke-width="1"/>
+    <text x="36" y="21" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="12" font-weight="700" fill="#f97316" letter-spacing="1.5">BUILT FOR CLAUDE CODE + COPILOT</text>
+  </g>
+
+  <text x="80" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="56" font-weight="800" fill="url(#title)" letter-spacing="-1.8">AI GTM Skill Library</text>
+
+  <text x="80" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="20" font-weight="500" fill="#dde4f5">
+    <tspan fill="#ffffff" font-weight="700">31 opinionated GTM skills</tspan> across <tspan fill="#ffffff" font-weight="700">8 lifecycle phases</tspan>.
+  </text>
+
+  <text x="80" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif" font-size="15" font-weight="500" fill="#e6ecf8">
+    From market signal to renewal, one consistent operating system for Claude Code and Copilot.
+  </text>
+
+  <g transform="translate(890, 110)" font-family="Georgia, 'Times New Roman', serif">
+    <text x="0" y="44" font-size="64" font-weight="800" fill="#ec4899" opacity="0.7">"</text>
+    <text x="38" y="40" font-size="17" font-style="italic" font-weight="500" fill="#ffffff">Same caliber of GTM artifact,</text>
+    <text x="38" y="64" font-size="17" font-style="italic" font-weight="500" fill="#ffffff">in minutes instead of days.</text>
+  </g>
+
+  <g transform="translate(80, 268)">
+    <text x="0" y="12" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#c8d2e8" letter-spacing="2">GTM LIFECYCLE</text>
+    <line x1="135" y1="8" x2="1120" y2="8" stroke="#2a3354" stroke-width="1"/>
+  </g>
+
+  <g transform="translate(80, 290)" filter="url(#softShadow)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, sans-serif">
+
+    <g transform="translate(0, 0)">
+      <rect width="128" height="230" rx="12" fill="url(#card)" stroke="#06b6d4" stroke-opacity="0.4" stroke-width="1"/>
+      <rect width="128" height="4" rx="2" fill="#06b6d4"/>
+      <text x="16" y="30" font-size="10" font-weight="700" fill="#06b6d4" letter-spacing="1.8">PHASE 01</text>
+      <text x="16" y="62" font-size="17" font-weight="800" fill="#ffffff" letter-spacing="0.2">DISCOVER</text>
+      <text x="16" y="118" font-size="36" font-weight="800" fill="#ffffff">2</text>
+      <text x="48" y="118" font-size="13" font-weight="600" fill="#e6ecf8">skills</text>
+      <line x1="16" y1="138" x2="56" y2="138" stroke="#06b6d4" stroke-width="2"/>
+      <text x="16" y="166" font-size="9" font-weight="700" fill="#c8d2e8" letter-spacing="1.5">FRAMEWORKS</text>
+      <text x="16" y="188" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#a8e3f0">PULSE</text>
+      <text x="16" y="208" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#a8e3f0">DEPTH</text>
+    </g>
+
+    <g transform="translate(141, 0)">
+      <rect width="128" height="230" rx="12" fill="url(#card)" stroke="#3b82f6" stroke-opacity="0.4" stroke-width="1"/>
+      <rect width="128" height="4" rx="2" fill="#3b82f6"/>
+      <text x="16" y="30" font-size="10" font-weight="700" fill="#3b82f6" letter-spacing="1.8">PHASE 02</text>
+      <text x="16" y="62" font-size="17" font-weight="800" fill="#ffffff" letter-spacing="0.2">DESIGN</text>
+      <text x="16" y="118" font-size="36" font-weight="800" fill="#ffffff">2</text>
+      <text x="48" y="118" font-size="13" font-weight="600" fill="#e6ecf8">skills</text>
+      <line x1="16" y1="138" x2="56" y2="138" stroke="#3b82f6" stroke-width="2"/>
+      <text x="16" y="166" font-size="9" font-weight="700" fill="#c8d2e8" letter-spacing="1.5">FRAMEWORKS</text>
+      <text x="16" y="188" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#a8c5f0">SCOPE</text>
+      <text x="16" y="208" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#a8c5f0">7-GATE</text>
+    </g>
+
+    <g transform="translate(282, 0)">
+      <rect width="128" height="230" rx="12" fill="url(#card)" stroke="#8b5cf6" stroke-opacity="0.4" stroke-width="1"/>
+      <rect width="128" height="4" rx="2" fill="#8b5cf6"/>
+      <text x="16" y="30" font-size="10" font-weight="700" fill="#8b5cf6" letter-spacing="1.8">PHASE 03</text>
+      <text x="16" y="62" font-size="17" font-weight="800" fill="#ffffff" letter-spacing="0.2">POSITION</text>
+      <text x="16" y="118" font-size="36" font-weight="800" fill="#ffffff">4</text>
+      <text x="48" y="118" font-size="13" font-weight="600" fill="#e6ecf8">skills</text>
+      <line x1="16" y1="138" x2="56" y2="138" stroke="#8b5cf6" stroke-width="2"/>
+      <text x="16" y="166" font-size="9" font-weight="700" fill="#c8d2e8" letter-spacing="1.5">FRAMEWORKS</text>
+      <text x="16" y="188" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#d4baf0">PRISM</text>
+      <text x="16" y="208" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#d4baf0">ARMOR</text>
+    </g>
+
+    <g transform="translate(423, 0)">
+      <rect width="128" height="230" rx="12" fill="url(#card)" stroke="#ec4899" stroke-opacity="0.4" stroke-width="1"/>
+      <rect width="128" height="4" rx="2" fill="#ec4899"/>
+      <text x="16" y="30" font-size="10" font-weight="700" fill="#ec4899" letter-spacing="1.8">PHASE 04</text>
+      <text x="16" y="62" font-size="17" font-weight="800" fill="#ffffff" letter-spacing="0.2">AMPLIFY</text>
+      <text x="16" y="118" font-size="36" font-weight="800" fill="#ffffff">5</text>
+      <text x="48" y="118" font-size="13" font-weight="600" fill="#e6ecf8">skills</text>
+      <line x1="16" y1="138" x2="56" y2="138" stroke="#ec4899" stroke-width="2"/>
+      <text x="16" y="166" font-size="9" font-weight="700" fill="#c8d2e8" letter-spacing="1.5">FRAMEWORKS</text>
+      <text x="16" y="188" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#f0bad6">WAVE</text>
+      <text x="16" y="208" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#f0bad6">CRAFT</text>
+    </g>
+
+    <g transform="translate(564, 0)">
+      <rect width="128" height="230" rx="12" fill="url(#card)" stroke="#f97316" stroke-opacity="0.4" stroke-width="1"/>
+      <rect width="128" height="4" rx="2" fill="#f97316"/>
+      <text x="16" y="30" font-size="10" font-weight="700" fill="#f97316" letter-spacing="1.8">PHASE 05</text>
+      <text x="16" y="62" font-size="17" font-weight="800" fill="#ffffff" letter-spacing="0.2">LAUNCH</text>
+      <text x="16" y="118" font-size="36" font-weight="800" fill="#ffffff">3</text>
+      <text x="48" y="118" font-size="13" font-weight="600" fill="#e6ecf8">skills</text>
+      <line x1="16" y1="138" x2="56" y2="138" stroke="#f97316" stroke-width="2"/>
+      <text x="16" y="166" font-size="9" font-weight="700" fill="#c8d2e8" letter-spacing="1.5">FRAMEWORKS</text>
+      <text x="16" y="188" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#f0c8a8">IGNITE</text>
+      <text x="16" y="208" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#f0c8a8">HERALD</text>
+    </g>
+
+    <g transform="translate(705, 0)">
+      <rect width="128" height="230" rx="12" fill="url(#card)" stroke="#eab308" stroke-opacity="0.4" stroke-width="1"/>
+      <rect width="128" height="4" rx="2" fill="#eab308"/>
+      <text x="16" y="30" font-size="10" font-weight="700" fill="#eab308" letter-spacing="1.8">PHASE 06</text>
+      <text x="16" y="62" font-size="17" font-weight="800" fill="#ffffff" letter-spacing="0.2">OPTIMIZE</text>
+      <text x="16" y="118" font-size="36" font-weight="800" fill="#ffffff">3</text>
+      <text x="48" y="118" font-size="13" font-weight="600" fill="#e6ecf8">skills</text>
+      <line x1="16" y1="138" x2="56" y2="138" stroke="#eab308" stroke-width="2"/>
+      <text x="16" y="166" font-size="9" font-weight="700" fill="#c8d2e8" letter-spacing="1.5">FRAMEWORKS</text>
+      <text x="16" y="188" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#f0e1a8">APEX</text>
+      <text x="16" y="208" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#f0e1a8">VITAL</text>
+    </g>
+
+    <g transform="translate(846, 0)">
+      <rect width="128" height="230" rx="12" fill="url(#card)" stroke="#ef4444" stroke-opacity="0.4" stroke-width="1"/>
+      <rect width="128" height="4" rx="2" fill="#ef4444"/>
+      <text x="16" y="30" font-size="10" font-weight="700" fill="#ef4444" letter-spacing="1.8">PHASE 07</text>
+      <text x="16" y="62" font-size="17" font-weight="800" fill="#ffffff" letter-spacing="0.2">REVOPS</text>
+      <text x="16" y="118" font-size="36" font-weight="800" fill="#ffffff">10</text>
+      <text x="58" y="118" font-size="13" font-weight="600" fill="#e6ecf8">skills</text>
+      <line x1="16" y1="138" x2="56" y2="138" stroke="#ef4444" stroke-width="2"/>
+      <text x="16" y="166" font-size="9" font-weight="700" fill="#c8d2e8" letter-spacing="1.5">FRAMEWORKS</text>
+      <text x="16" y="188" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#f0baba">THRIVE</text>
+      <text x="16" y="208" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#f0baba">FORECAST</text>
+    </g>
+
+    <g transform="translate(987, 0)">
+      <rect width="128" height="230" rx="12" fill="url(#card)" stroke="#6366f1" stroke-opacity="0.4" stroke-width="1"/>
+      <rect width="128" height="4" rx="2" fill="#6366f1"/>
+      <text x="16" y="30" font-size="10" font-weight="700" fill="#6366f1" letter-spacing="1.8">PHASE 08</text>
+      <text x="16" y="62" font-size="17" font-weight="800" fill="#ffffff" letter-spacing="0.2">SYSTEM</text>
+      <text x="16" y="118" font-size="36" font-weight="800" fill="#ffffff">2</text>
+      <text x="48" y="118" font-size="13" font-weight="600" fill="#e6ecf8">skills</text>
+      <line x1="16" y1="138" x2="56" y2="138" stroke="#6366f1" stroke-width="2"/>
+      <text x="16" y="166" font-size="9" font-weight="700" fill="#c8d2e8" letter-spacing="1.5">FRAMEWORKS</text>
+      <text x="16" y="188" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#bfc0f7">ORBIT</text>
+      <text x="16" y="208" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="12" font-weight="700" fill="#bfc0f7">PRIME</text>
+    </g>
+
+    <g fill="#7a87a8" font-family="-apple-system, sans-serif" font-size="18" font-weight="800">
+      <text x="133" y="120">›</text>
+      <text x="274" y="120">›</text>
+      <text x="415" y="120">›</text>
+      <text x="556" y="120">›</text>
+      <text x="697" y="120">›</text>
+      <text x="838" y="120">›</text>
+      <text x="979" y="120">›</text>
+    </g>
+  </g>
+</svg>
