@@ -333,7 +333,7 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 
 ## License
 
-MIT - see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE).
 
 ---
 
