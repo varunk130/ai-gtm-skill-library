@@ -310,7 +310,6 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 
 - [claude-code-skills](https://github.com/varunk130/claude-code-skills) - 29 production-grade skills for finance, product, strategy, and game theory
 - [AI-Builder-Decision-Analyst](https://github.com/varunk130/AI-Builder-Decision-Analyst) - 11 skills that catch bad bets before you ship across DECIDE / BUILD / COMMUNICATE / LEARN
-- [pm-copilots](https://github.com/varunk130/pm-copilots) - 4 PM copilots - stakeholder translation, decision engine, financial analyst, roadmap architect
 
 **Go-to-market**
 
@@ -323,7 +322,7 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 
 **Multi-agent demos**
 
-- [multi-ai-agent-pm-team](https://github.com/varunk130/multi-ai-agent-pm-team) - 6-agent React pipeline that turns customer feedback into executive-ready strategy
+- [ai-pm-agents-suite](https://github.com/varunk130/ai-pm-agents-suite) - 6-agent pipeline plus 3 standalone PM agents (decision engine, financial analyst, stakeholder translator) that turn customer feedback into strategy, PRDs, and comms
 - [ai-legal-team-agent](https://github.com/varunk130/ai-legal-team-agent) - 4-agent legal analysis team with Python orchestrator and Claude Code skills
 
 **Evaluation & operations**
