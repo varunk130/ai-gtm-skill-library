@@ -90,7 +90,7 @@ flowchart LR
     classDef sys fill:#B4009E,color:#fff,stroke:#8C0078
 ```
 
-Seven phases, 29 domain skills, plus 2 system skills (`flywheel-sync` audits the system, `gtm-exec-plan` orchestrates an executive deliverable).
+Seven lifecycle phases (Discover → Design → Position → Amplify → Launch → Optimize → RevOps), 29 domain skills, plus 2 system skills in a separate orchestration layer (`flywheel-sync` audits the system, `gtm-exec-plan` orchestrates an executive deliverable).
 
 ---
 
