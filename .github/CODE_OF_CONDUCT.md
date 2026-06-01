@@ -8,7 +8,7 @@ We are committed to making participation in this project a welcoming experience 
 
 - Be respectful and constructive in feedback
 - Focus on what is best for the community
-- Show empathy towards other contributors
+- Show empathy toward other contributors
 
 ## Enforcement
 
