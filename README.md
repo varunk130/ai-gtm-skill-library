@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="AI GTM Skill Library. 31 opinionated GTM skills across 8 lifecycle phases." width="100%"/>
+<img src="assets/hero.svg" alt="AI GTM Skill Library. 31 opinionated GTM skills across 7 lifecycle phases plus a system layer." width="100%"/>
 
 # 🚀 AI GTM Skill Library
 
@@ -90,7 +90,7 @@ flowchart LR
     classDef sys fill:#B4009E,color:#fff,stroke:#8C0078
 ```
 
-Seven phases, 29 domain skills, plus 2 system skills (`flywheel-sync` audits the system, `gtm-exec-plan` orchestrates an executive deliverable).
+Seven lifecycle phases (Discover → Design → Position → Amplify → Launch → Optimize → RevOps), 29 domain skills, plus 2 system skills in a separate orchestration layer (`flywheel-sync` audits the system, `gtm-exec-plan` orchestrates an executive deliverable).
 
 ---
 
