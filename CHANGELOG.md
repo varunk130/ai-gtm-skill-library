@@ -24,6 +24,8 @@ All notable changes to the AI GTM Skill Library are documented here. The format 
 - Redundant "Quick-Start Workflows" section, duplicated install commands, and the bolted-on "RevOps Cluster" mini-section (now in the main catalog).
 
 ### Fixed
+- Corrected the `analyze_funnel` example output in `python_runtime/README.md` (the biggest single-stage drop is `MQL` at `0.75`, not `SQL` at `0.68`).
+- Updated the ai-customer-discovery-skills entry in Related Work to reflect 5 of 12 skills shipped.
 - Sample generator scripts wrote outputs to `scripts/samples/` instead of the repo's `samples/`; now resolve correctly to repo-root `samples/`.
 - README badges linked to anchors that broke when emoji prefixes were removed from headings.
 

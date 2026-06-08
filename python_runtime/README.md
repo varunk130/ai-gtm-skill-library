@@ -24,8 +24,8 @@ stages = [
 ]
 report = analyze_funnel(stages)
 report.overall_conversion   # 0.006   (60 / 10000)
-report.biggest_drop_stage   # "SQL"   (largest single-stage drop)
-report.biggest_drop_pct     # 0.68
+report.biggest_drop_stage   # "MQL"   (largest single-stage drop)
+report.biggest_drop_pct     # 0.75
 report.stage_conversions    # [("MQL", 0.25), ("SQL", 0.32), ...]
 ```
 
