@@ -32,7 +32,7 @@ The result: the assistant produces the same caliber of artifact each time, in mi
 
 | Audience | What they get |
 |---|---|
-| **Founders & GTM leads** | A repeatable engine from market signal through renewal - no "let me build the deck again" |
+| **Founders & GTM leads** | A repeatable engine from market signal through renewal — no "let me build the deck again" |
 | **Product marketing** | Positioning, launch comms, competitive briefs, and battle cards with consistent structure |
 | **Sales & RevOps** | Pipeline forecasts, renewal playbooks, ARR analytics, and battle cards on demand |
 | **Customer success** | Health-score design, risk playbooks, EBR templates, and VoC operating cadence |
@@ -129,7 +129,7 @@ Seven lifecycle phases (Discover → Design → Position → Amplify → Launch 
 | Skill | Framework | Description |
 |---|---|---|
 | [launch-command](./gtm-skills/launch-command/SKILL.md) | `IGNITE` | Launch orchestration with 8 workstreams, 4 gates, and go/no-go scoring |
-| [product-announcement](./gtm-skills/product-announcement/SKILL.md) | `HERALD` | Coordinated multi-channel launch comms - press, social, internal |
+| [product-announcement](./gtm-skills/product-announcement/SKILL.md) | `HERALD` | Coordinated multi-channel launch comms — press, social, internal |
 | [launch-debrief](./gtm-skills/launch-debrief/SKILL.md) | `MIRROR` | Post-launch retrospective with 5-Whys root cause and improvement scoring |
 
 ### Optimize (3)
@@ -288,7 +288,7 @@ ai-gtm-skill-library/
 
 ## Contributing
 
-Contributions are welcome - see [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
+Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md). The short version:
 
 1. Fork and create a branch (`feat/`, `fix/`, or `docs/` prefix)
 2. Add or improve a `SKILL.md` under `gtm-skills/` or `revops-skills/`
