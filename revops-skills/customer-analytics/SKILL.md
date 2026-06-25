@@ -25,7 +25,7 @@ Design a customer analytics architecture that answers *which customers, doing wh
 | Stage | "Good" Signal | Diagnostic |
 |-------|---------------|------------|
 | **New** | First value event within target window | Activation rate by cohort |
-| **Activated** | ≥ N value events / week within 30 days | Stickiness (DAU/WAU or analogue) |
+| **Activated** | ≥ N value events / week within 30 days | Stickiness (DAU/WAU or analog) |
 | **Habituated** | Multi-workflow + multi-user adoption | Workflow coverage % |
 | **Expanding** | New seats / modules / use cases attached | Expansion lead indicators |
 | **At-risk** | Engagement decay + stakeholder loss | Churn-risk score |
