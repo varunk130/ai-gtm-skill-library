@@ -324,10 +324,13 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 
 - [ai-pm-agents-suite](https://github.com/varunk130/ai-pm-agents-suite) - 6-agent pipeline plus 3 standalone PM agents (decision engine, financial analyst, stakeholder translator) that turn customer feedback into strategy, PRDs, and comms
 - [ai-legal-agents-skills-os](https://github.com/varunk130/ai-legal-agents-skills-os) - Agentic operating system for legal work: one master agent, nine specialist skills, MCP + MCP Apps
+- [ai-growth-os](https://github.com/varunk130/ai-growth-os) - Compound: a multi-agent growth experiment engine that runs the find -> design -> ship -> learn loop end-to-end, offline
+- [ai-customer-acquisition](https://github.com/varunk130/ai-customer-acquisition) - Beacon: five agents allocate a budget across channels, build the creative, and reallocate on week-1 results
+- [ai-revops](https://github.com/varunk130/ai-revops) - Atlas: nine agents across GTM, Partnerships, and RevOps take a company into a new market with one Vertical Launch Plan
 
 **Evaluation & operations**
 
-- [AI-Eval-Skills](https://github.com/varunk130/AI-Eval-Skills) - 6 skills to plan, generate, run, interpret, and triage AI agent evaluations
+- [AI-Eval-Skills](https://github.com/varunk130/AI-Eval-Skills) - 7 skills to plan, generate, run, interpret, and triage AI agent evaluations
 - [ai-workflow-playbooks](https://github.com/varunk130/ai-workflow-playbooks) - 21 playbooks + 10 skills + 4 guardians + 5 runbooks across the 7-stage delivery pipeline
 
 ---
