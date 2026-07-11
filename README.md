@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="AI GTM Skill Library. 31 opinionated GTM skills across 7 lifecycle phases plus a system layer." width="100%"/>
+<img src="assets/hero.svg" alt="AI GTM Skill Library — 31 opinionated GTM skills across 7 lifecycle phases plus a system layer." width="100%"/>
 
 # 🚀 AI GTM Skill Library
 
