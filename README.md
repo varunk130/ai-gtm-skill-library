@@ -41,10 +41,10 @@ The result: the assistant produces the same caliber of artifact each time, in mi
 ### Contents
 - [Quickstart](#quickstart)
 - [Lifecycle overview](#lifecycle-overview)
-- [Skills catalog](#skills-catalog) - 31 skills grouped by phase
+- [Skills catalog](#skills-catalog) — 31 skills grouped by phase
 - [Common workflows](#common-workflows)
-- [Installation](#installation) - manual + Python installer
-- [Framework reference](#framework-reference) - all 31 mnemonics
+- [Installation](#installation) — manual + Python installer
+- [Framework reference](#framework-reference) — all 31 mnemonics
 - [Contributing](#contributing) · [License](#license)
 
 ---
