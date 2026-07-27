@@ -7,6 +7,7 @@ All notable changes to the AI GTM Skill Library are documented here. The format 
 ### Changed
 - Corrected the AI-Eval-Skills reference in Related Work to 7 skills (the upstream repo added the tool-use-eval skill).
 - Added the three Next.js multi-agent demos (Compound, Beacon, Atlas) to the Related Work section.
+- Polished Related Work formatting for house-style consistency: em-dash separators between each entry and its description, and Unicode arrows (→) in the Compound loop description.
 
 ### Added
 - **RevOps skill cluster** (10 new skills): `customer-success` (THRIVE), `customer-analytics` (LENS), `customer-advocacy` (AMPLIFY), `lead-nurture` (NURTURE), `loyalty-lifecycle` (BOND), `referral-program` (RIPPLE), `renewal-orchestration` (RENEW), `revenue-analytics` (LADDER), `revenue-forecasting` (FORECAST), `voice-of-customer` (ECHO).
