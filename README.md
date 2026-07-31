@@ -327,6 +327,7 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 - [ai-growth-os](https://github.com/varunk130/ai-growth-os) — Compound: a multi-agent growth experiment engine that runs the find → design → ship → learn loop end-to-end, offline
 - [ai-customer-acquisition](https://github.com/varunk130/ai-customer-acquisition) — Beacon: five agents allocate a budget across channels, build the creative, and reallocate on week-1 results
 - [ai-revops](https://github.com/varunk130/ai-revops) — Atlas: nine agents across GTM, Partnerships, and RevOps take a company into a new market with one Vertical Launch Plan
+- [ai-marketing-os](https://github.com/varunk130/ai-marketing-os) — Run a marketing org as an orchestrated AI team: 9 agents, 12 skills, end-to-end missions that ship real artifacts
 
 **Evaluation & operations**
 
