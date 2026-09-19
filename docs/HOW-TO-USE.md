@@ -36,7 +36,7 @@ git clone https://github.com/varunk130/ai-gtm-skill-library.git
 
 **Option A: Use the Python installer**
 ```bash
-# Install all 31 skills (both clusters) to Claude Code
+# Install all 37 skills (both clusters) to Claude Code
 python scripts/install.py install --platform claude
 
 # Install all skills to GitHub Copilot
@@ -101,7 +101,7 @@ our new ACME Insight Studio extension targeting enterprise IT teams
 
 ### General
 
-**Q: Do I need all 31 skills installed to use one?**
+**Q: Do I need all 37 skills installed to use one?**
 No. Each skill works independently. Some skills produce outputs that enrich downstream skills, but you only need to install the ones you actually use.
 
 **Q: What format are the outputs?**
