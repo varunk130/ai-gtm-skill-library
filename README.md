@@ -176,6 +176,7 @@ Seven lifecycle phases (Discover → Design → Position → Amplify → Launch 
 | **Quarterly review** | `flywheel-sync` → `revenue-analytics` → `growth-loop` → `budget-allocator` → `launch-debrief` |
 | **Renewal quarter** | `revenue-analytics` → `customer-analytics` → `customer-success` → `renewal-orchestration` → `revenue-forecasting` |
 | **Customer-led growth** | `customer-success` → `customer-advocacy` → `referral-program` → `community-catalyst` |
+| **AI search readiness** | `context-anchor` → `citation-radar` → `demand-engine` |
 | **Executive GTM plan** | `gtm-exec-plan` (orchestrates positioning, competitive, channel, and execution automatically) |
 
 See [`samples/`](./samples/) for a full worked example: a 3-page exec brief and a 4-slide deck produced by `gtm-exec-plan` for the fictional **ACME Insight Studio** mock product, with screenshots of the formatted output.
