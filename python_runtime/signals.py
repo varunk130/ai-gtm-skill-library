@@ -1,5 +1,7 @@
 """Market and intent signal scoring helpers for GTM skills."""
 
+from __future__ import annotations
+
 from dataclasses import dataclass, field
 
 
