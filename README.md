@@ -1,13 +1,13 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="AI GTM Skill Library — 31 opinionated GTM skills across 7 lifecycle phases plus a system layer." width="100%"/>
+<img src="assets/hero.svg" alt="AI GTM Skill Library — 37 opinionated GTM skills across 7 lifecycle phases plus a system layer." width="100%"/>
 
 # 🚀 AI GTM Skill Library
 
-### A library of 31 opinionated GTM skills for Claude Code and GitHub Copilot
+### A library of 37 opinionated GTM skills for Claude Code and GitHub Copilot
 
-[![Skills](https://img.shields.io/badge/Skills-31-blue?style=for-the-badge)](#skills-catalog)
-[![Frameworks](https://img.shields.io/badge/Frameworks-31-green?style=for-the-badge)](#framework-reference)
+[![Skills](https://img.shields.io/badge/Skills-37-blue?style=for-the-badge)](#skills-catalog)
+[![Frameworks](https://img.shields.io/badge/Frameworks-37-green?style=for-the-badge)](#framework-reference)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 [![How To Use](https://img.shields.io/badge/How_To_Use-Guide-purple?style=for-the-badge)](docs/HOW-TO-USE.md)
 
@@ -19,7 +19,7 @@
 
 GTM teams produce the same artifacts over and over — positioning frameworks, launch plans, battle cards, renewal playbooks, forecast models, EBR decks. The work is often repeated from scratch because the playbook lives in someone's head, in a slide somewhere, or in last quarter's deck.
 
-This library replaces that with **31 named skills**, each one a self-contained Markdown file that teaches an AI coding assistant how to produce a specific GTM artifact. A skill encodes:
+This library replaces that with **37 named skills**, each one a self-contained Markdown file that teaches an AI coding assistant how to produce a specific GTM artifact. A skill encodes:
 
 - An opinionated framework (a named mnemonic, e.g. `PULSE`, `THRIVE`, `FORECAST`)
 - The structured process to apply it
@@ -41,10 +41,10 @@ The result: the assistant produces the same caliber of artifact each time, in mi
 ### Contents
 - [Quickstart](#quickstart)
 - [Lifecycle overview](#lifecycle-overview)
-- [Skills catalog](#skills-catalog) — 31 skills grouped by phase
+- [Skills catalog](#skills-catalog) — 37 skills grouped by phase
 - [Common workflows](#common-workflows)
 - [Installation](#installation) — manual + Python installer
-- [Framework reference](#framework-reference) — all 31 mnemonics
+- [Framework reference](#framework-reference) — all 37 mnemonics
 - [Contributing](#contributing) · [License](#license)
 
 ---
@@ -55,7 +55,7 @@ The result: the assistant produces the same caliber of artifact each time, in mi
 # 1. Clone the repo
 git clone https://github.com/varunk130/ai-gtm-skill-library.git
 
-# 2. Install all 31 skills for Claude Code
+# 2. Install all 37 skills for Claude Code
 mkdir -p ~/.claude/skills
 cp -r ai-gtm-skill-library/gtm-skills/*    ~/.claude/skills/
 cp -r ai-gtm-skill-library/revops-skills/* ~/.claude/skills/
@@ -102,11 +102,12 @@ Seven lifecycle phases (Discover → Design → Position → Amplify → Launch 
 | [signal-radar](./gtm-skills/signal-radar/SKILL.md) | `PULSE` | Macro-market signal detection across tech, regulatory, buyer, ecosystem, cultural vectors |
 | [whitespace-finder](./gtm-skills/whitespace-finder/SKILL.md) | `DEPTH` | Maps gaps between market demand and existing solutions with opportunity scoring |
 
-### Design (2)
+### Design (3)
 | Skill | Framework | Description |
 |---|---|---|
 | [market-analyzer](./gtm-skills/market-analyzer/SKILL.md) | `SCOPE` | Investment-grade market analysis beyond TAM/SAM/SOM with segment deep dives |
 | [journey-architect](./gtm-skills/journey-architect/SKILL.md) | `7-GATE` | End-to-end customer journey with gated progression and friction scoring |
+| [territory-balance](./gtm-skills/territory-balance/SKILL.md) | `EVEN` | Territory design balanced on account potential and rep capacity, with an exception log |
 
 ### Position (4)
 | Skill | Framework | Description |
@@ -116,7 +117,7 @@ Seven lifecycle phases (Discover → Design → Position → Amplify → Launch 
 | [competitive-exec-brief](./gtm-skills/competitive-exec-brief/SKILL.md) | `SHARP` | Executive-ready competitive brief with 1-slide PPTX output |
 | [competitive-battlecard](./gtm-skills/competitive-battlecard/SKILL.md) | `BATTLE` | On-demand sales battlecards: objections, trap questions, "do not say" list |
 
-### Amplify (5)
+### Amplify (7)
 | Skill | Framework | Description |
 |---|---|---|
 | [demand-engine](./gtm-skills/demand-engine/SKILL.md) | `WAVE` | Multi-channel demand-gen strategy with channel scoring and budget allocation |
@@ -124,6 +125,8 @@ Seven lifecycle phases (Discover → Design → Position → Amplify → Launch 
 | [partner-blueprint](./gtm-skills/partner-blueprint/SKILL.md) | `BRIDGE` | Partner strategy: identify, score, and structure partnerships with co-GTM plans |
 | [community-catalyst](./gtm-skills/community-catalyst/SKILL.md) | `LOOP` | PLG and community strategy with viral loops and K-factor modeling |
 | [abm-playbook](./gtm-skills/abm-playbook/SKILL.md) | `TIER` | ABM playbook: tiered account list, buying-group maps, coordinated plays |
+| [citation-radar](./gtm-skills/citation-radar/SKILL.md) | `CLEAR` | Audits how likely AI answer engines are to cite your pages for real buyer questions |
+| [trigger-cadence](./gtm-skills/trigger-cadence/SKILL.md) | `SPARK` | Outbound sequences routed by buying trigger, with a keep-warm handoff to nurture |
 
 ### Launch (3)
 | Skill | Framework | Description |
@@ -132,12 +135,14 @@ Seven lifecycle phases (Discover → Design → Position → Amplify → Launch 
 | [product-announcement](./gtm-skills/product-announcement/SKILL.md) | `HERALD` | Coordinated multi-channel launch comms — press, social, internal |
 | [launch-debrief](./gtm-skills/launch-debrief/SKILL.md) | `MIRROR` | Post-launch retrospective with 5-Whys root cause and improvement scoring |
 
-### Optimize (3)
+### Optimize (5)
 | Skill | Framework | Description |
 |---|---|---|
 | [budget-allocator](./gtm-skills/budget-allocator/SKILL.md) | `APEX` | Budget optimization with portfolio theory, scenarios, experiment reserves |
 | [launch-pulse](./gtm-skills/launch-pulse/SKILL.md) | `VITAL` | GTM analytics architecture: metrics pyramid, dashboards, alerts, attribution |
 | [growth-loop](./gtm-skills/growth-loop/SKILL.md) | `ANCHOR` | Retention and expansion strategy with health scoring and advocacy programs |
+| [deal-xray](./gtm-skills/deal-xray/SKILL.md) | `PROVEN` | Scores deal risk on buyer evidence, not rep belief, with a next action per gap |
+| [win-loss-decoder](./gtm-skills/win-loss-decoder/SKILL.md) | `SIGNAL` | Codes wins and losses from buyer evidence and ranks patterns by ARR |
 
 ### RevOps (10)
 | Skill | Framework | Description |
@@ -153,11 +158,12 @@ Seven lifecycle phases (Discover → Design → Position → Amplify → Launch 
 | [revenue-forecasting](./revops-skills/revenue-forecasting/SKILL.md) | `FORECAST` | Bottom-up + top-down ensemble + calibration loop |
 | [voice-of-customer](./revops-skills/voice-of-customer/SKILL.md) | `ECHO` | Multi-source signal, theming, prioritization, loop closure |
 
-### System & orchestration (2)
+### System & orchestration (3)
 | Skill | Framework | Description |
 |---|---|---|
 | [flywheel-sync](./gtm-skills/flywheel-sync/SKILL.md) | `ORBIT` | Audits the full skill system, identifies bottlenecks, produces a fix roadmap |
 | [gtm-exec-plan](./gtm-skills/gtm-exec-plan/SKILL.md) | `PRIME` | Produces a 3-4 page executive GTM brief and a 4-slide PowerPoint deck |
+| [context-anchor](./gtm-skills/context-anchor/SKILL.md) | `CANVAS` | One scored GTM_CONTEXT.md (claim, audience, need, voice, alternatives, proof) that every skill reads |
 
 ---
 
@@ -208,13 +214,16 @@ ai-gtm-skill-library/
 ├── README.md
 ├── docs/HOW-TO-USE.md
 ├── scripts/install.py            # CLI installer (Python 3.9+)
-├── gtm-skills/                   # 21 GTM skills (19 lifecycle + 2 system)
+├── gtm-skills/                   # 27 GTM skills (24 lifecycle + 3 system)
 │   ├── abm-playbook/             # TIER
 │   ├── battle-scanner/           # ARMOR
 │   ├── budget-allocator/         # APEX
+│   ├── citation-radar/           # CLEAR
 │   ├── community-catalyst/       # LOOP
 │   ├── competitive-battlecard/   # BATTLE
 │   ├── competitive-exec-brief/   # SHARP
+│   ├── context-anchor/           # CANVAS
+│   ├── deal-xray/                # PROVEN
 │   ├── demand-engine/            # WAVE
 │   ├── enablement-forge/         # CRAFT
 │   ├── flywheel-sync/            # ORBIT
@@ -229,7 +238,10 @@ ai-gtm-skill-library/
 │   ├── position-lock/            # PRISM
 │   ├── product-announcement/     # HERALD
 │   ├── signal-radar/             # PULSE
-│   └── whitespace-finder/        # DEPTH
+│   ├── territory-balance/        # EVEN
+│   ├── trigger-cadence/          # SPARK
+│   ├── whitespace-finder/        # DEPTH
+│   └── win-loss-decoder/         # SIGNAL
 ├── revops-skills/                # 10 post-sale & revenue-engine skills
 │   ├── customer-success/         # THRIVE
 │   ├── customer-analytics/       # LENS
@@ -283,6 +295,12 @@ ai-gtm-skill-library/
 | **LADDER** | _L_eading, _A_ttribution, _D_river, _D_iagnosis, _E_xpansion, _R_etention | Revenue analytics beyond ARR totals |
 | **FORECAST** | _F_oundations, _O_utlook, _R_un-rate, _E_nsemble, _C_alibration, _A_djust, _S_cenarios, _T_rack | Calibrated, defensible forecasts |
 | **ECHO** | _E_licit, _C_ategorize, _H_ighlight, _O_perationalize | VoC with closed customer loop |
+| **CANVAS** | _C_laim, _A_udience, _N_eed, _V_oice, _A_lternatives, _S_ubstantiation | One dated, scored source of GTM truth |
+| **CLEAR** | _C_laim density, _L_iftability, _E_vidence, _A_nswer match, _R_arity | Get cited by AI answer engines |
+| **PROVEN** | _P_ain, _R_esources, _O_wner, _V_alidation, _E_xit criteria, _N_o-decision risk | Forecast on buyer evidence |
+| **EVEN** | _E_stimate, _V_isit load, _E_qualize, _N_udge | Territories fair on opportunity and effort |
+| **SPARK** | _S_ignal, _P_oint of view, _A_sk, _R_oute, _K_eep-warm | Outreach that starts from a reason to talk now |
+| **SIGNAL** | _S_ample, _I_nterview, _G_roup, _N_umber, _A_ssign, _L_oop | Win-loss from the buyer's own words |
 
 ---
 
