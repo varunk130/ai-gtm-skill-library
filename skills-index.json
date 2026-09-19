@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "total_skills": 31,
+  "total_skills": 37,
   "clusters": [
     {
       "name": "gtm-skills",
-      "skill_count": 21,
+      "skill_count": 27,
       "skills": [
         {
           "name": "abm-playbook",
           "framework": "TIER",
           "path": "gtm-skills/abm-playbook/SKILL.md",
-          "description": "Account-Based Marketing playbook builder \u2014 tiered account list (1:1, 1:few, 1:many), buying-group mapping, coordinated multi-channel plays per account, and pipeline acceleration plays for in-cycle accounts. Use when: ABM playbook, account-based marketing, target account list, tiered accounts, 1:1 marketing, buying group, named-account strategy, ABM plays, pipeline acceleration, in-cycle account acceleration.",
+          "description": "Account-Based Marketing playbook builder - tiered account list (1:1, 1:few, 1:many), buying-group mapping, coordinated multi-channel plays per account, and pipeline acceleration plays for in-cycle accounts. Use when: ABM playbook, account-based marketing, target account list, tiered accounts, 1:1 marketing, buying group, named-account strategy, ABM plays, pipeline acceleration, in-cycle account acceleration.",
           "use_when": [
             "ABM playbook",
             "account-based marketing",
@@ -53,6 +53,22 @@
           ]
         },
         {
+          "name": "citation-radar",
+          "framework": "CLEAR",
+          "path": "gtm-skills/citation-radar/SKILL.md",
+          "description": "Audits how likely AI answer engines (ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews) are to cite your pages for the questions buyers ask, then ranks fixes by citation lift. Use when: ai search visibility, generative engine optimization, geo audit, aeo, llm citations, are we cited in ai answers, ai overviews, answer engine optimization.",
+          "use_when": [
+            "ai search visibility",
+            "generative engine optimization",
+            "geo audit",
+            "aeo",
+            "llm citations",
+            "are we cited in ai answers",
+            "ai overviews",
+            "answer engine optimization"
+          ]
+        },
+        {
           "name": "community-catalyst",
           "framework": null,
           "path": "gtm-skills/community-catalyst/SKILL.md",
@@ -72,7 +88,7 @@
           "name": "competitive-battlecard",
           "framework": null,
           "path": "gtm-skills/competitive-battlecard/SKILL.md",
-          "description": "On-demand sales battlecards for live competitive deals \u2014 positioning matrix, top objections with responses, trap questions, proof points, and a \"do not say\" list. Use when: competitor surfaced in deal, sales battlecard, competitive enablement, deal-specific battlecard, objection handling, competitive trap questions, why we win against, why we lose to, displacement playbook.",
+          "description": "On-demand sales battlecards for live competitive deals - positioning matrix, top objections with responses, trap questions, proof points, and a \"do not say\" list. Use when: competitor surfaced in deal, sales battlecard, competitive enablement, deal-specific battlecard, objection handling, competitive trap questions, why we win against, why we lose to, displacement playbook.",
           "use_when": [
             "competitor surfaced in deal",
             "sales battlecard",
@@ -97,6 +113,38 @@
             "competitive pptx",
             "board competitive update",
             "leadership competitive briefing"
+          ]
+        },
+        {
+          "name": "context-anchor",
+          "framework": "ANCHOR",
+          "path": "gtm-skills/context-anchor/SKILL.md",
+          "description": "Interviews the team once and writes a single GTM_CONTEXT.md (ICP, positioning, voice, proof, competitors) that every other GTM skill reads, then scores how fresh and complete it is. Use when: set up gtm context, company context file, shared positioning file, brand context, icp file, onboard the gtm skills, context is stale, refresh positioning.",
+          "use_when": [
+            "set up gtm context",
+            "company context file",
+            "shared positioning file",
+            "brand context",
+            "icp file",
+            "onboard the gtm skills",
+            "context is stale",
+            "refresh positioning"
+          ]
+        },
+        {
+          "name": "deal-xray",
+          "framework": "PROVEN",
+          "path": "gtm-skills/deal-xray/SKILL.md",
+          "description": "Stress-tests a live opportunity by separating what the buyer has proven from what the rep believes, then scores deal risk and names the next action that would change the forecast. Use when: deal review, deal risk, pipeline review, forecast call, is this deal real, qualify this opportunity, stalled deal, commit or upside.",
+          "use_when": [
+            "deal review",
+            "deal risk",
+            "pipeline review",
+            "forecast call",
+            "is this deal real",
+            "qualify this opportunity",
+            "stalled deal",
+            "commit or upside"
           ]
         },
         {
@@ -314,6 +362,37 @@
           ]
         },
         {
+          "name": "territory-balance",
+          "framework": "EVEN",
+          "path": "gtm-skills/territory-balance/SKILL.md",
+          "description": "Carves accounts into sales territories that are fair on opportunity, not just account count, and flags coverage gaps and overloaded reps before the quarter starts. Use when: territory planning, territory design, carve territories, rebalance accounts, sales capacity planning, quota fairness, coverage model, account assignment.",
+          "use_when": [
+            "territory planning",
+            "territory design",
+            "carve territories",
+            "rebalance accounts",
+            "sales capacity planning",
+            "quota fairness",
+            "coverage model",
+            "account assignment"
+          ]
+        },
+        {
+          "name": "trigger-cadence",
+          "framework": "SPARK",
+          "path": "gtm-skills/trigger-cadence/SKILL.md",
+          "description": "Builds outbound sequences that start from a specific buying trigger (funding, hiring, tech change, leadership move, product usage) instead of a static persona list, with a routing table that picks the cadence for each trigger. Use when: outbound sequence, cold email cadence, signal-based outbound, trigger-based prospecting, sales sequence, follow-up cadence, re-engagement campaign.",
+          "use_when": [
+            "outbound sequence",
+            "cold email cadence",
+            "signal-based outbound",
+            "trigger-based prospecting",
+            "sales sequence",
+            "follow-up cadence",
+            "re-engagement campaign"
+          ]
+        },
+        {
           "name": "whitespace-finder",
           "framework": null,
           "path": "gtm-skills/whitespace-finder/SKILL.md",
@@ -326,6 +405,22 @@
             "what should we build",
             "where is the whitespace"
           ]
+        },
+        {
+          "name": "win-loss-decoder",
+          "framework": "SIGNAL",
+          "path": "gtm-skills/win-loss-decoder/SKILL.md",
+          "description": "Turns closed-won and closed-lost deals into ranked, evidence-backed reasons (not rep-selected dropdowns) and routes each pattern to the team that can fix it. Use when: win loss analysis, why did we lose, why do we win, closed lost review, loss reasons, churned deals, competitive losses, buyer interviews.",
+          "use_when": [
+            "win loss analysis",
+            "why did we lose",
+            "why do we win",
+            "closed lost review",
+            "loss reasons",
+            "churned deals",
+            "competitive losses",
+            "buyer interviews"
+          ]
         }
       ]
     },
@@ -337,7 +432,7 @@
           "name": "customer-advocacy",
           "framework": "AMPLIFY",
           "path": "revops-skills/customer-advocacy/SKILL.md",
-          "description": "Customer advocacy program design \u2014 advocate identification, reference orchestration, case study pipeline, community amplification, and influence-to-revenue attribution. Use when: customer advocacy, customer reference program, case study program, advocate identification, customer marketing, peer review acceleration, G2 / Gartner Peer Insights, customer-led growth, reference architecture.",
+          "description": "Customer advocacy program design - advocate identification, reference orchestration, case study pipeline, community amplification, and influence-to-revenue attribution. Use when: customer advocacy, customer reference program, case study program, advocate identification, customer marketing, peer review acceleration, G2 / Gartner Peer Insights, customer-led growth, reference architecture.",
           "use_when": [
             "customer advocacy",
             "customer reference program",
@@ -354,7 +449,7 @@
           "name": "customer-analytics",
           "framework": "LENS",
           "path": "revops-skills/customer-analytics/SKILL.md",
-          "description": "Customer analytics framework \u2014 cohort retention, lifecycle funnels, engagement scoring, segmentation, and behavioral diagnostics for product and CS teams. Use when: customer analytics, cohort analysis, retention curve, engagement score, customer segmentation, behavioral analysis, lifecycle funnel, RFM, activation diagnostics, usage analysis.",
+          "description": "Customer analytics framework - cohort retention, lifecycle funnels, engagement scoring, segmentation, and behavioral diagnostics for product and CS teams. Use when: customer analytics, cohort analysis, retention curve, engagement score, customer segmentation, behavioral analysis, lifecycle funnel, RFM, activation diagnostics, usage analysis.",
           "use_when": [
             "customer analytics",
             "cohort analysis",
@@ -372,7 +467,7 @@
           "name": "customer-success",
           "framework": "THRIVE",
           "path": "revops-skills/customer-success/SKILL.md",
-          "description": "Customer Success operating system \u2014 segmented coverage model, health scoring, risk playbooks, value reviews, and expansion motions tied to net revenue retention. Use when: customer success strategy, CS operating model, health score, risk playbook, EBR / QBR design, churn prevention, net retention, NRR, GRR, success plan, value realization, customer journey post-sale.",
+          "description": "Customer Success operating system - segmented coverage model, health scoring, risk playbooks, value reviews, and expansion motions tied to net revenue retention. Use when: customer success strategy, CS operating model, health score, risk playbook, EBR / QBR design, churn prevention, net retention, NRR, GRR, success plan, value realization, customer journey post-sale.",
           "use_when": [
             "customer success strategy",
             "CS operating model",
@@ -392,7 +487,7 @@
           "name": "lead-nurture",
           "framework": "NURTURE",
           "path": "revops-skills/lead-nurture/SKILL.md",
-          "description": "Lead nurture orchestration \u2014 multi-track nurture design by intent stage, scoring, behavioral triggers, MQL\u2192SQL handoff, and revival of cold leads. Use when: lead nurture, drip campaign, nurture track, lead scoring, MQL to SQL, lifecycle marketing, nurture sequence, behavioral trigger, lead revival, MQL handoff.",
+          "description": "Lead nurture orchestration - multi-track nurture design by intent stage, scoring, behavioral triggers, MQL\u2192SQL handoff, and revival of cold leads. Use when: lead nurture, drip campaign, nurture track, lead scoring, MQL to SQL, lifecycle marketing, nurture sequence, behavioral trigger, lead revival, MQL handoff.",
           "use_when": [
             "lead nurture",
             "drip campaign",
@@ -410,7 +505,7 @@
           "name": "loyalty-lifecycle",
           "framework": "BOND",
           "path": "revops-skills/loyalty-lifecycle/SKILL.md",
-          "description": "Customer loyalty and lifecycle orchestration \u2014 tiered loyalty design, lifecycle journey programs, milestone triggers, and retention economics for B2B and B2C. Use when: loyalty program, customer lifecycle program, tiered loyalty, milestone marketing, retention program design, lifecycle journey, loyalty economics, member tiers, retention motion.",
+          "description": "Customer loyalty and lifecycle orchestration - tiered loyalty design, lifecycle journey programs, milestone triggers, and retention economics for B2B and B2C. Use when: loyalty program, customer lifecycle program, tiered loyalty, milestone marketing, retention program design, lifecycle journey, loyalty economics, member tiers, retention motion.",
           "use_when": [
             "loyalty program",
             "customer lifecycle program",
@@ -427,7 +522,7 @@
           "name": "referral-program",
           "framework": "RIPPLE",
           "path": "revops-skills/referral-program/SKILL.md",
-          "description": "Referral program design \u2014 referrer / referee incentive structure, viral mechanics, fraud and abuse controls, attribution, and channel placement. Use when: referral program, refer a friend, viral loop design, K-factor, advocacy referrals, partner referrals, customer referral incentives, referral attribution, viral coefficient.",
+          "description": "Referral program design - referrer / referee incentive structure, viral mechanics, fraud and abuse controls, attribution, and channel placement. Use when: referral program, refer a friend, viral loop design, K-factor, advocacy referrals, partner referrals, customer referral incentives, referral attribution, viral coefficient.",
           "use_when": [
             "referral program",
             "refer a friend",
@@ -444,7 +539,7 @@
           "name": "renewal-orchestration",
           "framework": "RENEW",
           "path": "revops-skills/renewal-orchestration/SKILL.md",
-          "description": "Renewal orchestration playbook \u2014 risk identification, renewal motion design, multi-thread engagement, commercial negotiation, and expansion-at-renewal plays. Use when: renewal playbook, renewal forecast, renewal risk, multi-year renewal, NRR, GRR, churn save, contract negotiation, expansion at renewal, renewal handoff.",
+          "description": "Renewal orchestration playbook - risk identification, renewal motion design, multi-thread engagement, commercial negotiation, and expansion-at-renewal plays. Use when: renewal playbook, renewal forecast, renewal risk, multi-year renewal, NRR, GRR, churn save, contract negotiation, expansion at renewal, renewal handoff.",
           "use_when": [
             "renewal playbook",
             "renewal forecast",
@@ -462,7 +557,7 @@
           "name": "revenue-analytics",
           "framework": "LADDER",
           "path": "revops-skills/revenue-analytics/SKILL.md",
-          "description": "Revenue analytics architecture \u2014 ARR / NRR / GRR decomposition, cohort retention, expansion drivers, segment economics, and CAC payback diagnostics. Use when: revenue analytics, ARR waterfall, NRR analysis, GRR, expansion analysis, cohort revenue retention, CAC payback, magic number, segment economics, revenue diagnostics.",
+          "description": "Revenue analytics architecture - ARR / NRR / GRR decomposition, cohort retention, expansion drivers, segment economics, and CAC payback diagnostics. Use when: revenue analytics, ARR waterfall, NRR analysis, GRR, expansion analysis, cohort revenue retention, CAC payback, magic number, segment economics, revenue diagnostics.",
           "use_when": [
             "revenue analytics",
             "ARR waterfall",
@@ -480,7 +575,7 @@
           "name": "revenue-forecasting",
           "framework": "FORECAST",
           "path": "revops-skills/revenue-forecasting/SKILL.md",
-          "description": "Revenue forecasting pipeline \u2014 bottoms-up pipeline forecast, tops-down model, ensemble blending, scenario analysis, and forecast calibration loop. Use when: revenue forecast, sales forecast, pipeline forecast, bookings forecast, NRR forecast, ARR forecast, forecast calibration, scenario planning, ensemble forecasting, board forecast.",
+          "description": "Revenue forecasting pipeline - bottoms-up pipeline forecast, tops-down model, ensemble blending, scenario analysis, and forecast calibration loop. Use when: revenue forecast, sales forecast, pipeline forecast, bookings forecast, NRR forecast, ARR forecast, forecast calibration, scenario planning, ensemble forecasting, board forecast.",
           "use_when": [
             "revenue forecast",
             "sales forecast",
@@ -498,7 +593,7 @@
           "name": "voice-of-customer",
           "framework": "ECHO",
           "path": "revops-skills/voice-of-customer/SKILL.md",
-          "description": "Voice of Customer program \u2014 multi-source signal collection, theming and prioritization, evidence-to-action routing, and product / CS / marketing feedback loop closure. Use when: voice of customer, VoC program, customer feedback, NPS / CSAT / CES, qualitative theming, feedback synthesis, product feedback loop, customer insight engine.",
+          "description": "Voice of Customer program - multi-source signal collection, theming and prioritization, evidence-to-action routing, and product / CS / marketing feedback loop closure. Use when: voice of customer, VoC program, customer feedback, NPS / CSAT / CES, qualitative theming, feedback synthesis, product feedback loop, customer insight engine.",
           "use_when": [
             "voice of customer",
             "VoC program",
