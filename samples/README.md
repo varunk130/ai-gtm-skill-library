@@ -80,6 +80,12 @@ The `.docx` is a 3-4 page printable brief that mirrors the deck content with mor
 |---|---|
 | [`sample-use-cases.md`](./sample-use-cases.md) | A catalog of worked example use cases across multiple skills |
 | [`funnel-analysis-walkthrough.md`](./funnel-analysis-walkthrough.md) | Step-by-step walkthrough using the funnel helper utility |
+| [`context-anchor-example.md`](./context-anchor-example.md) | Context health scoring: completeness × freshness and a refresh list |
+| [`citation-radar-example.md`](./citation-radar-example.md) | CLEAR scorecard for three pages and a citation fix queue |
+| [`deal-xray-example.md`](./deal-xray-example.md) | PROVEN evidence table, proof score, and gap plan for one deal |
+| [`territory-balance-example.md`](./territory-balance-example.md) | Account potential, rep balance table, and exception log |
+| [`trigger-cadence-example.md`](./trigger-cadence-example.md) | Trigger list and a four-touch cadence routed from a hiring trigger |
+| [`win-loss-decoder-example.md`](./win-loss-decoder-example.md) | Coded win/loss pattern table ranked by ARR gap, with a fix plan |
 
 ---
 
