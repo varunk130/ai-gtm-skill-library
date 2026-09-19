@@ -5,10 +5,10 @@ PYTHON ?= python
 help:  ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-18s\033[0m %s\n", $$1, $$2}'
 
-install:  ## Install all 31 skills into ~/.claude/skills
+install:  ## Install all 37 skills into ~/.claude/skills
 	$(PYTHON) scripts/install.py install --platform claude
 
-install-copilot:  ## Install all 31 skills into .github/skills (run from your target repo)
+install-copilot:  ## Install all 37 skills into .github/skills (run from your target repo)
 	$(PYTHON) scripts/install.py install --platform copilot
 
 list:  ## List all available skills with their cluster
