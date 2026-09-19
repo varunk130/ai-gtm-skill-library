@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this library in research, write-ups, or production GTM work, please cite it as below."
 title: "AI GTM Skill Library"
 abstract: >-
-  A library of 31 opinionated go-to-market skills for Claude Code and GitHub
+  A library of 37 opinionated go-to-market skills for Claude Code and GitHub
   Copilot. Each skill is a self-contained Markdown specification that encodes
   a named mnemonic framework, an applied process, an output specification,
   and a list of paired skills. Covers the GTM lifecycle (discover, design,
