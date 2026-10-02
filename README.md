@@ -15,6 +15,21 @@
 
 ---
 
+## Table of Contents
+
+- [What this solves](#what-this-solves)
+- [Quickstart](#quickstart)
+- [Lifecycle overview](#lifecycle-overview)
+- [Skills catalog](#skills-catalog)
+- [Common workflows](#common-workflows)
+- [Installation](#installation)
+- [Framework reference](#framework-reference)
+- [Contributing](#contributing)
+- [Related work](#related-work)
+- [License](#license)
+
+---
+
 ## What this solves
 
 GTM teams produce the same artifacts over and over — positioning frameworks, launch plans, battle cards, renewal playbooks, forecast models, EBR decks. The work is often repeated from scratch because the playbook lives in someone's head, in a slide somewhere, or in last quarter's deck.
