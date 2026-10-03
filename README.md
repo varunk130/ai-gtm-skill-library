@@ -354,7 +354,7 @@ Part of a portfolio of AI agent and skill libraries for product, GTM, and decisi
 
 **UX & design**
 
-- [ai-ux-skill-library](https://github.com/varunk130/ai-ux-skill-library) — 12 frameworks for designing UX for AI products, agents, and AI-powered experiences
+- [ai-ux-skill-library](https://github.com/varunk130/ai-ux-skill-library) — 13 frameworks for designing UX for AI products, agents, and AI-powered experiences
 
 **Multi-agent demos**
 
