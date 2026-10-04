@@ -5,11 +5,14 @@ All notable changes to the AI GTM Skill Library are documented here. The format 
 ## [Unreleased]
 
 ### Added
+- Table of Contents in the README for faster navigation.
 - **Six new GTM skills**: `context-anchor` (CANVAS), `citation-radar` (CLEAR), `deal-xray` (PROVEN), `territory-balance` (EVEN), `trigger-cadence` (SPARK), `win-loss-decoder` (SIGNAL). The library now ships 37 skills.
 - `skills-index.json` regenerated to include the new skills.
 - CI workflow that runs the `python_runtime` test suite on every push and pull request.
 
 ### Changed
+- Corrected the ai-ux-skill-library reference in Related Work to 13 frameworks.
+- Normalized `python_runtime` and `assets/hero.svg` line endings to LF per `.editorconfig`.
 - Corrected the AI-Eval-Skills reference in Related Work to 7 skills (the upstream repo added the tool-use-eval skill).
 - Added the three Next.js multi-agent demos (Compound, Beacon, Atlas) to the Related Work section.
 - Polished Related Work formatting for house-style consistency: em-dash separators between each entry and its description, and Unicode arrows (→) in the Compound loop description.
