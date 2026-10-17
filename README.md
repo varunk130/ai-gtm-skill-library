@@ -196,7 +196,7 @@ Seven lifecycle phases (Discover → Design → Position → Amplify → Launch 
 | **Outbound planning** | `context-anchor` → `territory-balance` → `trigger-cadence` → `abm-playbook` |
 | **Executive GTM plan** | `gtm-exec-plan` (orchestrates positioning, competitive, channel, and execution automatically) |
 
-See [`samples/`](./samples/) for a full worked example: a 3-page exec brief and a 4-slide deck produced by `gtm-exec-plan` for the fictional **ACME Insight Studio** mock product, with screenshots of the formatted output.
+See [`samples/`](./samples/) for a full worked example: a 5-page exec brief and a 4-slide deck produced by `gtm-exec-plan` for the fictional **ACME Insight Studio** mock product, with screenshots of the formatted output.
 
 ---
 

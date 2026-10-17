@@ -42,7 +42,7 @@ Produced by the [`gtm-exec-plan`](../gtm-skills/gtm-exec-plan/SKILL.md) skill (P
 
 ### Executive brief preview (5 pages)
 
-The `.docx` is a 3-4 page printable brief that mirrors the deck content with more depth.
+The `.docx` is a 5-page printable brief that mirrors the deck content with more depth.
 
 | Page | Section |
 |---|---|
