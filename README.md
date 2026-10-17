@@ -90,7 +90,7 @@ cp -r ai-gtm-skill-library/revops-skills/* ~/.claude/skills/
 
 ```mermaid
 flowchart LR
-    D[Discover<br/>2 skills]:::p1 --> DE[Design<br/>2 skills]:::p2 --> P[Position<br/>4 skills]:::p3 --> A[Amplify<br/>5 skills]:::p4 --> L[Launch<br/>3 skills]:::p5 --> O[Optimize<br/>3 skills]:::p6 --> R[RevOps<br/>10 skills]:::p7
+    D[Discover<br/>2 skills]:::p1 --> DE[Design<br/>3 skills]:::p2 --> P[Position<br/>4 skills]:::p3 --> A[Amplify<br/>7 skills]:::p4 --> L[Launch<br/>3 skills]:::p5 --> O[Optimize<br/>5 skills]:::p6 --> R[RevOps<br/>10 skills]:::p7
     R -.-> D
     FS[flywheel-sync · gtm-exec-plan<br/>system + orchestrator]:::sys
     FS -.- D & DE & P & A & L & O & R
