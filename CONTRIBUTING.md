@@ -23,7 +23,7 @@ Thanks for your interest in contributing! This project welcomes issues, suggesti
 
 See the README for project-specific setup. In general:
 
-- Use a recent runtime version (Node 20+, Python 3.10+, etc.).
+- Use a recent runtime version (Node 20+, Python 3.9+, etc.).
 - Install dependencies as documented in the README.
 - Run any provided tests or examples to verify your environment.
 
