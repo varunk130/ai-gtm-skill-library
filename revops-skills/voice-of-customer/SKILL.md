@@ -56,7 +56,7 @@ Without disciplined theming, VoC becomes a junk drawer. Adopt:
 |------|----------|
 | **Frequency** | How many distinct customers, by segment? |
 | **Severity** | Revenue impact if unaddressed (churn risk, deal blocker) |
-| **Solvability** | Effort vs leverage of the fix |
+| **Solvability** | Effort vs. leverage of the fix |
 | **Strategic Fit** | Does the fix advance the platform thesis or fix a wart? |
 | **Reach** | What share of ARR or users does the change touch? |
 
