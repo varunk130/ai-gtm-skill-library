@@ -20,9 +20,9 @@ Design a revenue-forecasting pipeline that produces a defensible, calibrated num
 | **R** | Run-Rate Model | What does the time-series / cohort model produce independent of pipeline? |
 | **E** | Ensemble Blend | How are bottoms-up and tops-down blended, and what's the confidence band? |
 | **C** | Calibration | What's the historical forecast error by segment, stage, and rep? |
-| **A** | Adjust | What manual adjustments are in, and which are evidence-based vs hope-based? |
+| **A** | Adjust | What manual adjustments are in, and which are evidence-based vs. hope-based? |
 | **S** | Scenarios | What are the base / upside / downside cases and their drivers? |
-| **T** | Track | How is forecast vs actual tracked, and how does it feed back into the model? |
+| **T** | Track | How is forecast vs. actual tracked, and how does it feed back into the model? |
 
 ## Bottoms-Up Forecast
 
@@ -73,8 +73,8 @@ This is where most forecasting programs fail.
 
 | Step | Action |
 |------|--------|
-| **Track forecast vs actual** | By period, segment, stage, rep |
-| **Decompose error** | Conversion error vs timing error vs mix error |
+| **Track forecast vs. actual** | By period, segment, stage, rep |
+| **Decompose error** | Conversion error vs. timing error vs. mix error |
 | **Update model weights** | Reweight ensemble based on out-of-sample accuracy |
 | **Revise stage conversion** | At least quarterly; sooner if material drift |
 | **Coach rep commit accuracy** | Visible scorecards |
@@ -90,7 +90,7 @@ Save to `outputs/revenue-forecasting-[period]-[YYYY-MM-DD].md`
 | **Tops-Down Model** | Run-rate / regression / cohort approach with assumptions |
 | **Ensemble Spec** | Component weights with historical-accuracy rationale |
 | **Scenario Pack** | Base / Upside / Downside / Stress with named drivers |
-| **Calibration Report** | Forecast vs actual error decomposition, trend |
+| **Calibration Report** | Forecast vs. actual error decomposition, trend |
 | **Adjustments Log** | Every manual adjustment with rationale and owner |
 | **Forecast Dashboard** | Single source of truth across finance, sales, RevOps |
 
