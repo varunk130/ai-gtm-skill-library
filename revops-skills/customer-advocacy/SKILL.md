@@ -73,10 +73,10 @@ The advocate library must answer four sales questions in under 2 minutes:
 
 | Attribution Lens | Definition |
 |------------------|------------|
-| **Reference-influenced deals** | Opportunities that received ≥ 1 reference touch, win-rate uplift vs control |
+| **Reference-influenced deals** | Opportunities that received ≥ 1 reference touch, win-rate uplift vs. control |
 | **Asset-attributed pipeline** | Pipeline tagged to a case study, video, or review |
 | **Advocate-sourced pipeline** | Net-new logos sourced from advocate referrals |
-| **Renewal influence** | Renewals with advocacy participation, retention uplift vs control |
+| **Renewal influence** | Renewals with advocacy participation, retention uplift vs. control |
 
 ## Output
 
