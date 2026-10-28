@@ -53,7 +53,7 @@ A single NRR number hides the truth. Always decompose:
 | **Expansion %** | Expansion ARR / Starting ARR | Upside from existing book |
 | **NRR** | GRR + Expansion % | Compound growth signal |
 | **Churn drivers** | Reason-coded, % of churned ARR by reason | Where to fix the leak |
-| **Contraction drivers** | Seat reductions vs price reductions vs downgrades | Where pricing/packaging is misaligned |
+| **Contraction drivers** | Seat reductions vs. price reductions vs. downgrades | Where pricing/packaging is misaligned |
 
 ## Segment Behavior
 
