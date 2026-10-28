@@ -56,7 +56,7 @@ Document every skill-to-skill connection in the launch engine with its expected 
 | budget-allocator | launch-command | Spend allocation plan | Model | Per-launch | |
 | launch-command | launch-pulse | Launch plan, workstream status | Dashboard | Per-launch | |
 | launch-pulse | growth-loop | Adoption and retention metrics | Metrics | Continuous | |
-| launch-pulse | launch-debrief | Actuals vs targets | Scorecard | T+30, T+90 | |
+| launch-pulse | launch-debrief | Actuals vs. targets | Scorecard | T+30, T+90 | |
 | growth-loop | demand-engine | Referral pipeline, case studies | Assets | Continuous | |
 | growth-loop | signal-radar | Customer signals, advocacy data | Signals | Continuous | |
 | launch-debrief | All skills | Updated benchmarks, learnings | Playbook | Post-launch | |
