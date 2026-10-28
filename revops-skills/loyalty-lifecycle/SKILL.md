@@ -62,7 +62,7 @@ A loyalty program is a long-lived liability. The economics must be defensible:
 
 | Lens | Question |
 |------|----------|
-| **Incremental Retention** | What's the retention uplift of program members vs matched non-members? |
+| **Incremental Retention** | What's the retention uplift of program members vs. matched non-members? |
 | **Incremental ARPU** | Do members spend more *because of* the program, or were they pre-selected? |
 | **Cost of Liability** | What's the unredeemed-points exposure on the balance sheet? |
 | **Cannibalization** | What % of rewards subsidize behavior that would have happened anyway? |
