@@ -40,7 +40,7 @@ Save to `outputs/territory-balance-[period]-[YYYY-MM-DD].md`
 | Artifact | Description |
 |---|---|
 | **Assignment table** | Account, tier, potential, owner |
-| **Balance table** | Rep, total potential, share vs mean, load |
+| **Balance table** | Rep, total potential, share vs. mean, load |
 | **Exception log** | Every manual override with its reason |
 
 ## Tips
