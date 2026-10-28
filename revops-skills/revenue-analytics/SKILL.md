@@ -19,7 +19,7 @@ Design a revenue analytics layer that answers *where revenue is being created, w
 | **A** | Attribution | Where does new ARR come from - channel, motion, segment, cohort? |
 | **D** | Drivers | Which 3-5 levers explain most of the variance in NRR and growth? |
 | **D** | Diagnosis | What's broken or accelerating, and what's the named hypothesis? |
-| **E** | Expansion Economics | What's the economics of expansion vs new logo by segment? |
+| **E** | Expansion Economics | What's the economics of expansion vs. new logo by segment? |
 | **R** | Retention Decomposition | What's GRR, contraction, churn - by cohort and reason code? |
 
 ## ARR Waterfall
@@ -55,7 +55,7 @@ Lagging metrics (ARR, NRR) confirm what already happened. Leading metrics let yo
 | Driver | Definition | Watch For |
 |--------|------------|-----------|
 | **Acquisition** | New logo ARR / period | Channel mix shift, win-rate change |
-| **Expansion** | Expansion / Starting ARR | Mix of seat vs module vs price |
+| **Expansion** | Expansion / Starting ARR | Mix of seat vs. module vs. price |
 | **Retention (GRR)** | 1 − (Churn + Contraction) / Starting | Cohort drift, segment concentration |
 | **Pricing** | Realized ARPA trend | Discount creep, packaging drift |
 | **Mix** | Segment / motion share | Concentration risk, dilution risk |
@@ -93,7 +93,7 @@ Save to `outputs/revenue-analytics-[scope]-[YYYY-MM-DD].md`
 | **Cohort Retention Heatmap** | Cohort × period with segment cuts |
 | **Economics Pack** | CAC payback, LTV/CAC, magic number, segment breakdown |
 | **Diagnosis Memo** | Anomalies + hypotheses + named owners |
-| **Forecast Roll-Up** | Bottoms-up vs tops-down with delta explanation |
+| **Forecast Roll-Up** | Bottoms-up vs. tops-down with delta explanation |
 
 ## Process
 
