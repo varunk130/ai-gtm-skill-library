@@ -31,10 +31,10 @@ Map every competitor into concentric rings:
 
 | Ring | Type | Threat Level | Examples |
 |------|------|-------------|----------|
-| Ring 1 | **Direct** -- same problem, same approach | Highest | Head-to-head feature competitors |
-| Ring 2 | **Indirect** -- same problem, different approach | High | Alternative solution categories |
-| Ring 3 | **Adjacent** -- different problem, could pivot | Medium | Companies with overlapping capabilities |
-| Ring 4 | **Substitute** -- manual/DIY/status quo | Baseline | Spreadsheets, manual processes, in-house builds |
+| Ring 1 | **Direct** — same problem, same approach | Highest | Head-to-head feature competitors |
+| Ring 2 | **Indirect** — same problem, different approach | High | Alternative solution categories |
+| Ring 3 | **Adjacent** — different problem, could pivot | Medium | Companies with overlapping capabilities |
+| Ring 4 | **Substitute** — manual/DIY/status quo | Baseline | Spreadsheets, manual processes, in-house builds |
 
 ### Step 2: ARMOR Deep Dive (per Ring 1-2 competitor)
 Analyze each competitor across 5 dimensions:
@@ -43,8 +43,8 @@ Analyze each competitor across 5 dimensions:
 |-----------|----------------|---------------|
 | **A**rchitecture | Product architecture, tech stack, scalability | What are their technical limitations? Where is their tech debt? |
 | **R**eputation | Brand perception, NPS, review scores, analyst position | Where do customers love them? Where do customers complain? |
-| **M**oat | Defensibility -- network effects, data, switching costs, IP | What makes them hard to displace? What is their weakest moat? |
-| **O**penings | Exploitable weaknesses -- complaints, gaps, pricing issues | Where are they vulnerable RIGHT NOW? |
+| **M**oat | Defensibility — network effects, data, switching costs, IP | What makes them hard to displace? What is their weakest moat? |
+| **O**penings | Exploitable weaknesses — complaints, gaps, pricing issues | Where are they vulnerable RIGHT NOW? |
 | **R**esponse Prediction | How they will respond to your launch | Will they: fast-follow, price war, FUD, ignore, or acquire? |
 
 For Response Prediction, consider:
