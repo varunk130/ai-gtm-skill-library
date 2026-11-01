@@ -5,7 +5,7 @@ description: 'Retention, expansion, and advocacy strategy that maximizes custome
 
 # Growth Loop (ANCHOR System)
 
-A structured lifecycle engine that designs every phase of post-acquisition customer engagement -- from initial activation through renewal and advocacy. ANCHOR maximizes net revenue retention by combining health scoring, trigger-based expansion plays, and systematic advocacy development into a unified retention and growth system.
+A structured lifecycle engine that designs every phase of post-acquisition customer engagement — from initial activation through renewal and advocacy. ANCHOR maximizes net revenue retention by combining health scoring, trigger-based expansion plays, and systematic advocacy development into a unified retention and growth system.
 
 ## When to Use
 - Designing a post-launch customer success and retention strategy
@@ -53,7 +53,7 @@ Define six lifecycle stages with specific timeframes, goals, and success criteri
 
 For each ANCHOR stage, define the specific touchpoints, content, and automation.
 
-**A -- Activate (Days 0-7)**
+**A — Activate (Days 0-7)**
 
 | Day | Touchpoint | Channel | Content | Owner | Trigger |
 |-----|-----------|---------|---------|-------|---------|
@@ -66,7 +66,7 @@ For each ANCHOR stage, define the specific touchpoints, content, and automation.
 
 **At-Risk Trigger (Activate stage):** No login within 48 hours of signup --> immediate re-engagement sequence.
 
-**N -- Nurture (Days 7-30)**
+**N — Nurture (Days 7-30)**
 
 | Week | Touchpoint | Channel | Content | Trigger |
 |------|-----------|---------|---------|---------|
@@ -76,7 +76,7 @@ For each ANCHOR stage, define the specific touchpoints, content, and automation.
 | 3 | Usage milestone | In-app | Celebrate usage achievement | Hits usage threshold |
 | 4 | Value checkpoint | Email/Call | "Here is what you have accomplished so far" | Day 25 |
 
-**C -- Champion (Days 30-90)**
+**C — Champion (Days 30-90)**
 
 | Trigger | Action | Channel | Owner |
 |---------|--------|---------|-------|
@@ -85,7 +85,7 @@ For each ANCHOR stage, define the specific touchpoints, content, and automation.
 | Positive support interaction | Request testimonial quote | Email | CSM |
 | Feature request submitted | Acknowledge, share roadmap context | Email | Product |
 
-**H -- Habituate (Days 90-180)**
+**H — Habituate (Days 90-180)**
 
 | Milestone | Action | Channel | Owner |
 |-----------|--------|---------|-------|
@@ -94,7 +94,7 @@ For each ANCHOR stage, define the specific touchpoints, content, and automation.
 | Workflow automation created | Showcase advanced capabilities | Email | CSM |
 | 90-day review | QBR with usage data and ROI preview | Call | CSM |
 
-**O -- Optimize (Days 180-365)**
+**O — Optimize (Days 180-365)**
 
 | Activity | Timing | Deliverable | Owner |
 |----------|--------|-------------|-------|
@@ -103,7 +103,7 @@ For each ANCHOR stage, define the specific touchpoints, content, and automation.
 | Executive presentation | Day 210 | ROI presentation for executive sponsor | CSM |
 | Case study qualification | Day 220 | Assess willingness for public case study | CSM + PMM |
 
-**R -- Renew (60 Days Pre-Renewal)**
+**R — Renew (60 Days Pre-Renewal)**
 
 | Day (before renewal) | Action | Owner |
 |---------------------|--------|-------|
@@ -222,10 +222,10 @@ Systematically develop customer advocates across four programs.
 Save to `outputs/growth-loop/`
 
 ### Deliverables:
-1. **ANCHOR Lifecycle Playbook** -- Six-stage lifecycle program with touchpoints, content, channels, triggers, and automation specs for each stage from Activate through Renew
-2. **Health Scoring Model** -- 0-100 health score with five weighted components, scoring logic, four health bands (Thriving/Healthy/At Risk/Critical), and automated intervention protocols per band
-3. **Expansion Playbook** -- Seven trigger-based expansion signals with confidence levels, suggested actions, conversation framework, and templates from soft open through negotiation
-4. **Advocacy Program Design** -- Four-program advocacy engine (Case Studies, Referrals, Champions, Advisory Board) with processes, targets, rewards, and pipeline goals
+1. **ANCHOR Lifecycle Playbook** — Six-stage lifecycle program with touchpoints, content, channels, triggers, and automation specs for each stage from Activate through Renew
+2. **Health Scoring Model** — 0-100 health score with five weighted components, scoring logic, four health bands (Thriving/Healthy/At Risk/Critical), and automated intervention protocols per band
+3. **Expansion Playbook** — Seven trigger-based expansion signals with confidence levels, suggested actions, conversation framework, and templates from soft open through negotiation
+4. **Advocacy Program Design** — Four-program advocacy engine (Case Studies, Referrals, Champions, Advisory Board) with processes, targets, rewards, and pipeline goals
 
 ## Chain Connections
 - **Receives from:** journey-architect (customer journey stages), launch-pulse (adoption and retention metrics), launch-command (post-launch handoff)
