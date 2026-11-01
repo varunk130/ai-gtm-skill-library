@@ -266,10 +266,10 @@ Prioritize all identified issues into a phased improvement plan.
 Save to `outputs/flywheel-sync/`
 
 ### Deliverables:
-1. **System Health Dashboard** -- Overall system health percentage, orchestration health, gap/redundancy count, average bottleneck score, tempo alignment, and critical path identification with visual dependency map
-2. **Gap and Redundancy Report** -- Every output classified as active, redundant, gap, waste, or orphan with recommended consolidation, creation, or deprecation actions
-3. **Bottleneck Analysis** -- Every skill scored on delay impact, quality impact, and confusion with bottleneck classification (Critical/Moderate/Minor/Healthy) and specific remediation plans
-4. **Continuous Improvement Roadmap** -- Phased plan (Quick Wins through Scale) with timeline, key actions, success metrics, and owners for each improvement initiative
+1. **System Health Dashboard** — Overall system health percentage, orchestration health, gap/redundancy count, average bottleneck score, tempo alignment, and critical path identification with visual dependency map
+2. **Gap and Redundancy Report** — Every output classified as active, redundant, gap, waste, or orphan with recommended consolidation, creation, or deprecation actions
+3. **Bottleneck Analysis** — Every skill scored on delay impact, quality impact, and confusion with bottleneck classification (Critical/Moderate/Minor/Healthy) and specific remediation plans
+4. **Continuous Improvement Roadmap** — Phased plan (Quick Wins through Scale) with timeline, key actions, success metrics, and owners for each improvement initiative
 
 ## Chain Connections
 - **Receives from:** All skills (outputs, timing data, quality feedback, connection health signals)
