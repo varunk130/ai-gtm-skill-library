@@ -36,7 +36,7 @@ A structured post-launch retrospective engine that transforms raw launch data in
 
 ## Process
 
-### Step 1: Metrics Review -- Actual vs. Target vs. Baseline
+### Step 1: Metrics Review — Actual vs. Target vs. Baseline
 
 For each VITAL metric, calculate the Performance Index and classify the result.
 
@@ -247,12 +247,12 @@ If prior launch debriefs exist, compare trends across launches.
 Save to `outputs/launch-debrief/`
 
 ### Deliverables:
-1. **Launch Scorecard** -- Performance Index for every VITAL metric with actual vs. target vs. baseline, top 3 over/underperformances, and overall launch grade (A through F based on weighted Performance Index)
-2. **Insights Report** -- Win analysis, loss analysis, customer feedback synthesis, and internal feedback synthesis with evidence-backed findings across messaging, channels, content, timing, and audience
-3. **Root-Cause Analysis** -- 5-Whys analysis for each material underperformance, classified by error type (Strategy/Execution/Assumption/External/Timing), with controllability and fix-difficulty assessments
-4. **Next-Launch Playbook** -- Prioritized improvement list (P0 through P3) using the Impact x Ease x Confidence scoring model, with owners, deadlines, dependencies, and updated benchmarks
+1. **Launch Scorecard** — Performance Index for every VITAL metric with actual vs. target vs. baseline, top 3 over/underperformances, and overall launch grade (A through F based on weighted Performance Index)
+2. **Insights Report** — Win analysis, loss analysis, customer feedback synthesis, and internal feedback synthesis with evidence-backed findings across messaging, channels, content, timing, and audience
+3. **Root-Cause Analysis** — 5-Whys analysis for each material underperformance, classified by error type (Strategy/Execution/Assumption/External/Timing), with controllability and fix-difficulty assessments
+4. **Next-Launch Playbook** — Prioritized improvement list (P0 through P3) using the Impact x Ease x Confidence scoring model, with owners, deadlines, dependencies, and updated benchmarks
 
 ## Chain Connections
 - **Receives from:** launch-pulse (actual metrics data), launch-command (gate scores, launch plan), budget-allocator (spend actuals), demand-engine (channel performance), battle-scanner (competitive context)
-- **Feeds back into:** All future launch cycles -- updated benchmarks flow to launch-pulse, process improvements flow to launch-command, messaging learnings flow to position-lock, channel learnings flow to demand-engine
+- **Feeds back into:** All future launch cycles — updated benchmarks flow to launch-pulse, process improvements flow to launch-command, messaging learnings flow to position-lock, channel learnings flow to demand-engine
 - **Enhanced by:** growth-loop (post-launch retention data), signal-radar (market context during launch window)
