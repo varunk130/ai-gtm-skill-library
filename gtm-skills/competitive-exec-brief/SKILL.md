@@ -61,10 +61,10 @@ One row per competitor, maximum 6 competitors:
 
 ### Step 4: Executive PPTX Slide
 Generate a single PowerPoint slide containing:
-- **Title**: "Competitive Landscape -- [Quarter/Year]"
+- **Title**: "Competitive Landscape — [Quarter/Year]"
 - **Left half**: 2x2 positioning map with competitor logos/names plotted
 - **Right half**: SHARP summary (Situation + Highlights + Advantages + Risks + Plan)
-- **Footer**: Key metric -- overall competitive win rate and trend
+- **Footer**: Key metric — overall competitive win rate and trend
 
 Use the `ppt-deck-generator` skill or python-pptx to create the actual .pptx file.
 
