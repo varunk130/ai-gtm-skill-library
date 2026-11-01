@@ -5,7 +5,7 @@ description: 'GTM analytics and measurement framework that builds metrics archit
 
 # Launch Pulse (VITAL Metrics Architecture)
 
-A comprehensive measurement framework engine that designs the full analytics stack for tracking launch success -- from metric definitions through dashboard specifications to automated alert systems. VITAL ensures you measure what matters, detect problems early, and attribute results accurately across channels and touchpoints.
+A comprehensive measurement framework engine that designs the full analytics stack for tracking launch success — from metric definitions through dashboard specifications to automated alert systems. VITAL ensures you measure what matters, detect problems early, and attribute results accurately across channels and touchpoints.
 
 ## When to Use
 - Designing the measurement framework for an upcoming launch
@@ -52,7 +52,7 @@ The VITAL pyramid organizes metrics into five layers, each building on the one b
 
 For each VITAL layer, define 4-8 specific metrics with full specifications.
 
-**V -- Volume Metrics (Top of Funnel)**
+**V — Volume Metrics (Top of Funnel)**
 
 | # | Metric | Definition | Source | Frequency | Owner | Leading/Lagging |
 |---|--------|-----------|--------|-----------|-------|-----------------|
@@ -63,7 +63,7 @@ For each VITAL layer, define 4-8 specific metrics with full specifications.
 | V5 | Content Views | Blog, video, and resource page views | CMS/GA4 | Daily | Content | Leading |
 | V6 | Event Registrations | Webinar/event signups | Event platform | Weekly | Events | Leading |
 
-**I -- Intent Metrics (Mid-Funnel)**
+**I — Intent Metrics (Mid-Funnel)**
 
 | # | Metric | Definition | Source | Frequency | Owner | Leading/Lagging |
 |---|--------|-----------|--------|-----------|-------|-----------------|
@@ -74,7 +74,7 @@ For each VITAL layer, define 4-8 specific metrics with full specifications.
 | I5 | Email Engagement | Open rate, click rate, reply rate | MAP | Weekly | Email | Leading |
 | I6 | Pricing Page Views | Visits to pricing/packaging pages | GA4 | Daily | Marketing | Leading |
 
-**T -- Traction Metrics (Pipeline)**
+**T — Traction Metrics (Pipeline)**
 
 | # | Metric | Definition | Source | Frequency | Owner | Leading/Lagging |
 |---|--------|-----------|--------|-----------|-------|-----------------|
@@ -85,7 +85,7 @@ For each VITAL layer, define 4-8 specific metrics with full specifications.
 | T5 | Deal Size | Average contract value of launch deals | CRM | Monthly | Revenue | Lagging |
 | T6 | MQL-to-SQL Rate | Conversion rate from MQL to SQL | CRM/MAP | Weekly | RevOps | Leading |
 
-**A -- Adoption Metrics (Product)**
+**A — Adoption Metrics (Product)**
 
 | # | Metric | Definition | Source | Frequency | Owner | Leading/Lagging |
 |---|--------|-----------|--------|-----------|-------|-----------------|
@@ -95,7 +95,7 @@ For each VITAL layer, define 4-8 specific metrics with full specifications.
 | A4 | Feature Adoption | % of users using launch feature within 30 days | Product analytics | Weekly | Product | Lagging |
 | A5 | Usage Depth | Actions per session or per user per week | Product analytics | Weekly | Product | Lagging |
 
-**L -- Loyalty Metrics (Retention)**
+**L — Loyalty Metrics (Retention)**
 
 | # | Metric | Definition | Source | Frequency | Owner | Leading/Lagging |
 |---|--------|-----------|--------|-----------|-------|-----------------|
@@ -193,7 +193,7 @@ Define how credit is assigned across channels and touchpoints.
 **Recommended Approach:**
 - **Primary:** Position-based (40/20/40) for automated attribution
 - **Secondary:** Self-reported "How did you hear about us?" on signup and demo forms
-- **Validation:** Compare models quarterly -- if they diverge significantly, investigate
+- **Validation:** Compare models quarterly — if they diverge significantly, investigate
 
 **Attribution Data Requirements:**
 
@@ -210,10 +210,10 @@ Define how credit is assigned across channels and touchpoints.
 Save to `outputs/launch-pulse/`
 
 ### Deliverables:
-1. **VITAL Metrics Framework** -- Complete pyramid with 25-30 defined metrics, each with definition, source, frequency, owner, baseline, targets (30/90/365), RAG thresholds, and leading/lagging classification
-2. **Dashboard Specifications** -- Four-tier dashboard architecture (Executive, Operations, Campaign, Product) with metric placement, visualization types, comparison logic, and refresh cadences
-3. **Alert Rules** -- Threshold-based alert system with trigger conditions, severity levels, notification channels, recipients, response protocols, and escalation ladders
-4. **Attribution Model** -- Recommended multi-model attribution approach with data requirements, implementation checklist, and quarterly validation protocol
+1. **VITAL Metrics Framework** — Complete pyramid with 25-30 defined metrics, each with definition, source, frequency, owner, baseline, targets (30/90/365), RAG thresholds, and leading/lagging classification
+2. **Dashboard Specifications** — Four-tier dashboard architecture (Executive, Operations, Campaign, Product) with metric placement, visualization types, comparison logic, and refresh cadences
+3. **Alert Rules** — Threshold-based alert system with trigger conditions, severity levels, notification channels, recipients, response protocols, and escalation ladders
+4. **Attribution Model** — Recommended multi-model attribution approach with data requirements, implementation checklist, and quarterly validation protocol
 
 ## Chain Connections
 - **Receives from:** launch-command (launch plan and workstreams), demand-engine (channel strategy and targets), budget-allocator (spend allocation for ROI tracking)
