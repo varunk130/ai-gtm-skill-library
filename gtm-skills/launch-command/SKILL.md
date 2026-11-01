@@ -171,10 +171,10 @@ For each identified risk, document severity, probability, and mitigation.
 Save to `outputs/launch-command/`
 
 ### Deliverables:
-1. **Launch Readiness Dashboard** -- Overall LRI score, per-workstream scores, gate status, trend over time, RED/YELLOW/GREEN indicators per criterion
-2. **Gate Checklists** -- G1 through G4 detailed checklists with criteria, scores, evidence, and pass/fail determination for each gate review
-3. **Launch Day Runbook** -- Hour-by-hour T-7 through T+30 execution plan with owners, verification steps, fallback procedures, and escalation paths
-4. **Post-Launch Protocol** -- T+1 through T+30 monitoring plan, optimization triggers, debrief schedule, and handoff to growth-loop for ongoing retention
+1. **Launch Readiness Dashboard** — Overall LRI score, per-workstream scores, gate status, trend over time, RED/YELLOW/GREEN indicators per criterion
+2. **Gate Checklists** — G1 through G4 detailed checklists with criteria, scores, evidence, and pass/fail determination for each gate review
+3. **Launch Day Runbook** — Hour-by-hour T-7 through T+30 execution plan with owners, verification steps, fallback procedures, and escalation paths
+4. **Post-Launch Protocol** — T+1 through T+30 monitoring plan, optimization triggers, debrief schedule, and handoff to growth-loop for ongoing retention
 
 ## Chain Connections
 - **Receives from:** position-lock (messaging), demand-engine (channel strategy), enablement-forge (sales materials), journey-architect (touchpoints), partner-blueprint (partner readiness), community-catalyst (PLG strategy), budget-allocator (spend plan), launch-pulse (measurement framework), battle-scanner (competitive intel)
