@@ -48,8 +48,8 @@ Based on WAVE scores:
 
 | Classification | WAVE Score | Investment Level | Action |
 |---------------|-----------|-----------------|--------|
-| **Primary** | 7.5+ | Heavy -- full program build | 60% of budget |
-| **Secondary** | 5.0-7.4 | Moderate -- test and scale | 25% of budget |
+| **Primary** | 7.5+ | Heavy — full program build | 60% of budget |
+| **Secondary** | 5.0-7.4 | Moderate — test and scale | 25% of budget |
 | **Experimental** | Below 5.0 | Small experiments | 15% of budget |
 
 Map channel interplay: how channels reinforce each other (e.g., content fuels SEO fuels organic social fuels email nurture).
