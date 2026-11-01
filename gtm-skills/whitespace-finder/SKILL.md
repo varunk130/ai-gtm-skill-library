@@ -32,12 +32,12 @@ Audit demand across 6 evidence channels:
 
 | Channel | What to Look For | Evidence Quality |
 |---------|-----------------|-----------------|
-| Community forums (Reddit, HN, Discourse) | Problem-statement posts, workaround discussions | Medium -- shows real pain |
-| Review mining (G2, Capterra, TrustRadius) | 1-3 star review complaint patterns, missing feature mentions | High -- verified buyers |
-| Search demand | Volume for problem queries vs. solution queries (gap = unmet need) | High -- quantifiable |
-| Support tickets | Recurring themes, feature requests, workaround patterns | High -- your own customers |
-| Analyst reports | Problem statements, unmet need callouts, market gaps cited | High -- expert validation |
-| Adjacent product requests | Features users ask for that cross product boundaries | Medium -- shows expansion opportunities |
+| Community forums (Reddit, HN, Discourse) | Problem-statement posts, workaround discussions | Medium — shows real pain |
+| Review mining (G2, Capterra, TrustRadius) | 1-3 star review complaint patterns, missing feature mentions | High — verified buyers |
+| Search demand | Volume for problem queries vs. solution queries (gap = unmet need) | High — quantifiable |
+| Support tickets | Recurring themes, feature requests, workaround patterns | High — your own customers |
+| Analyst reports | Problem statements, unmet need callouts, market gaps cited | High — expert validation |
+| Adjacent product requests | Features users ask for that cross product boundaries | Medium — shows expansion opportunities |
 
 For each channel, extract the top 5 unmet needs with supporting evidence.
 
@@ -49,10 +49,10 @@ Build a 2D matrix:
 Rate each cell:
 | Rating | Meaning |
 |--------|---------|
-| 0 | Completely unaddressed -- no solution exists |
-| 1 | Poorly addressed -- solutions exist but are inadequate |
-| 2 | Adequately addressed -- good-enough solutions exist |
-| 3 | Well addressed -- strong solutions, hard to differentiate |
+| 0 | Completely unaddressed — no solution exists |
+| 1 | Poorly addressed — solutions exist but are inadequate |
+| 2 | Adequately addressed — good-enough solutions exist |
+| 3 | Well addressed — strong solutions, hard to differentiate |
 
 **Whitespace = cells rated 0-1 with strong demand evidence.**
 
@@ -65,7 +65,7 @@ Score each whitespace opportunity (1-10):
 | **E**xisting Solutions | How well current solutions address it (inverse) | 1=well solved, 5=partial solutions, 10=nothing exists |
 | **P**ain Intensity | Severity of unmet need | 1=nice-to-have, 5=significant friction, 10=hair-on-fire problem |
 | **T**otal Addressable Need | Size of population with this unmet need | 1=tiny niche, 5=meaningful segment, 10=mass market |
-| **H**urdle Analysis | Barriers to entry (inverse -- high = low barriers) | 1=massive barriers, 5=moderate effort, 10=easy to enter |
+| **H**urdle Analysis | Barriers to entry (inverse — high = low barriers) | 1=massive barriers, 5=moderate effort, 10=easy to enter |
 
 **Opportunity Score** = (D x 0.25) + (E x 0.20) + (P x 0.25) + (T x 0.15) + (H x 0.15)
 
