@@ -34,7 +34,7 @@ A rigorous budget optimization engine that applies portfolio theory principles t
 
 ## Process
 
-### Step 1: Allocate -- Define the Five Spend Buckets
+### Step 1: Allocate — Define the Five Spend Buckets
 
 Every launch budget is divided into five strategic buckets. The percentages flex based on launch type and maturity.
 
@@ -56,7 +56,7 @@ Every launch budget is divided into five strategic buckets. The percentages flex
 | PLG/Self-Serve | 20% | 20% | 30% | 10% | 20% |
 | Enterprise Upmarket | 15% | 20% | 30% | 25% | 10% |
 
-### Step 2: Allocate -- Channel-Level Distribution Using WAVE Scores
+### Step 2: Allocate — Channel-Level Distribution Using WAVE Scores
 
 Within each bucket, distribute budget across channels using WAVE scores from demand-engine (or estimate if not available).
 
@@ -83,7 +83,7 @@ Channel_Budget_Share = (WAVE_Score_i / SUM(all WAVE_Scores)) x Bucket_Budget
 
 Apply minimum allocation floor of 5% per active channel to avoid spreading too thin.
 
-### Step 3: Predict -- Three Scenarios Per Channel
+### Step 3: Predict — Three Scenarios Per Channel
 
 For each channel, model three outcomes to build a range of expected returns.
 
@@ -111,7 +111,7 @@ Expected_Pipeline = (Conservative x 0.25) + (Expected x 0.50) + (Optimistic x 0.
 Expected_ROI = Expected_Pipeline / Channel_Budget
 ```
 
-### Step 4: Predict -- Aggregate Budget Scenarios
+### Step 4: Predict — Aggregate Budget Scenarios
 
 Roll up channel-level scenarios into three overall budget scenarios.
 
@@ -127,7 +127,7 @@ Roll up channel-level scenarios into three overall budget scenarios.
 | Risk Level | Low | Medium | High |
 | Confidence | 85% | 70% | 55% |
 
-### Step 5: Experiment -- Design Structured Tests
+### Step 5: Experiment — Design Structured Tests
 
 The experiment reserve (10-15% of budget) is allocated to structured tests with clear hypotheses and kill criteria.
 
@@ -155,7 +155,7 @@ The experiment reserve (10-15% of budget) is allocated to structured tests with 
 
 Run top 3-5 experiments. Graduate winners into main budget; kill losers at criteria thresholds.
 
-### Step 6: X-ray -- Sensitivity Analysis
+### Step 6: X-ray — Sensitivity Analysis
 
 Identify the top 3 assumptions that most impact ROI and stress-test each.
 
@@ -207,10 +207,10 @@ Budget is not static. Apply these rebalancing rules monthly.
 Save to `outputs/budget-allocator/`
 
 ### Deliverables:
-1. **Budget Allocation Model** -- Five-bucket allocation with channel-level distribution, WAVE-score-weighted, with minimum floors and maximum caps per channel
-2. **ROI Projection Matrix** -- Three scenarios (conservative/base/aggressive) per channel and aggregate, with expected values, CAC, pipeline, and payback calculations
-3. **Experiment Portfolio** -- 3-5 structured experiments with hypotheses, budget caps, success metrics, kill criteria, and priority scores
-4. **Sensitivity Analysis** -- Tornado chart of top assumptions, stress-test results, monitoring metrics, and rebalancing triggers with response protocols
+1. **Budget Allocation Model** — Five-bucket allocation with channel-level distribution, WAVE-score-weighted, with minimum floors and maximum caps per channel
+2. **ROI Projection Matrix** — Three scenarios (conservative/base/aggressive) per channel and aggregate, with expected values, CAC, pipeline, and payback calculations
+3. **Experiment Portfolio** — 3-5 structured experiments with hypotheses, budget caps, success metrics, kill criteria, and priority scores
+4. **Sensitivity Analysis** — Tornado chart of top assumptions, stress-test results, monitoring metrics, and rebalancing triggers with response protocols
 
 ## Chain Connections
 - **Receives from:** demand-engine (WAVE scores, channel strategy), financial-analyst (unit economics, ROI thresholds), battle-scanner (competitive spend intel), signal-radar (market timing)
