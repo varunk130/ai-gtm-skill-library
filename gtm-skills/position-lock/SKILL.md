@@ -39,7 +39,7 @@ Decide your category strategy:
 
 **Layer 2: Strategic Narrative**
 The "big idea" connecting your product to a larger market shift:
-- NOT a feature story -- a worldview story
+- NOT a feature story — a worldview story
 - Format: "The world is changing from [old way] to [new way]. [Product] is built for the new world."
 - Must feel inevitable and bigger than your product
 
