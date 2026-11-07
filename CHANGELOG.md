@@ -11,6 +11,8 @@ All notable changes to the AI GTM Skill Library are documented here. The format 
 - CI workflow that runs the `python_runtime` test suite on every push and pull request.
 
 ### Changed
+- Used "vs." consistently across nine GTM and RevOps skills.
+- Replaced double hyphens with em dashes across twelve GTM skills.
 - Corrected the ai-ux-skill-library reference in Related Work to 13 frameworks.
 - Normalized `python_runtime` and `assets/hero.svg` line endings to LF per `.editorconfig`.
 - Corrected the AI-Eval-Skills reference in Related Work to 7 skills (the upstream repo added the tool-use-eval skill).
