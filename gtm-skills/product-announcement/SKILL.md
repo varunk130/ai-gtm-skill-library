@@ -32,7 +32,7 @@ Structure the announcement across 6 layers:
 
 | Layer | What It Covers | Key Output |
 |-------|---------------|-----------|
-| **H**eadline | The headline story -- why this matters to the world | 1 sentence that would make someone stop scrolling |
+| **H**eadline | The headline story — why this matters to the world | 1 sentence that would make someone stop scrolling |
 | **E**cho | Persona-specific angles on the same announcement | 3-5 message variants by audience |
 | **R**each | All announcement materials across channels | Full asset list below |
 | **A**lign | Internal alignment and stakeholder coordination | Stakeholder sign-off checklist |
